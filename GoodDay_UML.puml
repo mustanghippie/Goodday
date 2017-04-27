@@ -1,0 +1,24 @@
+@startuml
+
+class GoodDayViewFXML{
+    @FXML
+}
+
+class GoodDayViewController{
+    +setUserSetting()
+    +getUserSetting()
+    +getCityData()
+    +getWeatherInformation()
+    +getActivities()
+    +getActivityDetail()
+    +getItems()
+}
+class GoodDayModel{
+    +JDBC
+    +GoodDayModel() // prepare to connect database
+    +connectToDatabase()
+}
+GoodDayViewFXML -- GoodDayViewController
+GoodDayViewController -- GoodDayModel
+
+@enduml
