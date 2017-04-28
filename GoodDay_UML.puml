@@ -1,22 +1,27 @@
 @startuml
 
 class GoodDayViewFXML{
-    @FXML
+  @FXML
 }
 
 class GoodDayViewController{
-    +setUserSetting()
-    +getUserSetting()
-    +getCityData()
-    +getWeatherInformation()
-    +getActivities()
-    +getActivityDetail()
-    +getItems()
+  +setUserSetting()
+  +getUserSetting()
+  +getCityData()
+  +getWeatherInformation()
+  +getActivities()
+  +getActivityDetail()
+  +getItems()
 }
 class GoodDayModel{
-    +JDBC
-    +GoodDayModel() // prepare to connect database
-    +connectToDatabase()
+  -userData Array
+  -itemData Array
+  -activitiesData Array
+  +GoodDayModel() // Prepare sample data
+  +saveUserData()
+  +getData()
+  +openWeatherMap()
+  +googleMapApi()
 }
 GoodDayViewFXML -- GoodDayViewController
 GoodDayViewController -- GoodDayModel
