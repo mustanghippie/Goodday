@@ -1,6 +1,7 @@
 package goodday;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by musta on 2017/04/28.
@@ -8,11 +9,10 @@ import java.util.ArrayList;
 public class GoodDayModel {
 
 
-    public class SportActivityArray {
-        private String[][] activitiesList = new String[2][2];
+        private String[][] activitiesList = new String[22][2];
 
         // Constructor
-        public SportActivityArray(){
+        public GoodDayModel(){
             /**
              * -Category-
              * 1 => Weather is snowy
@@ -67,6 +67,7 @@ public class GoodDayModel {
             this.activitiesList[20][1] = "4";
             this.activitiesList[21][0] = "Kite surfing";
             this.activitiesList[21][1] = "3";
+            System.out.println(Arrays.deepToString(activitiesList));
 
         }
 
@@ -82,5 +83,5 @@ public class GoodDayModel {
             return resultActivities;
 
         }
-    }
+
 }
