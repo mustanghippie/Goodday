@@ -24,7 +24,6 @@ public class GoodDayModel {
      * Each content has category to obtain recommended information.
      * -About detail categories, please make sure constructor's comment
      *
-     * @param none
      * @return none
      *
      */
@@ -178,6 +177,60 @@ public class GoodDayModel {
                     return error;
                 }
         }
+    }
+
+    /**
+     *
+     * @param cityName
+     * @param unit 0 => Celsius 1 => Fahrenheit
+     * @todo make this method
+     */
+    public void saveUserSetting(String cityName, int unit){
+
+    }
+
+    /**
+     * Overload method
+     *
+     * @param cityName
+     * @todo make this method
+     */
+    public void saveUserSetting(String cityName){
+
+    }
+
+    /**
+     * Overload method
+     *
+     * @param unit
+     * @todo make this method
+     */
+    public void saveUserSetting(int unit){
+
+    }
+
+    /**
+     *
+     * @return
+     * @todo make this method
+     */
+    public ArrayList<String> getUserSetting(){
+        ArrayList<String> userSetting = new ArrayList<>();
+
+        return userSetting;
+    }
+
+    /**
+     *
+     * @param cityName
+     * @return
+     * @todo make this method
+     */
+    public ArrayList<String > connectOpenWeatherMapApi(String cityName){
+        ArrayList<String> wheatherInformation = new ArrayList<>();
+
+        return wheatherInformation;
+
     }
 
     public class NotFoundDataTypeException extends IOException{
