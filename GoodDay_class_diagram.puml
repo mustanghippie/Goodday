@@ -8,20 +8,19 @@ class GoodDayViewController{
   +setUserSetting()
   +getUserSetting()
   +getCityData()
-  +getWeatherInformation()
-  +getActivities()
-  +getActivityDetail()
-  +getItems()
+  +setWeatherInformationToScreen()
+  +setContentsToScreen()
 }
 class GoodDayModel{
-  -userData Array
-  -itemData Array
+  -itemList Array
+  -activitiesList Array
   -activitiesData Array
   +GoodDayModel() // Prepare sample data
-  +saveUserData()
-  +getData()
-  +openWeatherMap()
-  +googleMapApi()
+  +searchData()
+  -getDataType()
+  +saveUserSetting()
+  +getUserSetting()
+  +connectOpenWeatherMapApi()
 }
 GoodDayViewFXML -- GoodDayViewController
 GoodDayViewController -- GoodDayModel
