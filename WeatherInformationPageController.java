@@ -16,7 +16,7 @@ import java.util.ResourceBundle;
 public class WeatherInformationPageController extends AnchorPane implements Initializable{
 
     @FXML
-    Label label;
+    //Label label;
 
     private String message;
 
@@ -48,6 +48,6 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        label.setText(message);
+        //label.setText(message);
     }
 }
