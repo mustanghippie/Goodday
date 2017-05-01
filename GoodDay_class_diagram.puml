@@ -1,28 +1,59 @@
 @startuml
 
-class GoodDayViewFXML{
-  @FXML
+class Main{
+    -static Main instance
+    -Stage stage
+    +main()
+    +start()
+    +sendRegisterLocationPage()
+    +sendWeatherInformationPage()
+    -replaceSceneContent
+    +static Main getInstance() return instance
+
 }
 
-class GoodDayViewController{
+class RegisterLocationPageView{
+  FXML
+}
+
+class WeatherInformationPageView{
+  FXML
+}
+
+class RegisterLocationPageController{
+  +RegisterLocationPageController()
   +setUserSetting()
   +getUserSetting()
   +getCityData()
-  +setWeatherInformationToScreen()
-  +setContentsToScreen()
 }
+
+class WeatherInformationPageController{
+  +WeatherInformationPageController()
+  +setUserSetting()
+  +getUserSetting()
+  +getCityData()
+  +getWeatherInformation()
+  +getActivities()
+  +getActivityDetail()
+  +getItems()
+}
+
 class GoodDayModel{
-  -itemList Array
-  -activitiesList Array
+  -userData Array
+  -itemData Array
   -activitiesData Array
   +GoodDayModel() // Prepare sample data
-  +searchData()
-  -getDataType()
-  +saveUserSetting()
-  +getUserSetting()
-  +connectOpenWeatherMapApi()
+  +saveUserData()
+  +getData()
+  +openWeatherMap()
+  +googleMapApi()
 }
-GoodDayViewFXML -- GoodDayViewController
-GoodDayViewController -- GoodDayModel
+
+Main -- RegisterLocationPageView
+Main -- WeatherInformationPageView
+RegisterLocationPageView -- RegisterLocationPageController
+WeatherInformationPageView -- WeatherInformationPageController
+RegisterLocationPageController -- GoodDayModel
+WeatherInformationPageController -- GoodDayModel
 
 @enduml
