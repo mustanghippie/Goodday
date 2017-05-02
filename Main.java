@@ -58,7 +58,7 @@ public class Main extends Application {
             ArrayList<String> sample;
 
             GoodDayModel gdm = new GoodDayModel();
-            sample = gdm.searchData(1,"1");
+            sample = gdm.searchData(3,"3");
 
             for(String val: sample){
                 System.out.println(val.toString());
