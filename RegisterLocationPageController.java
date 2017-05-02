@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
@@ -15,8 +16,12 @@ import java.util.ResourceBundle;
  */
 public class RegisterLocationPageController extends AnchorPane implements Initializable {
 
+//    @FXML
+//    Label label;
     @FXML
-    Label label;
+    TextField inputCityName;
+
+    GoodDayModel gdm = new GoodDayModel();
 
     private String message;
 
@@ -28,8 +33,10 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
     }
 
     /**
-     * Load FXML file
+     * Load FXML file.
      *
+     * @author Nobu
+     * @throws IOException
      */
     private void loadFXML(){
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("RegisterLocationPageView.fxml"));
@@ -46,15 +53,38 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
     }
 
     /**
-     * Sample button action
+     *
+     * Calls setUserSetting()@GoodDayModel to save user's setting
+     * when a user click GO button.
+     * Gets user's location from textField on a screen.
+     * basically, Unit setting(Celsius and Fahrenheit) saves as Celsius
+     *
+     * @author Nobu
+     * @return none
+     * @throws IOException
+     */
+    public void setUserSetting(String location, int unit) throws IOException{
+        gdm.setUserSetting(location, unit);
+    }
+
+
+    /**
+     * Executes a click event when a user click GO button
+     * on Register Location Page.
+     * This method gets text from textField in Register Location Page.
+     * And then this calls setUserSetting()@GoodDayModel.
+     *
+     * @throws IOException
      */
     @FXML
-    protected void handleButtonAction(){
+    protected void handleButtonAction() throws IOException{
+        // Register user's setting
+        this.setUserSetting(inputCityName.getText(), 1);
         Main.getInstance().sendWeatherInformationPage("This is Weather Information Page.");
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        label.setText(message);
+        //label.setText(message);
     }
 }
