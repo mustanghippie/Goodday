@@ -49,7 +49,7 @@ public class GoodDayModel {
         this.activitiesList[0][1] = "1";
         this.activitiesList[1][0] = "Hiking";
         this.activitiesList[1][1] = "4";
-        this.activitiesList[2][0] = "Yoga" ;
+        this.activitiesList[2][0] = "Yoga";
         this.activitiesList[2][1] = "2";
         this.activitiesList[3][0] = "Horseback riding";
         this.activitiesList[3][1] = "4";
@@ -109,7 +109,7 @@ public class GoodDayModel {
          * @Author Paulo
          *
          */
-//=============================================================================
+        //=============================================================================
         //-----------------------------------
         // ITEMS RELATED TO WEATHER
         //-----------------------------------
@@ -119,7 +119,7 @@ public class GoodDayModel {
         this.itemList[1][1] = "2";
         this.itemList[2][0] = "Winter boots";
         this.itemList[2][1] = "3";
-//=============================================================================
+        //=============================================================================
         //-----------------------------------
         // ITEMS RELATED TO TEMPERATURE
         //-----------------------------------
@@ -133,8 +133,8 @@ public class GoodDayModel {
         this.itemList[6][1] = "7";
         this.itemList[7][0] = "Water bottle";
         this.itemList[7][1] = "8";
-//=============================================================================
-
+        //=============================================================================
+    }
 
     /**
      *
