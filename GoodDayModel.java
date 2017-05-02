@@ -1,6 +1,10 @@
 package goodday;
 
 import java.io.IOException;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.BufferedWriter;
 import java.util.ArrayList;
 
 /**
@@ -144,7 +148,6 @@ public class GoodDayModel {
      * @return ArrayList, which is contained appropriate data by data type and category
      * @throws IOException
      */
-
     public ArrayList<String> searchData(int dataType, String category) throws IOException{
 
         ArrayList<String > resultData = new ArrayList<>();
@@ -191,6 +194,32 @@ public class GoodDayModel {
                     return error;
                 }
         }
+    }
+
+    /**
+     * Saves user's location that is inputted from keyboard as a file.
+     *
+     * @param location
+     * @param unit 1 => Celsius, 2 => Fahrenheit
+     * @return
+     * @throws IOException
+     */
+    public boolean setUserSetting(String location, int unit) throws IOException{
+
+        // Save user's setting as a file in local
+        File file = new File("src/user_setting_file");
+        FileWriter fileWriter = new FileWriter(file);
+        BufferedWriter bw = new BufferedWriter(fileWriter);
+        PrintWriter pw = new PrintWriter(bw);
+
+        String degree;
+
+        if(unit == 1) degree = "Celsius";
+        else degree = "Fahrenheit";
+        pw.println(location +"," +degree);
+        pw.close();
+
+        return true;
     }
 
     public class NotFoundDataTypeException extends IOException{

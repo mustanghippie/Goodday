@@ -5,6 +5,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -24,8 +27,9 @@ public class Main extends Application {
         stage.setWidth(800);
         stage.setHeight(600);
 
-        // Go to RegisterLocationPage
-        this.sendRegisterLocationPage("This is RegisterLocationPage.");
+        // If user's setting doesn't exist, this skips Register Location Page
+        if(!checkUserExists()) this.sendRegisterLocationPage("This is RegisterLocationPage.");
+        else this.sendWeatherInformationPage("This is RegisterLocationPage.");
 
         stage.show();
     }
@@ -42,9 +46,9 @@ public class Main extends Application {
 
     /**
      * Debug code
-     * You can check items or activities sample data in Model class
+     * You can check items and activities data in Model class
      *
-     *
+     * @author Nobu
      * @param flag
      * @throws IOException
      */
@@ -64,8 +68,10 @@ public class Main extends Application {
 
 
     /**
-     * Sample changing page method
-     * Goes to RegisterLocationPage
+     * Goes to Register Location Page.
+     *
+     * @author Nobu
+     *
      */
     public void sendRegisterLocationPage(String message){
         stage.setTitle("Register Location Page");
@@ -73,6 +79,11 @@ public class Main extends Application {
         this.replaceSceneContent(rlpController);
     }
 
+    /**
+     * Goes to Weather Information Page.
+     *
+     * @author Nobu
+     */
     public void sendWeatherInformationPage(String message){
         stage.setTitle("Weather Information Page");
         WeatherInformationPageController wipController = new WeatherInformationPageController(message);
@@ -80,7 +91,9 @@ public class Main extends Application {
     }
 
     /**
-     * Changes scene
+     * Changes a scene.
+     *
+     * @author Nobu
      */
     private void replaceSceneContent(Parent controller){
         Scene scene = stage.getScene();
@@ -91,8 +104,28 @@ public class Main extends Application {
             stage.getScene().setRoot(controller);
         }
     }
+
+    /**
+     * Checks user's setting file that exists or not.
+     *
+     * @author Nobu
+     * @return boolean true => a file exists, false => a file doesn't exists
+     * @throws IOException
+     */
+    public boolean checkUserExists() throws IOException{
+        try {
+            File file = new File("src/user_setting_file");
+            FileReader fileReader = new FileReader(file);
+        } catch (FileNotFoundException e) {
+            return false;
+        }
+        return true;
+    }
+
     /**
      * Gets Instance
+     *
+     * @author Nobu
      */
     public static Main getInstance(){
         return instance;
