@@ -16,6 +16,8 @@ public class GoodDayModel {
     private String[][] itemList = new String[8][2];
     // Activities data
     private String[][] activitiesList = new String[22][2];
+    // Wind conditions data
+    private String[][] windList = new String [8][2];
 
     /** Constructor
      *
@@ -24,6 +26,7 @@ public class GoodDayModel {
      * -Data type:
      *  1 -> Activities
      *  2 -> Item
+     *  3 -> Wind
      *
      * Each content has category to obtain recommended information.
      * -About detail categories, please make sure constructor's comment
@@ -109,7 +112,7 @@ public class GoodDayModel {
          * @Author Paulo
          *
          */
-        //=============================================================================
+
         //-----------------------------------
         // ITEMS RELATED TO WEATHER
         //-----------------------------------
@@ -119,7 +122,7 @@ public class GoodDayModel {
         this.itemList[1][1] = "2";
         this.itemList[2][0] = "Winter boots";
         this.itemList[2][1] = "3";
-        //=============================================================================
+
         //-----------------------------------
         // ITEMS RELATED TO TEMPERATURE
         //-----------------------------------
@@ -133,8 +136,45 @@ public class GoodDayModel {
         this.itemList[6][1] = "7";
         this.itemList[7][0] = "Water bottle";
         this.itemList[7][1] = "8";
-        //=============================================================================
-    }
+
+        /* -WIND-
+         *  Categories
+         *
+         *  1 =>   0.0   to   0.3 m/s
+         *  2 =>   0.4   to   1.5 m/s
+         *  3 =>   1.6   to   3.3 m/s
+         *  4 =>   3.4   to   5.5 m/s
+         *  5 =>   5.6   to   7.9 m/s
+         *  6 =>   8.0   to  10.7 m/s
+         *  7 =>  10.8   to  13.8 m/s
+         *  8 => higher than 13.8 m/s
+         *
+         *  @Author Paulo
+         */
+
+        //---------------------
+        //  8 WIND CONDITIONS
+        //---------------------
+        this.windList[0][0] = "Calm";
+        this.windList[0][1] = "1";
+        this.windList[1][0] = "Light air";
+        this.windList[1][1] = "2";
+        this.windList[2][0] = "Light breeze";
+        this.windList[2][1] = "3";
+        this.windList[3][0] = "Gentle breeze";
+        this.windList[3][1] = "4";
+        this.windList[4][0] = "Moderate breeze";
+        this.windList[4][1] = "5";
+        this.windList[5][0] = "Fresh breeze";
+        this.windList[5][1] = "6";
+        this.windList[6][0] = "Strong breeze";
+        this.windList[6][1] = "7";
+        this.windList[7][0] = "High wind";
+        this.windList[7][1] = "8";
+
+    } //    End of GoodDayModel()
+
+//======================================================================================
 
     /**
      *
@@ -182,6 +222,8 @@ public class GoodDayModel {
                 return this.activitiesList;
             case 2:
                 return this.itemList;
+            case 3:
+                return this.windList;
             default:
                 try {
                     throw new NotFoundDataTypeException("[Make sure dataType] dataType is not found !!");
