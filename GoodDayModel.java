@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class GoodDayModel {
 
     // Item data
-    private String[][] itemList = new String[6][2];
+    private String[][] itemList = new String[8][2];
     // Activities data
     private String[][] activitiesList = new String[22][2];
 
@@ -88,35 +88,49 @@ public class GoodDayModel {
 
         /**
          * -ITEMS-
-         *  Category
-         *  1 => weather is sunny.
-         *  2 => weather is rainy.
-         *  3 => temperature is less than 15C.
-         *  4 => Weather is rain or snow, and temperature is less than 5C.
-         *  5 => temperature is more than 20C.
+         *  Category-
+         *
+         *  RELATED TO WEATHER
+         *    1 => Weather is sunny
+         *    2 => Weather is rainy
+         *    3 => Weather is snowy.
+         *
+         *  RELATED TO TEMPERATURE
+         *    4 => Temperature is less than 5C.
+         *    5 => Temperature is more than 5C and less than 15C.
+         *    6 => Temperature is more than 15C and less than 20C.
+         *    7 => Temperature is more than 20C and less than 30C.
+         *    8 => Temperature is more than 30C.
          *
          * @Author Paulo
          *
          */
-
+//=============================================================================
+        //-----------------------------------
+        // ITEMS RELATED TO WEATHER
+        //-----------------------------------
         this.itemList[0][0] = "Sunglasses";
         this.itemList[0][1] = "1";
-
         this.itemList[1][0] = "Umbrella";
         this.itemList[1][1] = "2";
-
-        this.itemList[2][0] = "Coat";
+        this.itemList[2][0] = "Winter boots";
         this.itemList[2][1] = "3";
-
-        this.itemList[3][0] = "Winter boots";
+//=============================================================================
+        //-----------------------------------
+        // ITEMS RELATED TO TEMPERATURE
+        //-----------------------------------
+        this.itemList[3][0] = "Winter coat";
         this.itemList[3][1] = "4";
-
-        this.itemList[4][0] = "Sunscreen";
+        this.itemList[4][0] = "Light jacket";
         this.itemList[4][1] = "5";
+        this.itemList[5][0] = "Sweatpants";
+        this.itemList[5][1] = "6";
+        this.itemList[6][0] = "T-shirt";
+        this.itemList[6][1] = "7";
+        this.itemList[7][0] = "Water bottle";
+        this.itemList[7][1] = "8";
+//=============================================================================
 
-        this.itemList[5][0] = "T-shirt";
-        this.itemList[5][1] = "5";
-    }
 
     /**
      *
