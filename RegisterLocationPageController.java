@@ -3,13 +3,11 @@ package goodday;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.*;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.ResourceBundle;
 
 import org.controlsfx.control.textfield.TextFields;
@@ -66,7 +64,7 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
      * @author Nobu
      */
     public void setUserSetting(String location, int unit) throws IOException {
-        //gdm.setUserSetting(location, unit);
+        gdm.setUserSetting(location, unit);
     }
 
 
@@ -86,7 +84,7 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
     }
 
     /**
-     * Add rototype suggestion function.
+     * Add prototype suggestion function.
      *
      *
      * @author Nobu
