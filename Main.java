@@ -24,8 +24,8 @@ public class Main extends Application {
 
         // Setting stage
         stage = primaryStage;
-        stage.setWidth(800);
-        stage.setHeight(600);
+        stage.setWidth(1200);
+        stage.setHeight(800);
 
         // If user's setting doesn't exist, this skips Register Location Page
         if(!checkUserExists()) this.sendRegisterLocationPage("This is RegisterLocationPage.");
@@ -88,6 +88,12 @@ public class Main extends Application {
         stage.setTitle("Weather Information Page");
         WeatherInformationPageController wipController = new WeatherInformationPageController(message);
         this.replaceSceneContent(wipController);
+    }
+
+    public void sendSettingPage(String message){
+        stage.setTitle("Setting Page");
+        SettingPageController spController = new SettingPageController();
+        this.replaceSceneContent(spController);
     }
 
     /**

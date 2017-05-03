@@ -1,10 +1,6 @@
 package goodday;
 
-import java.io.IOException;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.io.BufferedWriter;
+import java.io.*;
 import java.util.ArrayList;
 
 /**
@@ -174,7 +170,7 @@ public class GoodDayModel {
 
     } //    End of GoodDayModel()
 
-//======================================================================================
+    //======================================================================================
 
     /**
      *
@@ -212,9 +208,9 @@ public class GoodDayModel {
      * @param dataType
      *  1 -> activitiesList
      *  2 -> itemList
+     *  3 -> windList
      * @return A two-dimensional array, depending on dataType
      * @Throws NotFoundDataTypeException when {dataType < 1 or dataType > 2}
-     * @Todo We'll have to add wind data type
      */
     private String[][] getDataType(int dataType) throws NotFoundDataTypeException{
         switch (dataType){
@@ -240,6 +236,10 @@ public class GoodDayModel {
 
     /**
      * Saves user's location that is inputted from keyboard as a file.
+     * File data format:
+     *   {cityID}\n
+     *   {cityName}\n
+     *   {unit}\n
      *
      * @param location
      * @param unit 1 => Celsius, 2 => Fahrenheit
@@ -248,20 +248,61 @@ public class GoodDayModel {
      */
     public boolean setUserSetting(String location, int unit) throws IOException{
 
+        // Finds cityID from location
+        String cityID = this.searchCityID(location);
+
         // Save user's setting as a file in local
-        File file = new File("src/user_setting_file");
-        FileWriter fileWriter = new FileWriter(file);
-        BufferedWriter bw = new BufferedWriter(fileWriter);
-        PrintWriter pw = new PrintWriter(bw);
+        PrintWriter pw = null;
+        try {
+            File file = new File("src/user_setting_file");
+            FileWriter fileWriter = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fileWriter);
+            pw = new PrintWriter(bw);
+        } catch (FileNotFoundException e) {
+            System.out.println("user_setting_file is not found.");
+            System.exit(1);
+        }
 
         String degree;
 
         if(unit == 1) degree = "Celsius";
         else degree = "Fahrenheit";
-        pw.println(location +"," +degree);
+        pw.println(cityID +"\n" +location +"\n" +degree);
         pw.close();
 
         return true;
+    }
+
+    /**
+     * Finds cityID from location.
+     * This method uses cityID_table(src/goodday/CityData/cityID_table).
+     *
+     * @param location
+     * @return cityID
+     */
+    private String searchCityID(String location){
+
+        String cityID="";
+
+        try {
+            File file = new File("src/goodday/CityData/cityID_table");
+            FileReader filereader = new FileReader(file);
+            BufferedReader br = new BufferedReader(filereader);
+
+            while((cityID = br.readLine()) != null){
+                if(cityID.indexOf("," +location) == -1) continue;
+                cityID = cityID.substring(0,cityID.indexOf(","));
+                break;
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("FileNotFoundException");
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("IOException");
+        }
+        return cityID;
     }
 
     public class NotFoundDataTypeException extends IOException{
