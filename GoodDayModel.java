@@ -1,10 +1,6 @@
 package goodday;
 
-import java.io.IOException;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.io.BufferedWriter;
+import java.io.*;
 import java.util.ArrayList;
 
 /**
@@ -15,7 +11,7 @@ public class GoodDayModel {
     // Item data
     private String[][] itemList = new String[8][2];
     // Activities data
-    private String[][] activitiesList = new String[22][2];
+    private String[][] activitiesList = new String[24][2];
     // Wind conditions data
     private String[][] windList = new String [8][2];
 
@@ -39,59 +35,63 @@ public class GoodDayModel {
         /**
          * -Activities
          *  Category-
-         *    1 => Weather is snowy
-         *    2 => Indoor/stay at home/good for rainy and snowy days
-         *    3 => wind & not rainy - temp more that 10C and less than 35C, not rainy
-         *    4 => Outdoor / mild weather - temp more than 10C and less than 35C, not rainy
+         *    1 => Weather is less than 0C & snow  - 5 elements
+         *    2 => Suitable for rainy days - backup category, stay at home - 5 elements
+         *    3 => Temp more than 10C, not rainy (wind is between 1 and 5m/s) - 5 elements
+         *    4 => Temp more than 10C, not rainy -  9 elements
          *
          * @Author Alex
          */
 
-        /* 22 sport activities: */
-        this.activitiesList[0][0] = "Skiing/Snowboarding";
+        /* 24 sport activities: */
+        this.activitiesList[0][0] = "Snowboarding";
         this.activitiesList[0][1] = "1";
-        this.activitiesList[1][0] = "Hiking";
-        this.activitiesList[1][1] = "4";
-        this.activitiesList[2][0] = "Yoga";
-        this.activitiesList[2][1] = "2";
-        this.activitiesList[3][0] = "Horseback riding";
-        this.activitiesList[3][1] = "4";
-        this.activitiesList[4][0] = "Climbing";
-        this.activitiesList[4][1] = "4";
-        this.activitiesList[5][0] = "Surfing";
-        this.activitiesList[5][1] = "3";
-        this.activitiesList[6][0] = "Jogging";
-        this.activitiesList[6][1] = "4";
-        this.activitiesList[7][0] = "Tennis";
-        this.activitiesList[7][1] = "4";
-        this.activitiesList[8][0] = "Swimming";
+        this.activitiesList[1][0] = "Skiing";
+        this.activitiesList[1][1] = "1";
+        this.activitiesList[2][0] = "Ice Skating";
+        this.activitiesList[2][1] = "1";
+        this.activitiesList[3][0] = "Hockey";
+        this.activitiesList[3][1] = "1";
+        this.activitiesList[4][0] = "Snowschoeing";
+        this.activitiesList[4][1] = "1";
+        this.activitiesList[5][0] = "Yoga";
+        this.activitiesList[5][1] = "2";
+        this.activitiesList[6][0] = "Swimming";
+        this.activitiesList[6][1] = "2";
+        this.activitiesList[7][0] = "Bouldering";
+        this.activitiesList[7][1] = "2";
+        this.activitiesList[8][0] = "Badminton";
         this.activitiesList[8][1] = "2";
-        this.activitiesList[9][0] = "Camping";
-        this.activitiesList[9][1] = "4";
-        this.activitiesList[10][0] = "Canoeing";
-        this.activitiesList[10][1] = "4";
-        this.activitiesList[11][0] = "Bouldering";
-        this.activitiesList[11][1] = "2";
-        this.activitiesList[12][0] = "Rock climbing";
-        this.activitiesList[12][1] = "4";
-        this.activitiesList[13][0] = "Triathlon";
-        this.activitiesList[13][1] = "4";
-        this.activitiesList[14][0] = "Snowshoeing";
-        this.activitiesList[14][1] = "1";
-        this.activitiesList[15][0] = "Badminton";
-        this.activitiesList[15][1] = "2";
-        this.activitiesList[16][0] = "Basketball";
+        this.activitiesList[9][0] = "Gym";
+        this.activitiesList[9][1] = "2";
+        this.activitiesList[10][0] = "Surfing";
+        this.activitiesList[10][1] = "3";
+        this.activitiesList[11][0] = "Kitesurfing";
+        this.activitiesList[11][1] = "3";
+        this.activitiesList[12][0] = "Windsurfing";
+        this.activitiesList[12][1] = "3";
+        this.activitiesList[13][0] = "Paragliding";
+        this.activitiesList[13][1] = "3";
+        this.activitiesList[14][0] = "Base jumping";
+        this.activitiesList[14][1] = "3";
+        this.activitiesList[15][0] = "Hiking";
+        this.activitiesList[15][1] = "4";
+        this.activitiesList[16][0] = "Jogging";
         this.activitiesList[16][1] = "4";
-        this.activitiesList[17][0] = "Hockey";
-        this.activitiesList[17][1] = "1";
-        this.activitiesList[18][0] = "Baseball";
+        this.activitiesList[17][0] = "Camping";
+        this.activitiesList[17][1] = "4";
+        this.activitiesList[18][0] = "Horseback riding";
         this.activitiesList[18][1] = "4";
-        this.activitiesList[19][0] = "Soccer";
+        this.activitiesList[19][0] = "Tennis";
         this.activitiesList[19][1] = "4";
-        this.activitiesList[20][0] = "Volleyball";
+        this.activitiesList[20][0] = "Climbing";
         this.activitiesList[20][1] = "4";
-        this.activitiesList[21][0] = "Kite surfing";
-        this.activitiesList[21][1] = "3";
+        this.activitiesList[21][0] = "Triathlon";
+        this.activitiesList[21][1] = "4";
+        this.activitiesList[22][0] = "Basketball";
+        this.activitiesList[22][1] = "4";
+        this.activitiesList[23][0] = "Soccer";
+        this.activitiesList[23][1] = "4";
 
         /**
          * -ITEMS-
@@ -174,7 +174,7 @@ public class GoodDayModel {
 
     } //    End of GoodDayModel()
 
-//======================================================================================
+    //======================================================================================
 
     /**
      *
@@ -212,9 +212,9 @@ public class GoodDayModel {
      * @param dataType
      *  1 -> activitiesList
      *  2 -> itemList
+     *  3 -> windList
      * @return A two-dimensional array, depending on dataType
      * @Throws NotFoundDataTypeException when {dataType < 1 or dataType > 2}
-     * @Todo We'll have to add wind data type
      */
     private String[][] getDataType(int dataType) throws NotFoundDataTypeException{
         switch (dataType){
@@ -240,6 +240,10 @@ public class GoodDayModel {
 
     /**
      * Saves user's location that is inputted from keyboard as a file.
+     * File data format:
+     *   {cityID}\n
+     *   {cityName}\n
+     *   {unit}\n
      *
      * @param location
      * @param unit 1 => Celsius, 2 => Fahrenheit
@@ -248,20 +252,61 @@ public class GoodDayModel {
      */
     public boolean setUserSetting(String location, int unit) throws IOException{
 
+        // Finds cityID from location
+        String cityID = this.searchCityID(location);
+
         // Save user's setting as a file in local
-        File file = new File("src/user_setting_file");
-        FileWriter fileWriter = new FileWriter(file);
-        BufferedWriter bw = new BufferedWriter(fileWriter);
-        PrintWriter pw = new PrintWriter(bw);
+        PrintWriter pw = null;
+        try {
+            File file = new File("src/user_setting_file");
+            FileWriter fileWriter = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fileWriter);
+            pw = new PrintWriter(bw);
+        } catch (FileNotFoundException e) {
+            System.out.println("user_setting_file is not found.");
+            System.exit(1);
+        }
 
         String degree;
 
         if(unit == 1) degree = "Celsius";
         else degree = "Fahrenheit";
-        pw.println(location +"," +degree);
+        pw.println(cityID +"\n" +location +"\n" +degree);
         pw.close();
 
         return true;
+    }
+
+    /**
+     * Finds cityID from location.
+     * This method uses cityID_table(src/goodday/CityData/cityID_table).
+     *
+     * @param location
+     * @return cityID
+     */
+    private String searchCityID(String location){
+
+        String cityID="";
+
+        try {
+            File file = new File("src/goodday/CityData/cityID_table");
+            FileReader filereader = new FileReader(file);
+            BufferedReader br = new BufferedReader(filereader);
+
+            while((cityID = br.readLine()) != null){
+                if(cityID.indexOf("," +location) == -1) continue;
+                cityID = cityID.substring(0,cityID.indexOf(","));
+                break;
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("FileNotFoundException");
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("IOException");
+        }
+        return cityID;
     }
 
     public class NotFoundDataTypeException extends IOException{

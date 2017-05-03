@@ -3,13 +3,11 @@ package goodday;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.*;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.ResourceBundle;
 
 import org.controlsfx.control.textfield.TextFields;
@@ -66,7 +64,7 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
      * @author Nobu
      */
     public void setUserSetting(String location, int unit) throws IOException {
-        //gdm.setUserSetting(location, unit);
+        gdm.setUserSetting(location, unit);
     }
 
 
@@ -86,43 +84,39 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
     }
 
     /**
-     * Add rototype suggestion function.
-     *
+     * Suggests city name when a user input city name in text field.
+     * --Notice--
+     * There is a problem this suggestion method.
+     * There is the same name in a country otherwise sometimes
+     * this suggests the same name.
      *
      * @author Nobu
      * @param location
      * @param resources
-     * @todo Choose countries and save deta
      */
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        // suggestion function
+        String[] suggestion = new String[35586];
 
-        String[] suggestion = {"Alex","Yuria","Paulo", "Nobuaki"};
-//        String[] suggestion = new String[209579];
-//
-//        try {
-//            File file = new File("src/goodday/city_name");
-//            FileReader filereader = new FileReader(file);
-//            BufferedReader br = new BufferedReader(filereader);
-//
-//            StringBuilder sb = new StringBuilder();
-//
-//            for (int i = 0; i < suggestion.length; i++) {
-//                if (br.readLine() == null) break;
-//                suggestion[i] = br.readLine();
-//            }
-//
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        } catch (UnsupportedEncodingException e) {
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } catch (IndexOutOfBoundsException e) {
-//            System.out.println("}");
-//        }
-//        System.out.println(Arrays.asList(suggestion));
+        try {
+            File file = new File("src/goodday/CityData/city_name_list");
+            FileReader filereader = new FileReader(file);
+            BufferedReader br = new BufferedReader(filereader);
+
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < suggestion.length; i++) {
+                suggestion[i] = br.readLine();
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("FileNotFoundException");
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("IOException");
+        }
         TextFields.bindAutoCompletion(inputCityName, suggestion);
     }
 }
