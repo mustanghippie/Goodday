@@ -36,6 +36,28 @@ public class SettingPageController extends AnchorPane implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+    }
+  
+    //----------------------------------
+    //  Button to change input location
+    //----------------------------------
+    protected void changeLocation() {
+
+    }
+
+
+    //---------------------------------------------------
+    //  Button to convert temperature unit to Fahrenheit
+    //---------------------------------------------------
+    protected void convertToFahrenheit() {
+
+    }
+
+
+    //------------------------------------------------
+    //  Button to convert temperature unit to Celsius
+    //------------------------------------------------
+    protected void convertToCelsius () {
 
     }
 }
