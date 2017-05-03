@@ -2,10 +2,47 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-
-<fx:root prefHeight="600.0" prefWidth="800.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: black;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="314.0" layoutY="225.0" mnemonicParsing="false" text="Button" />
+      <Text fill="WHITE" layoutX="414.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change location" wrappingWidth="471.4700927734375">
+         <font>
+            <Font name="Arial Bold" size="60.0" />
+         </font>
+      </Text>
+      <Text fill="#cccccc" layoutX="277.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vancouver, BC" wrappingWidth="330.13671875">
+         <font>
+            <Font name="Arial" size="48.0" />
+         </font>
+      </Text>
+      <Button layoutX="878.0" layoutY="284.0" mnemonicParsing="false" onAction="#changeLocation" prefHeight="80.0" prefWidth="240.0" style="-fx-background-color: #F45B46;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="456.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Change Unit" wrappingWidth="358.1368408203125">
+         <font>
+            <Font name="Arial Bold" size="60.0" />
+         </font>
+      </Text>
+      <Button layoutX="205.0" layoutY="581.0" mnemonicParsing="false" prefHeight="108.0" prefWidth="846.0" style="-fx-background-color: white;">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="696.0" layoutY="591.0" mnemonicParsing="false" onAction="#convertToCelsius" prefHeight="87.0" prefWidth="336.0" style="-fx-background-color: #F45B46;" text="Celsius (°C)" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Button>
+      <Line endX="480.0" layoutX="637.0" layoutY="378.0" startX="-380.0" stroke="#cccccc" />
+      <Button layoutX="217.0" layoutY="592.0" mnemonicParsing="false" onAction="#convertToFahrenheit" prefHeight="87.0" prefWidth="404.0" style="-fx-background-color: white;" text="Fahrenheit (°F)" textFill="#777777">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Button>
    </children>
 </fx:root>

@@ -4,4 +4,26 @@ package goodday;
  */
 public class SettingPageController {
 
+    //----------------------------------
+    //  Button to change input location
+    //----------------------------------
+    protected void changeLocation() {
+
+    }
+
+
+    //---------------------------------------------------
+    //  Button to convert temperature unit to Fahrenheit
+    //---------------------------------------------------
+    protected void convertToFahrenheit() {
+
+    }
+
+
+    //------------------------------------------------
+    //  Button to convert temperature unit to Celsius
+    //------------------------------------------------
+    protected void convertToCelsius () {
+
+    }
 }
