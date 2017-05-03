@@ -1,15 +1,14 @@
 package goodday;
 
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
 import java.util.ResourceBundle;
 
 /**
@@ -18,7 +17,13 @@ import java.util.ResourceBundle;
 public class WeatherInformationPageController extends AnchorPane implements Initializable{
 
     @FXML
-    //Label label;
+    Label labelLocation, labelWeather, labelTemp, labelUnit;
+
+
+
+
+    GoodDayModel gdm = new GoodDayModel();
+    WeatherAppModel wap = new WeatherAppModel();
 
     private String message;
 
@@ -48,8 +53,24 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         Main.getInstance().sendSettingPage("This is Setting Page.");
     }
 
+
+
+
+    /**
+     * Connects methods based on weather data and display them for the user.
+     *
+     */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //label.setText(message);
+        //formating temperature to display positive or negative integer number:
+        String temp_format = wap.openWeatherMap().get("temp");
+        int comma = temp_format.indexOf(".");
+        String temp_label = temp_format.substring(0,comma);
+
+       //connecting labels to methods:
+       labelLocation.setText(gdm.getUserData().get(1));  
+       labelWeather.setText(wap.openWeatherMap().get("weather"));
+       labelTemp.setText(temp_label);
+       labelUnit.setText(gdm.getUserData().get(2));
     }
 }

@@ -279,7 +279,7 @@ public class GoodDayModel {
 
     /**
      * Finds cityID from location.
-     * This method uses cityID_table(src/goodday/CityData/cityID_table).
+     * This method uses cityID_table(src/_goodday/CityData/cityID_table).
      *
      * @param location
      * @return cityID
@@ -289,7 +289,7 @@ public class GoodDayModel {
         String cityID="";
 
         try {
-            File file = new File("src/goodday/CityData/cityID_table");
+            File file = new File("src/_goodday/CityData/cityID_table");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
@@ -308,6 +308,45 @@ public class GoodDayModel {
         }
         return cityID;
     }
+
+    /**
+     * Finds and reads user_setting_file.
+     * Creates empty arraylist and add to it user data:city Id, city name and temp. unit.
+     *
+     * @return cityName
+     */
+    public ArrayList<String> getUserData() {
+
+
+        ArrayList<String> userData = new ArrayList<>();
+
+
+        try {
+            File file = new File("src/user_setting_file");
+            FileReader filereader = new FileReader(file);
+            BufferedReader br = new BufferedReader(filereader);
+
+           userData.add(br.readLine());// cityId index 0
+           userData.add(br.readLine()); //cityname index 1
+            String unit = "";
+            if(br.readLine().equals("Celsius")){
+                unit = "C°";
+            }else {
+                unit = "F°";
+            }
+            userData.add(unit); //temp unit index 2
+
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+        return userData;
+    }
+
+
 
     public class NotFoundDataTypeException extends IOException{
         public NotFoundDataTypeException(String message){super(message);}
