@@ -20,6 +20,10 @@ class WeatherInformationPageView{
   FXML
 }
 
+class SettingPageView{
+  FXML
+}
+
 class RegisterLocationPageController{
   +RegisterLocationPageController()
   +setUserSetting()
@@ -38,11 +42,18 @@ class WeatherInformationPageController{
   +getItems()
 }
 
+class SettingPageController{
+  +SettingPageController()
+  +setUserSetting()
+  +getUserSetting()
+
+}
+
 class GoodDayModel{
   -userData Array
   -itemData Array
   -activitiesData Array
-  +GoodDayModel() // Prepare sample data
+  +GoodDayModel() // Prepare data
   +saveUserData()
   +getData()
   +openWeatherMap()
@@ -51,8 +62,11 @@ class GoodDayModel{
 
 Main -- RegisterLocationPageView
 Main -- WeatherInformationPageView
+Main -- SettingPageView
 RegisterLocationPageView -- RegisterLocationPageController
 WeatherInformationPageView -- WeatherInformationPageController
+SettingPageView -- SettingPageController
+SettingPageController -- GoodDayModel
 RegisterLocationPageController -- GoodDayModel
 WeatherInformationPageController -- GoodDayModel
 
