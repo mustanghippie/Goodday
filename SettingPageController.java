@@ -1,5 +1,6 @@
 package goodday;
 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.AnchorPane;
@@ -41,11 +42,12 @@ public class SettingPageController extends AnchorPane implements Initializable{
     //----------------------------------
     //  Button to change input location
     //----------------------------------
+    @FXML
     protected void changeLocation() {
 
     }
 
-
+    @FXML
     //---------------------------------------------------
     //  Button to convert temperature unit to Fahrenheit
     //---------------------------------------------------
@@ -53,7 +55,7 @@ public class SettingPageController extends AnchorPane implements Initializable{
 
     }
 
-
+    @FXML
     //------------------------------------------------
     //  Button to convert temperature unit to Celsius
     //------------------------------------------------
