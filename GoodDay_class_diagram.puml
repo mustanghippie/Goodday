@@ -56,8 +56,14 @@ class GoodDayModel{
   +GoodDayModel() // Prepare data
   +saveUserData()
   +getData()
-  +openWeatherMap()
   +googleMapApi()
+}
+
+class OpenWeatherMapAPI{
+  -String apiKey;
+  -HashMap<String,String>
+  +OpenWeatherMapAPI() // Prepare data
+  +openWeatherMap() resultWeatherInformation
 }
 
 Main -- RegisterLocationPageView
@@ -69,5 +75,6 @@ SettingPageView -- SettingPageController
 SettingPageController -- GoodDayModel
 RegisterLocationPageController -- GoodDayModel
 WeatherInformationPageController -- GoodDayModel
+WeatherInformationPageController -- OpenWeatherMapAPI
 
 @enduml
