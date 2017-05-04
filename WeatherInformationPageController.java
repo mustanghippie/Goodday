@@ -23,7 +23,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
 
     GoodDayModel gdm = new GoodDayModel();
-    WeatherAppModel wap = new WeatherAppModel();
+    OpenWeatherMapAPI wap = new OpenWeatherMapAPI();
 
     private String message;
 

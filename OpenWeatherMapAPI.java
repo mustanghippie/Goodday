@@ -18,12 +18,12 @@ import java.util.Map;
  * http://json-lib.sourceforge.net/
  *
  */
-public class WeatherAppModel {
+public class OpenWeatherMapAPI {
 
     private String apiKey = "";
     private Map<String, String> resultWeatherInformation;
 
-    public WeatherAppModel(){
+    public OpenWeatherMapAPI(){
         // Prepare open weather map API key
         String keyValue = "";
         try {
@@ -90,7 +90,7 @@ public class WeatherAppModel {
 
 
             // Save weather information(JSON)
-            File file = new File("src/sampleJavaFX/openWeatherMap/weatherInformation");
+            File file = new File("src/weatherInformation");
             FileWriter fileWriter = new FileWriter(file);
             BufferedWriter bw = new BufferedWriter(fileWriter);
             PrintWriter pw = new PrintWriter(bw);
