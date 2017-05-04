@@ -326,12 +326,12 @@ public class GoodDayModel {
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
-           userData.add(br.readLine());// cityId index 0
-           userData.add(br.readLine()); //cityname index 1
+            userData.add(br.readLine());// cityId index 0
+            userData.add(br.readLine()); //cityname index 1
             String unit = "";
             if(br.readLine().equals("Celsius")){
                 unit = "C°";
-            }else {
+            }else{
                 unit = "F°";
             }
             userData.add(unit); //temp unit index 2
