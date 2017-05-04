@@ -47,9 +47,6 @@ public class SettingPageController extends AnchorPane implements Initializable{
     }
 
 
-
-
-
     /** CONVERT TO FAHRENHEIT BUTTON
      * This method is in charge to convert the temperature unit
      * to Fahrenheit after clicking on "Fahrenheit(°F)" radio button.
