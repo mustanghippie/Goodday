@@ -23,7 +23,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
 
     GoodDayModel gdm = new GoodDayModel();
-    OpenWeatherMapAPI wap = new OpenWeatherMapAPI();
+    OpenWeatherMapAPI owma = new OpenWeatherMapAPI();
 
     private String message;
 
@@ -63,13 +63,13 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         //formating temperature to display positive or negative integer number:
-        String temp_format = wap.openWeatherMap().get("temp");
+        String temp_format = owma.openWeatherMap().get("temp");
         int comma = temp_format.indexOf(".");
         String temp_label = temp_format.substring(0,comma);
 
        //connecting labels to methods:
        labelLocation.setText(gdm.getUserData().get(1));  
-       labelWeather.setText(wap.openWeatherMap().get("weather"));
+       labelWeather.setText(owma.openWeatherMap().get("weather"));
        labelTemp.setText(temp_label);
        labelUnit.setText(gdm.getUserData().get(2));
     }

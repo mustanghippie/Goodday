@@ -54,26 +54,31 @@ public class OpenWeatherMapAPI {
 
         // Get weather information from API
         try {
-            URL url = new URL(requestURL);
-            InputStream is = url.openConnection().getInputStream();
-
-            // JSON parse String
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-            StringBuilder sb = new StringBuilder();
-            String line;
-            while (null != (line = reader.readLine())) {
-                sb.append(line);
-            }
-            // Weather information
-            data = sb.toString();
+//            URL url = new URL(requestURL);
+//            InputStream is = url.openConnection().getInputStream();
+//
+//            // JSON parse String
+//            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+//            StringBuilder sb = new StringBuilder();
+//            String line;
+//            while (null != (line = reader.readLine())) {
+//                sb.append(line);
+//            }
+//            // Weather information
+//            data = sb.toString();
 
             /** ---Debug code--- */
-//            File file = new File("src/sampleJavaFX/openWeatherMap/weatherInformation");
-//            FileReader fileReader = new FileReader(file);
-//            int ch;
-//            while((ch = fileReader.read()) != -1){
-//                data += String.valueOf((char)ch);
-//            }
+            File debugFile = new File("src/weatherInformation");
+            FileReader fileReader = new FileReader(debugFile);
+
+            BufferedReader br = new BufferedReader(fileReader);
+            String str;
+            data = "";
+
+            while((str = br.readLine()) != null){
+                data += str;
+            }
+
             /** /---Debug code--- */
 
             JSONObject jsonObject = JSONObject.fromObject(data);
