@@ -21,7 +21,7 @@
          </font>
       </Text>
       <Line endX="400.0" layoutX="637.0" layoutY="348.0" startX="-380.0" stroke="#cccccc" />
-      <TextField layoutX="257.0" layoutY="251.0" prefHeight="44.0" prefWidth="373.0" promptText="Vancouver, BC" style="-fx-background-color: black;">
+      <TextField fx:id="locationName" layoutX="257.0" layoutY="251.0" prefHeight="44.0" prefWidth="373.0" promptText="Vancouver, BC" style="-fx-background-color: black;">
          <font>
             <Font name="Arial" size="48.0" />
          </font>
