@@ -279,7 +279,7 @@ public class GoodDayModel {
 
     /**
      * Finds cityID from location.
-     * This method uses cityID_table(src/_goodday/CityData/cityID_table).
+     * This method uses cityID_table(src/goodday/CityData/cityID_table).
      *
      * @param location
      * @return cityID
@@ -289,7 +289,7 @@ public class GoodDayModel {
         String cityID="";
 
         try {
-            File file = new File("src/_goodday/CityData/cityID_table");
+            File file = new File("src/goodday/CityData/cityID_table");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
