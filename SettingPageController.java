@@ -45,7 +45,7 @@ public class SettingPageController extends AnchorPane implements Initializable{
     //----------------------------------
     @FXML
     protected void changeLocation() {
-
+    }
 
 
 
