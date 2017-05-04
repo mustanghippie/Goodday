@@ -14,6 +14,7 @@ import java.util.ResourceBundle;
  */
 public class SettingPageController extends AnchorPane implements Initializable{
 
+    private GoodDayModel gdm = new GoodDayModel();
 
     public SettingPageController(){
 
@@ -38,28 +39,57 @@ public class SettingPageController extends AnchorPane implements Initializable{
     @Override
     public void initialize(URL location, ResourceBundle resources) {
     }
-  
+
     //----------------------------------
     //  Button to change input location
     //----------------------------------
     @FXML
     protected void changeLocation() {
 
-    }
 
+
+
+
+    /** CONVERT TO FAHRENHEIT BUTTON
+     * This method is in charge to convert the temperature unit
+     * to Fahrenheit after clicking on "Fahrenheit(°F)" radio button.
+     * @author Paulo
+     * @param
+     * @param
+     * @return
+     */
     @FXML
-    //---------------------------------------------------
-    //  Button to convert temperature unit to Fahrenheit
-    //---------------------------------------------------
     protected void convertToFahrenheit() {
 
     }
 
+
+
+    /** CONVERT TO CELSIUS BUTTON
+     * This method is in charge to convert the temperature unit
+     * to Celsius after clicking on "Celsius(°C)" radio button.
+     * @author Paulo
+     * @param
+     * @param
+     * @return
+     */
     @FXML
-    //------------------------------------------------
-    //  Button to convert temperature unit to Celsius
-    //------------------------------------------------
     protected void convertToCelsius () {
+    }
+
+
+    /** APPLY CHANGES BUTTON
+     * This method applies all the changes made to location
+     * and temperature unit.
+     * @author Paulo
+     * @param
+     * @param
+     * @return
+     */
+    @FXML
+    protected void applyChanges() {
 
     }
+
+
 }
