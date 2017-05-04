@@ -40,6 +40,14 @@ public class SettingPageController extends AnchorPane implements Initializable{
     public void initialize(URL location, ResourceBundle resources) {
     }
 
+    //----------------------------------
+    //  Button to change input location
+    //----------------------------------
+    @FXML
+    protected void changeLocation() {
+
+
+
 
 
     /** CONVERT TO FAHRENHEIT BUTTON
@@ -54,6 +62,7 @@ public class SettingPageController extends AnchorPane implements Initializable{
     protected void convertToFahrenheit() {
 
     }
+
 
 
     /** CONVERT TO CELSIUS BUTTON
