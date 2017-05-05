@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
@@ -9,18 +12,43 @@
 
 <fx:root prefHeight="800.0" prefWidth="1200.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <Button layoutX="777.0" layoutY="276.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="120.0" text="Go">
+        <Button layoutX="490.0" layoutY="579.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="48.0" prefWidth="221.0" text="Go">
             <font>
                 <Font name="Arial" size="23.0" />
             </font>
         </Button>
-      <Text fill="#f45b46" layoutX="342.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your city" textAlignment="CENTER" wrappingWidth="516.0">
+      <Text fill="#f45b46" layoutX="342.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your city" textAlignment="CENTER" wrappingWidth="516.0">
          <font>
             <Font name="Helvetica Neue" size="48.0" />
          </font>
       </Text>
-      <Line endX="100.0" layoutX="443.0" layoutY="324.0" startX="-100.0" />
-      <Line endX="100.0" layoutX="643.0" layoutY="324.0" startX="-100.0" />
-      <TextField fx:id="inputCityName" layoutX="342.0" layoutY="276.0" prefHeight="38.0" prefWidth="401.0" />
+      <TextField fx:id="inputCityName" layoutX="342.0" layoutY="206.0" prefHeight="38.0" prefWidth="516.0" />
+      <Text fill="#f45b46" layoutX="342.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Unit" textAlignment="CENTER" wrappingWidth="516.0">
+         <font>
+            <Font name="Helvetica Neue" size="48.0" />
+         </font>
+      </Text>
+      <Line endX="270.0" layoutX="600.0" layoutY="253.0" startX="-270.0" />
+      <Text layoutX="238.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fahrenheit (°F)" wrappingWidth="471.4700927734375">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="660.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celsius (°C)" wrappingWidth="471.4700927734375">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <RadioButton fx:id="fahrenheitRadioButton" layoutX="200.0" layoutY="478.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0">
+         <toggleGroup>
+            <ToggleGroup fx:id="registerPageRadioButton" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="celsiusRadioButton" layoutX="624.0" layoutY="479.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0" textFill="WHITE" toggleGroup="$registerPageRadioButton" />
+      <Label fx:id="errorLabelRegisterPage" alignment="CENTER" layoutX="266.0" layoutY="14.0" prefHeight="17.0" prefWidth="670.0" textFill="RED">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Label>
     </children>
 </fx:root>
