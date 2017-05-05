@@ -21,6 +21,7 @@ public class OpenWeatherMapAPI {
 
     private String apiKey = "";
     private Map<String, String> resultWeatherInformation;
+    GoodDayModel gdm = new GoodDayModel();
 
     public OpenWeatherMapAPI() {
         // Prepare open weather map API key
@@ -53,8 +54,10 @@ public class OpenWeatherMapAPI {
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
         // VancouverID 6173331
+        String cityID = gdm.getUserData().get(0);
+        System.out.println(cityID);
         //String requestURL = "http://api.openweathermap.org/data/2.5/weather?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
-        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
+        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.getApiKey(); // Todo fix id
         // Weather information
         String data = "";
         boolean allowingConnectionFlag = getAllowingConnectionFlag(); // Todo we have to make timer function
