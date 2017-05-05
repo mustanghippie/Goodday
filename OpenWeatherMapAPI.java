@@ -53,10 +53,12 @@ public class OpenWeatherMapAPI {
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
         // VancouverID 6173331
+        //String requestURL = "http://api.openweathermap.org/data/2.5/weather?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
         String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
         // Weather information
         String data = "";
-        boolean allowingConnectionFlag = false; // Todo we have to make timer function
+        boolean allowingConnectionFlag = getAllowingConnectionFlag(); // Todo we have to make timer function
+        //getAllowingConnectionFlag(requestURL);
         // allowingConnectionFlag = getAllowingConnectionFlag();
         HashMap<String, HashMap<String, String>> allWeatherData = new HashMap<>();
 
@@ -177,7 +179,15 @@ public class OpenWeatherMapAPI {
          * File.lastModified();
          *
          */
-        return true;
+        try {
+            File debugFile = new File("src/weatherInformation");
+            FileReader fileReader = new FileReader(debugFile);
+
+            return false;
+        } catch (IOException e) {
+            return true;
+        }
+
     }
 
     public String getApiKey() {
