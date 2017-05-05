@@ -3,6 +3,8 @@ package goodday;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
@@ -17,10 +19,12 @@ import org.controlsfx.control.textfield.TextFields;
  */
 public class RegisterLocationPageController extends AnchorPane implements Initializable {
 
-    //    @FXML
-//    Label label;
+    @FXML
+    Label errorLabelRegisterPage;
     @FXML
     TextField inputCityName;
+    @FXML
+    RadioButton fahrenheitRadioButton, celsiusRadioButton;
 
     GoodDayModel gdm = new GoodDayModel();
 
@@ -59,9 +63,9 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
      * Gets user's location from textField on a screen.
      * basically, Unit setting(Celsius and Fahrenheit) saves as Celsius
      *
+     * @author Nobu
      * @return none
      * @throws IOException
-     * @author Nobu
      */
     public void setUserSetting(String location, int unit) throws IOException {
         gdm.setUserSetting(location, unit);
@@ -74,13 +78,27 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
      * This method gets text from textField in Register Location Page.
      * And then this calls setUserSetting()@GoodDayModel.
      *
+     * @author Nobu
      * @throws IOException
      */
     @FXML
     protected void handleButtonAction() throws IOException {
-        // Register user's setting
-        this.setUserSetting(inputCityName.getText(), 1);
-        Main.getInstance().sendWeatherInformationPage("This is Weather Information Page.");
+
+        try {
+            if (inputCityName.getText().equals("")) throw new NotSetPropertyException("Please enter your location");
+            if(celsiusRadioButton.isSelected() == false &&
+                    fahrenheitRadioButton.isSelected() == false) throw new NotSetPropertyException("Please choose unit");
+
+            // Sets unit that a user enter
+            int unit;
+            if(celsiusRadioButton.isSelected() == true) unit = 1;
+            else unit = 2;
+
+            this.setUserSetting(inputCityName.getText(), unit);
+            Main.getInstance().sendWeatherInformationPage("This is Weather Information Page.");
+        } catch (NotSetPropertyException e){
+            errorLabelRegisterPage.setText(e.getMessage());
+        }
     }
 
     /**
@@ -118,5 +136,18 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
             System.out.println("IOException");
         }
         TextFields.bindAutoCompletion(inputCityName, suggestion);
+    }
+
+    /**
+     * Shows error message on Register Location Page
+     * when a user doesn't enter location or unit setting.
+     *
+     * @author Nobu
+     *
+     */
+    public class NotSetPropertyException extends IOException{
+        public NotSetPropertyException(String message){
+            super(message);
+        }
     }
 }

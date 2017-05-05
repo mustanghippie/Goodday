@@ -10,6 +10,7 @@ import javafx.scene.layout.AnchorPane;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.ResourceBundle;
 
 /**
@@ -64,9 +65,9 @@ public class WeatherInformationPageController extends AnchorPane implements Init
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //formating temperature to display positive or negative integer number:
+        //formatting temperature to display positive or negative integer number:
 
-        System.out.println(owma.openWeatherMap().get("now"));
+        System.out.println(owma.openWeatherMap().get("now").get("temp"));
 //        owma.openWeatherMap().get("now");
 //        int comma = temp_format.indexOf(".");
 //        String temp_label = temp_format.substring(0,comma);

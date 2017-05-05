@@ -252,9 +252,17 @@ public class GoodDayModel {
      */
     public boolean setUserSetting(String location, int unit) throws IOException{
 
+
+        try{
+            if(location.equals("")) throw new IOException();
+        } catch (IOException e){
+            e.printStackTrace();
+            System.out.println("[LocationError] make sure your location.");
+            System.exit(1);
+        }
+
         // Finds cityID from location
         String cityID = this.searchCityID(location);
-
         // Save user's setting as a file in local
         PrintWriter pw = null;
         try {
@@ -301,10 +309,10 @@ public class GoodDayModel {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("FileNotFoundException");
+            System.out.println("FileNotFoundException@GoodDayModel");
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("IOException");
+            System.out.println("IOException@GoodDayModel");
         }
         return cityID;
     }
