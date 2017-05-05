@@ -9,6 +9,8 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.ResourceBundle;
 
 /**
@@ -18,12 +20,13 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
     @FXML
     Label labelLocation, labelWeather, labelTemp, labelUnit;
+    AnchorPane anchorPaneBack;
 
 
 
 
     GoodDayModel gdm = new GoodDayModel();
-    OpenWeatherMapAPI wap = new OpenWeatherMapAPI();
+    OpenWeatherMapAPI owma = new OpenWeatherMapAPI();
 
     private String message;
 
@@ -62,15 +65,18 @@ public class WeatherInformationPageController extends AnchorPane implements Init
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //formating temperature to display positive or negative integer number:
-        String temp_format = wap.openWeatherMap().get("temp");
-        int comma = temp_format.indexOf(".");
-        String temp_label = temp_format.substring(0,comma);
+        //formatting temperature to display positive or negative integer number:
 
-       //connecting labels to methods:
-       labelLocation.setText(gdm.getUserData().get(1));  
-       labelWeather.setText(wap.openWeatherMap().get("weather"));
-       labelTemp.setText(temp_label);
-       labelUnit.setText(gdm.getUserData().get(2));
+        System.out.println(owma.openWeatherMap().get("now").get("temp"));
+//        owma.openWeatherMap().get("now");
+//        int comma = temp_format.indexOf(".");
+//        String temp_label = temp_format.substring(0,comma);
+//
+//       //connecting labels to methods:'
+//      labelLocation.setText(gdm.getUserData().get(1));
+//      labelWeather.setText(owma.openWeatherMap().get("now"));
+//      labelTemp.setText(temp_label);
+//      labelUnit.setText(gdm.getUserData().get(2));
+
     }
 }
