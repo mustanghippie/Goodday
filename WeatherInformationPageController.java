@@ -56,8 +56,10 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         Main.getInstance().sendSettingPage("This is Setting Page.");
     }
 
-
-
+    @FXML
+    protected void inThreeHourAction(){
+        // read 3 hour data
+    }
 
     /**
      * Connects methods based on weather data and display them for the user.
@@ -65,10 +67,14 @@ public class WeatherInformationPageController extends AnchorPane implements Init
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        //formatting temperature to display positive or negative integer number:
 
-        System.out.println(owma.openWeatherMap().get("now").get("temp"));
-//        owma.openWeatherMap().get("now");
+// if user press button NOW:
+
+
+        //formatting temperature to display positive or negative integer number:
+//System.out.println("loop initialize");
+        System.out.println(owma.openWeatherMap());
+//        owma.openWeatherMap().get("now").;
 //        int comma = temp_format.indexOf(".");
 //        String temp_label = temp_format.substring(0,comma);
 //
