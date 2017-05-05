@@ -16,14 +16,13 @@ import java.util.Map;
  *
  * Using json-lib
  * http://json-lib.sourceforge.net/
- *
  */
 public class OpenWeatherMapAPI {
 
     private String apiKey = "";
     private Map<String, String> resultWeatherInformation;
 
-    public OpenWeatherMapAPI(){
+    public OpenWeatherMapAPI() {
         // Prepare open weather map API key
         String keyValue = "";
         try {
@@ -32,8 +31,8 @@ public class OpenWeatherMapAPI {
             FileReader fileReader = new FileReader(file);
 
             int ch;
-            while((ch = fileReader.read()) != -1){
-                keyValue += String.valueOf((char)ch);
+            while ((ch = fileReader.read()) != -1) {
+                keyValue += String.valueOf((char) ch);
             }
 
             this.setApiKey(keyValue);
@@ -41,65 +40,72 @@ public class OpenWeatherMapAPI {
         } catch (FileNotFoundException e) {
             //e.printStackTrace();
             System.out.println("File open error");
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("File read error");
         }
     }
 
-    public  HashMap<String, Object> openWeatherMap(){
+    /**
+     *
+     *
+     * @author Alex
+     * @return
+     */
+    public HashMap<String, HashMap<String, String>> openWeatherMap() {
         // VancouverID 6173331
-        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=6173331&APPID="+this.getApiKey();
-        String data="";
-        HashMap<String,Object> allWeatherData = new HashMap<>();
+        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
+        // Weather information
+        String data = "";
+        boolean allowingConnectionFlag = false; // Todo we have to make timer function
+        // allowingConnectionFlag = getAllowingConnectionFlag();
+        HashMap<String, HashMap<String, String>> allWeatherData = new HashMap<>();
 
         // Get weather information from API
         try {
-//            URL url = new URL(requestURL);
-//            InputStream is = url.openConnection().getInputStream();
-//
-//            // JSON parse String
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-//            StringBuilder sb = new StringBuilder();
-//            String line;
-//            while (null != (line = reader.readLine())) {
-//                sb.append(line);
-//            }
-//            // Weather information
-//            data = sb.toString();
+            if (allowingConnectionFlag) { // Using API
+                URL url = new URL(requestURL);
+                InputStream is = url.openConnection().getInputStream();
 
-            /** ---Debug code--- */
-            File debugFile = new File("src/weatherInformation");
-            FileReader fileReader = new FileReader(debugFile);
+                // JSON parse String
+                BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+                StringBuilder sb = new StringBuilder();
+                String line;
+                while (null != (line = reader.readLine())) {
+                    sb.append(line);
+                }
+                // Weather information
+                data = sb.toString();
+            } else { // Using local data which is weather information
+                File debugFile = new File("src/weatherInformation");
+                FileReader fileReader = new FileReader(debugFile);
 
-            BufferedReader br = new BufferedReader(fileReader);
-            String str;
-            data = "";
+                BufferedReader br = new BufferedReader(fileReader);
+                String str;
+                data = "";
 
-            while((str = br.readLine()) != null){
-                data += str;
+                while ((str = br.readLine()) != null) {
+                    data += str;
+                }
             }
-            /** /---Debug code--- */
 
             JSONObject jsonObject = JSONObject.fromObject(data);
-            //System.out.println(jsonObject);
             JSONArray listArray = jsonObject.getJSONArray("list");
-            //JSONObject jobj = listArray.getJSONObject(0);
 
-            HashMap<String, String> nowWeatherData =new HashMap<>();
-            HashMap<String, String> in3WeatherData =new HashMap<>();
-            HashMap<String, String> in6WeatherData =new HashMap<>();
-            HashMap<String, String> in9WeatherData =new HashMap<>();
-            JSONObject jobj;
+            HashMap<String, String> nowWeatherData = new HashMap<>();
+            HashMap<String, String> in3WeatherData = new HashMap<>();
+            HashMap<String, String> in6WeatherData = new HashMap<>();
+            HashMap<String, String> in9WeatherData = new HashMap<>();
+            JSONObject jObject;
 
-            for (int i=0;i<4;i++) {
-                jobj = listArray.getJSONObject(i);
+            for (int i = 0; i < 4; i++) {
+                jObject = listArray.getJSONObject(i);
 
-                //System.out.println(jobj.getJSONArray("weather").getJSONObject(0));
+                String weather = jObject.getJSONArray("weather").getJSONObject(0).getString("main");
+                // Todo We have to make calculate degree method
+                // String temp = getTemperature(jObject.getJSONObject("main").getDouble("temp"));
+                String temp = String.format("%.2f", jObject.getJSONObject("main").getDouble("temp") - 273.15f) + "°";
 
-                String weather = jobj.getJSONArray("weather").getJSONObject(0).getString("main");
-                String temp = String.format("%.2f", jobj.getJSONObject("main").getDouble("temp") - 273.15f) + "°";
-
-                switch (i){
+                switch (i) {
                     case 0:
                         nowWeatherData.put("weather", weather);
                         nowWeatherData.put("temp", temp);
@@ -127,29 +133,51 @@ public class OpenWeatherMapAPI {
             allWeatherData.put("in6", in6WeatherData);
             allWeatherData.put("in9", in9WeatherData);
 
-
-
             // Save weather information(JSON)
-            File file = new File("src/weatherInformation");
-            FileWriter fileWriter = new FileWriter(file);
-            BufferedWriter bw = new BufferedWriter(fileWriter);
-            PrintWriter pw = new PrintWriter(bw);
+            if(allowingConnectionFlag) { // Todo we have to make timer function
+                File file = new File("src/weatherInformation");
+                FileWriter fileWriter = new FileWriter(file);
+                BufferedWriter bw = new BufferedWriter(fileWriter);
+                PrintWriter pw = new PrintWriter(bw);
 
-            pw.println(data);
-            pw.close();
+                pw.println(data);
+                pw.close();
+            }
 
         } catch (MalformedURLException e) {
-            System.out.println("URL error");
+            System.out.println("URL error@OpenWeatherMapAPI");
             e.printStackTrace();
-        } catch (IOException e){
-            System.out.println("IOException");
+        } catch (IOException e) {
+            System.out.println("IOException@OpenWeatherMapAPI");
             e.printStackTrace();
         }
 
-
         return allWeatherData;
+    }
 
+    public String getTemperature(double temp){
 
+        // Get unit of user's setting
+
+        // Calculate Celsius if unit is Celsius
+        // String.format("%.2f", temp - 273.15f) + "°";
+
+        // Calculate Celsius if unit is Fahrenheit
+        //
+
+        // return temp
+        return "";
+    }
+
+    public boolean getAllowingConnectionFlag(){
+        /**
+         *
+         * If 10 minutes has past after this program connect to API, return true.
+         * Memo:
+         * File.lastModified();
+         *
+         */
+        return true;
     }
 
     public String getApiKey() {
