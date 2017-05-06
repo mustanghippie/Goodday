@@ -19,14 +19,11 @@ import java.util.ResourceBundle;
 public class WeatherInformationPageController extends AnchorPane implements Initializable{
 
     @FXML
-    Label labelLocation, labelWeather, labelTemp, labelUnit;
-    AnchorPane anchorPaneBack;
+    private Label labelLocation, labelWeather, labelTemp, labelUnit;
+    private AnchorPane anchorPaneBack;
 
-
-
-
-    GoodDayModel gdm = new GoodDayModel();
-    OpenWeatherMapAPI owma = new OpenWeatherMapAPI();
+    private GoodDayModel gdm = new GoodDayModel();
+    private OpenWeatherMapAPI owma = new OpenWeatherMapAPI();
 
     private String message;
 
