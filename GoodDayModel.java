@@ -321,7 +321,8 @@ public class GoodDayModel {
      * Finds and reads user_setting_file.
      * Creates empty arraylist and add to it user data:city Id, city name and temp. unit.
      *
-     * @return cityName
+     * @author Alex
+     * @return userData ArrayList 0 => ID, 1 => city name, 2 => unit
      */
     public ArrayList<String> getUserData() {
 
@@ -335,7 +336,7 @@ public class GoodDayModel {
             BufferedReader br = new BufferedReader(filereader);
 
             userData.add(br.readLine());// cityId index 0
-            userData.add(br.readLine()); //cityname index 1
+            userData.add(br.readLine()); //city name index 1
             String unit = "";
             if(br.readLine().equals("Celsius")){
                 unit = "C°";
@@ -347,8 +348,10 @@ public class GoodDayModel {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.out.println("FileNotFound@getUserData()");
         } catch (IOException e){
             e.printStackTrace();
+            System.out.println("IOException@getUserData()");
         }
 
         return userData;
