@@ -53,9 +53,9 @@ public class OpenWeatherMapAPI {
      * @return
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
+
         // VancouverID 6173331
         String cityID = gdm.getUserData().get(0);
-        System.out.println(cityID);
         //String requestURL = "http://api.openweathermap.org/data/2.5/weather?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
         String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.getApiKey(); // Todo fix id
         // Weather information
@@ -107,9 +107,8 @@ public class OpenWeatherMapAPI {
 
                 String weather = jObject.getJSONArray("weather").getJSONObject(0).getString("main");
                 // Todo We have to make calculate degree method
-                // String temp = getTemperature(jObject.getJSONObject("main").getDouble("temp"));
-                String temp = String.format("%.2f", jObject.getJSONObject("main").getDouble("temp") - 273.15f) + "°";
-
+                String temp = getTemperature(jObject.getJSONObject("main").getDouble("temp"));
+                //String temp = "a";
                 switch (i) {
                     case 0:
                         nowWeatherData.put("weather", weather);
@@ -160,18 +159,29 @@ public class OpenWeatherMapAPI {
         return allWeatherData;
     }
 
-    public String getTemperature(double temp){
+    /**
+     *
+     * Checks user data for unit user chose
+     * uses Celcius temp as a base and from there calculates Farenheit
+     * @author Alex
+     * @return temp C or F
+     *
+     *
+     */
 
-        // Get unit of user's setting
+    public String getTemperature(double baseTemp){
 
-        // Calculate Celsius if unit is Celsius
-        // String.format("%.2f", temp - 273.15f) + "°";
+        String unit = gdm.getUserData().get(2); // checking which unit user chose C or F
+        String temp = "";
+        double double_temp = 0.0;
 
-        // Calculate Celsius if unit is Fahrenheit
-        //
-
-        // return temp
-        return "";
+            if(unit.equals("Celsius") || unit.equals("C°")) {
+                temp = String.format("%.2f", baseTemp - 273.15f) + "°";
+                return temp;
+            } else {
+                temp = String.format("%.2f", ((baseTemp - 273.15f) * 9/5) +32) + "°";
+                return temp;
+            }
     }
 
     public boolean getAllowingConnectionFlag(){
