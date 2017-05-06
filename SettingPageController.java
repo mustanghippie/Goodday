@@ -3,6 +3,7 @@ package goodday;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
@@ -22,9 +23,11 @@ public class SettingPageController extends AnchorPane implements Initializable{
     @FXML
     TextField locationName;
     @FXML
-    RadioButton convertToFahrenheit;
+    RadioButton celsiusRadioButton;
     @FXML
-    RadioButton convertToCelsius;
+    RadioButton fahrenheitRadioButton;
+    @FXML
+    Label messageLabel;
 
     public SettingPageController(){
 
@@ -46,47 +49,6 @@ public class SettingPageController extends AnchorPane implements Initializable{
         }
     }
 
-
-    /** CONVERT TO FAHRENHEIT BUTTON
-     * This method is in charge to convert the temperature unit
-     * to Fahrenheit after clicking on "Fahrenheit(°F)" radio button.
-     * @author Paulo
-     * @param
-     * @param
-     * @return
-     */
-    @FXML
-    protected void convertToFahrenheit() {
-        /*
-        if (unit == 1) // if input unit is celsius (unit 1)
-        {
-            //  convert to fahrenheit (unit 2)
-        }
-        */
-    }
-
-
-    /** CONVERT TO CELSIUS BUTTON
-     * This method is in charge to convert the temperature unit
-     * to Celsius after clicking on "Celsius(°C)" radio button.
-     * @author Paulo
-     * @param
-     * @param
-     * @return
-     */
-    @FXML
-    protected void convertToCelsius () {
-
-        /*
-        if (unit == 2)  // if input unit is fahrenheit (unit 2)
-        {
-            //  convert to celsius (unit 1)
-        }
-        */
-
-    }
-
-
     /** APPLY CHANGES BUTTON
      * This method applies all the changes made to location
      * and temperature unit.
@@ -97,14 +59,26 @@ public class SettingPageController extends AnchorPane implements Initializable{
      */
     @FXML
     protected void applyChanges() {
-        //System.out.println(locationName.getText());
+
         String location = locationName.getText();
+        int unit = 0;
 
         try {
-            gdm.setUserSetting(location,2);
+            if(location.equals("")) throw  new NotSetPropertyException("Please enter your location");
+            if(fahrenheitRadioButton.isSelected() == false && celsiusRadioButton.isSelected() == false ) throw new NotSetPropertyException("Please choose unit");
+
+            gdm.setUserSetting(location,unit);
+
+            if(fahrenheitRadioButton.isSelected() == true) unit = 2;
+            if(celsiusRadioButton.isSelected() == true) unit = 1;
+
+            gdm.setUserSetting(location, unit);
+
+        } catch (NotSetPropertyException e) {
+            messageLabel.setText(e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("--- IOException|@applyChanges---");
+            System.out.println("IOException|@applyChanges");
         }
 
     }
@@ -133,5 +107,18 @@ public class SettingPageController extends AnchorPane implements Initializable{
             System.out.println("IOException");
         }
         TextFields.bindAutoCompletion(locationName, suggestion);
+    }
+
+    /**
+     * Shows error message on Register Location Page
+     * when a user doesn't enter location or unit setting.
+     *
+     * @author Nobu
+     *
+     */
+    public class NotSetPropertyException extends IOException{
+        public NotSetPropertyException(String message){
+            super(message);
+        }
     }
 }
