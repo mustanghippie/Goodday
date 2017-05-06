@@ -52,6 +52,7 @@ public class SettingPageController extends AnchorPane implements Initializable{
     /** APPLY CHANGES BUTTON
      * This method applies all the changes made to location
      * and temperature unit.
+     * 
      * @author Paulo
      * @param
      * @param
