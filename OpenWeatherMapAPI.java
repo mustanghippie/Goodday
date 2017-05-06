@@ -56,15 +56,30 @@ public class OpenWeatherMapAPI {
 
         // VancouverID 6173331
         String cityID = gdm.getUserData().get(0);
-        //String requestURL = "http://api.openweathermap.org/data/2.5/weather?id=6173331&APPID=" + this.getApiKey(); // Todo fix id
+
         String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.getApiKey(); // Todo fix id
         // Weather information
         String data = "";
-        boolean allowingConnectionFlag = getAllowingConnectionFlag(); // Todo we have to make timer function
-        //getAllowingConnectionFlag(requestURL);
-        // allowingConnectionFlag = getAllowingConnectionFlag();
-        HashMap<String, HashMap<String, String>> allWeatherData = new HashMap<>();
+        boolean allowingConnectionFlag = getAllowingConnectionFlag();
+        // Check when weatherInformation file has modified
+        String targetPath = new File("src/weatherInformation").getPath();
+        File targetFile = new File(targetPath);
+        Long lastModified = targetFile.lastModified();
 
+        // Check 10 mins
+        long currentTime = System.currentTimeMillis();
+        long timeDiff = currentTime - lastModified;
+
+        if (timeDiff < 600000) {
+            allowingConnectionFlag = false;
+        } else if(timeDiff > 600000) {
+            allowingConnectionFlag = true;
+        } else {
+//            getAllowingConnectionFlag(requestURL);
+            allowingConnectionFlag = getAllowingConnectionFlag();
+        }
+
+        HashMap<String, HashMap<String, String>> allWeatherData = new HashMap<>();
         // Get weather information from API
         try {
             if (allowingConnectionFlag) { // Using API
