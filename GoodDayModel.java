@@ -244,7 +244,7 @@ public class GoodDayModel {
      *
      * @param location
      * @param unit     1 => Celsius, 2 => Fahrenheit
-     * @return
+     * @return boolean If location can't find, return false
      * @throws IOException
      */
     public boolean setUserSetting(String location, int unit) {
@@ -252,6 +252,10 @@ public class GoodDayModel {
 
         // Finds cityID from location
         String cityID = this.searchCityID(location);
+
+        // If location can't find, return false
+        if(cityID.equals("")) return false;
+
         // Save user's setting as a file in local
         PrintWriter pw = null;
 
@@ -280,10 +284,10 @@ public class GoodDayModel {
      * This method uses cityID_table(src/goodday/CityData/cityID_table.json).
      * If a location can't find a city id in cityID_table.json, this return "".
      *
-     * @author Nobu
      * @param location
      * @return cityID city name or "" when a location doesn't exist
      * @throws FileNotFoundException,IOException,net.sf.json.JSONException
+     * @author Nobu
      */
     private String searchCityID(String location) {
 
@@ -310,10 +314,10 @@ public class GoodDayModel {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("FileNotFoundException@GoodDayModel:searchCityID");
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
             System.out.println("IOException@GoodDayModel:searchCityID");
-        } catch (net.sf.json.JSONException e){
+        } catch (net.sf.json.JSONException e) {
             // This location name doesn't exist
             cityID = "";
         }

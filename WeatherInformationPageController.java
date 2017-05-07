@@ -123,11 +123,11 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
         try {
             // Notice path starts from /goodday
-            image = new Image("/goodday/img/icon_sports/sport_01.png");
+            //image = new Image("/goodday/img/icon_sports/sport_01.png");
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
-        imageActivitie1.setImage(image);
+        //imageActivitie1.setImage(image);
         //formatting temperature to display positive or negative integer number:
 //System.out.println("loop initialize");
         //System.out.println(owma.openWeatherMap());
