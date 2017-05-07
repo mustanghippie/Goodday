@@ -120,7 +120,7 @@ public class OpenWeatherMapAPI {
         for (int i = 0; i < 4; i++) {
             jObject = listArray.getJSONObject(i);
 
-            String weather = jObject.getJSONArray("weather").getJSONObject(0).getString("main");
+            String weather = convertWeatherSimply(jObject.getJSONArray("weather").getJSONObject(0).getString("main"));
             String temp = getTemperature(jObject.getJSONObject("main").getDouble("temp"));
             // Calculates time from time stamp
             long unixTimeStamp = Long.parseLong(jObject.getString("dt"));
@@ -176,6 +176,46 @@ public class OpenWeatherMapAPI {
         }
 
         return allWeatherData;
+    }
+
+    public String convertWeatherSimply(String weather){
+        String simpleWeather = "";
+
+        if (simpleWeather == null) System.out.println("Null Error");
+
+        switch (weather){
+            case "Thunderstorm":
+                simpleWeather = "Rainy";
+                break;
+            case "Drizzle":
+                simpleWeather = "Rainy";
+                break;
+            case "Rain":
+                simpleWeather = "Rainy";
+                break;
+            case "Snow":
+                simpleWeather = "Snowy";
+                break;
+            case "Atmosphere":
+                simpleWeather = "Cloudy";
+                break;
+            case "Clear":
+                simpleWeather = "Sunny";
+                break;
+            case "Clouds":
+                simpleWeather = "Cloudy";
+                break;
+            case "Extreme":
+                simpleWeather = "Cloudy";
+                break;
+            case "Additional":
+                simpleWeather = "Cloudy";
+                break;
+            default:
+                System.out.println("Out of Group code");
+        }
+
+        return simpleWeather;
     }
 
     /**

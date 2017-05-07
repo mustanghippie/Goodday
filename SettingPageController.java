@@ -3,6 +3,7 @@ package goodday;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
@@ -11,12 +12,13 @@ import org.controlsfx.control.textfield.TextFields;
 
 import java.io.*;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 /**
  * Created by Paulo on 02/05/2017.
  */
-public class SettingPageController extends AnchorPane implements Initializable{
+public class SettingPageController extends AnchorPane implements Initializable {
 
     private GoodDayModel gdm = new GoodDayModel();
 
@@ -28,35 +30,38 @@ public class SettingPageController extends AnchorPane implements Initializable{
     RadioButton fahrenheitRadioButton;
     @FXML
     Label messageLabel;
+    @FXML
+    Button closeSettingPageBtn;
 
-    public SettingPageController(){
+    public SettingPageController() {
 
         loadFXML();
 
     }
 
-    public void loadFXML(){
+    public void loadFXML() {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("SettingPage.fxml"));
         fxmlLoader.setRoot(this);
 
         // Sets controller in fxml file myself
         fxmlLoader.setController(this);
 
-        try{
+        try {
             fxmlLoader.load();
-        } catch(IOException e){
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
-    /** APPLY CHANGES BUTTON
+    /**
+     * APPLY CHANGES BUTTON
      * This method applies all the changes made to location
      * and temperature unit.
-     * 
-     * @author Paulo
+     *
      * @param
      * @param
      * @return
+     * @author Paulo
      */
     @FXML
     protected void applyChanges() {
@@ -64,28 +69,31 @@ public class SettingPageController extends AnchorPane implements Initializable{
         String location = locationName.getText();
         int unit = 0;
 
-        try {
-            if(location.equals("")) throw  new NotSetPropertyException("Please enter your location");
-            if(fahrenheitRadioButton.isSelected() == false && celsiusRadioButton.isSelected() == false ) throw new NotSetPropertyException("Please choose unit");
+        if (location.equals("")) location = gdm.getUserData().get(1);
 
-            gdm.setUserSetting(location,unit);
+        if (fahrenheitRadioButton.isSelected() == true) unit = 2;
+        if (celsiusRadioButton.isSelected() == true) unit = 1;
 
-            if(fahrenheitRadioButton.isSelected() == true) unit = 2;
-            if(celsiusRadioButton.isSelected() == true) unit = 1;
+        gdm.setUserSetting(location, unit);
 
-            gdm.setUserSetting(location, unit);
+    }
 
-        } catch (NotSetPropertyException e) {
-            messageLabel.setText(e.getMessage());
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("IOException|@applyChanges");
-        }
-
+    @FXML
+    public void goToWeatherInformationPage() {
+        Main.getInstance().sendWeatherInformationPage("");
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        // User setting
+        ArrayList<String> userData = gdm.getUserData();
+        // Sets user's city name
+        locationName.setPromptText(userData.get(1));
+        // Sets user's unit
+        if (userData.get(2).equals("C°")) celsiusRadioButton.setSelected(true);
+        else fahrenheitRadioButton.setSelected(true);
+
         // suggestion function
         String[] suggestion = new String[35586];
 
@@ -115,10 +123,9 @@ public class SettingPageController extends AnchorPane implements Initializable{
      * when a user doesn't enter location or unit setting.
      *
      * @author Nobu
-     *
      */
-    public class NotSetPropertyException extends IOException{
-        public NotSetPropertyException(String message){
+    public class NotSetPropertyException extends IOException {
+        public NotSetPropertyException(String message) {
             super(message);
         }
     }

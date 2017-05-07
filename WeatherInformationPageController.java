@@ -13,6 +13,7 @@ import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
@@ -72,28 +73,34 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     }
 
     public void changeLayoutByHour(String btnTime){
-        
+
+        // Weather information from Open Weather Map API
+        HashMap<String, HashMap<String, String>> weatherInformation = owma.openWeatherMap();
+
         switch (btnTime){
             case ("btnNow"):
-                labelTemp.setText(owma.openWeatherMap().get("now").get("temp"));
-                labelUnit.setText(gdm.getUserData().get(2));
+                labelWeather.setText(weatherInformation.get("now").get("weather"));
+                labelTemp.setText(weatherInformation.get("now").get("temp"));
                 break;
             case ("btn3hour"):
-                labelTemp.setText(owma.openWeatherMap().get("in3").get("temp"));
-                labelUnit.setText(gdm.getUserData().get(2));
+                labelWeather.setText(weatherInformation.get("in3").get("weather"));
+                labelTemp.setText(weatherInformation.get("in3").get("temp"));
                 break;
             case ("btn6hour"):
-                labelTemp.setText(owma.openWeatherMap().get("in6").get("temp"));
-                labelUnit.setText(gdm.getUserData().get(2));
-
+                labelWeather.setText(weatherInformation.get("in6").get("weather"));
+                labelTemp.setText(weatherInformation.get("in6").get("temp"));
                 break;
             case ("btn9hour"):
-                labelTemp.setText(owma.openWeatherMap().get("in9").get("temp"));
-                labelUnit.setText(gdm.getUserData().get(2));
-
+                labelTemp.setText(weatherInformation.get("in9").get("weather"));
+                labelTemp.setText(weatherInformation.get("in9").get("temp"));
                 break;
             default:
         }
+
+        // Sets time each buttons
+        btn3hour.setText(weatherInformation.get("in3").get("time"));
+        btn6hour.setText(weatherInformation.get("in6").get("time"));
+        btn9hour.setText(weatherInformation.get("in9").get("time"));
     }
 
     /**
@@ -103,13 +110,13 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        // Weather information from Open Weather Map API
-        HashMap<String, HashMap<String, String>> weatherInformation = owma.openWeatherMap();
+        // user data 0 => ID, 1 => city name, 2 => unit
+        ArrayList<String> userData = gdm.getUserData();
 
-        // Sets time each buttons
-        btn3hour.setText(weatherInformation.get("in3").get("time"));
-        btn6hour.setText(weatherInformation.get("in6").get("time"));
-        btn9hour.setText(weatherInformation.get("in9").get("time"));
+        // Sets a location
+        labelLocation.setText(userData.get(1));
+        // Sets unit
+        labelUnit.setText(userData.get(2));
 
         changeLayoutByHour("btnNow");
         Image image = null;
