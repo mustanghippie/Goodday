@@ -2,7 +2,6 @@
 
 <!--<?import com.gluonhq.charm.glisten.control.Icon?>-->
 
-
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -11,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
+<?import java.net.URL?>
 <fx:root prefHeight="800.0" prefWidth="1280.0" style=".-fx-background-image: img/bg/bg_3_cloudy.png;" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
     <children>
       <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -24,28 +23,28 @@
                 <Font name="Arial" size="36.0" />
             </font>
         </Label>
-        <Button fx:id="btnNow" layoutX="223.0" layoutY="133.0" mnemonicParsing="false" text="Now">
+        <Button fx:id="btnNow" layoutX="223.0" layoutY="133.0" mnemonicParsing="false" onAction="#changeWeatherTimeBtn" text="Now">
          <font>
             <Font name="Arial" size="24.0" />
          </font>
          <padding>
             <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
          </padding></Button>
-        <Button fx:id="btn3hour" layoutX="393.0" layoutY="133.0" mnemonicParsing="false" text="In 3 hours">
+        <Button fx:id="btn3hour" layoutX="393.0" layoutY="133.0" mnemonicParsing="false" onAction="#changeWeatherTimeBtn" text="In 3 hours">
          <font>
             <Font name="Arial" size="24.0" />
          </font>
          <padding>
             <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
          </padding></Button>
-        <Button layoutX="620.0" layoutY="133.0" mnemonicParsing="false" text="In 6 hours">
+        <Button fx:id="btn6hour" layoutX="620.0" layoutY="133.0" mnemonicParsing="false" onAction="#changeWeatherTimeBtn" text="In 6 hours">
          <font>
             <Font name="Arial" size="24.0" />
          </font>
          <padding>
             <Insets bottom="20.0" left="40.0" right="40.0" top="20.0" />
          </padding></Button>
-        <Button layoutX="847.0" layoutY="133.0" mnemonicParsing="false" text="In 9 hours">
+        <Button fx:id="btn9hour" layoutX="847.0" layoutY="133.0" mnemonicParsing="false" onAction="#changeWeatherTimeBtn" text="In 9 hours">
          <font>
             <Font name="Arial" size="24.0" />
          </font>
@@ -57,13 +56,13 @@
                 <Font name="Arial Bold" size="48.0" />
             </font>
         </Label>
-        <Label fx:id="labelTemp" layoutX="346.0" layoutY="335.0" prefHeight="176.0" prefWidth="399.0" text="14.44" textAlignment="RIGHT">
+        <Label fx:id="labelTemp" alignment="CENTER" layoutX="421.0" layoutY="339.0" prefHeight="176.0" prefWidth="399.0" textAlignment="RIGHT">
             <font>
                 <Font name="Arial Bold" size="154.0" />
             </font>
         </Label>
 
-        <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="imageActivitie1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/icon_sports/sport_00.png" />
          </image></ImageView>

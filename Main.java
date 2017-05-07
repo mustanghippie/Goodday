@@ -38,7 +38,7 @@ public class Main extends Application {
     public static void main(String[] args) throws IOException {
 
         // Debug code. you can switch debug mode to set true or false
-        debugCode(true);
+        debugCode(false);
 
         launch(args);
 
@@ -61,8 +61,12 @@ public class Main extends Application {
             sample = gdm.searchData(3,"3");
 
             for(String val: sample){
-                System.out.println(val.toString());
+                //System.out.println(val.toString());
             }
+
+            //FirebaseConnectionClass fcc = new FirebaseConnectionClass();
+            //fcc.searchContentsFromFirebase("Activities", 1);
+
         }
     }
 

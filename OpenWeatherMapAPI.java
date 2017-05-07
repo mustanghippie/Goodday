@@ -7,13 +7,15 @@ import net.sf.json.JSONObject;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 
 /**
  * Created by Nobu on 2017/04/27.
- *
+ * <p>
  * Using json-lib
  * http://json-lib.sourceforge.net/
  */
@@ -47,9 +49,8 @@ public class OpenWeatherMapAPI {
     }
 
     /**
-     *
-     * @author Alex
      * @return
+     * @author Alex
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
 
@@ -120,25 +121,33 @@ public class OpenWeatherMapAPI {
             jObject = listArray.getJSONObject(i);
 
             String weather = jObject.getJSONArray("weather").getJSONObject(0).getString("main");
-
             String temp = getTemperature(jObject.getJSONObject("main").getDouble("temp"));
+            // Calculates time from time stamp
+            long unixTimeStamp = Long.parseLong(jObject.getString("dt"));
+            java.util.Date conversionTime = new java.util.Date(unixTimeStamp * 1000);
+            SimpleDateFormat format = new SimpleDateFormat("h:mm a", Locale.CANADA);
+            String time = format.format(conversionTime);
 
             switch (i) {
                 case 0:
                     nowWeatherData.put("weather", weather);
                     nowWeatherData.put("temp", temp);
+                    nowWeatherData.put("time",time);
                     break;
                 case 1:
                     in3WeatherData.put("weather", weather);
                     in3WeatherData.put("temp", temp);
+                    in3WeatherData.put("time",time);
                     break;
                 case 2:
                     in6WeatherData.put("weather", weather);
                     in6WeatherData.put("temp", temp);
+                    in6WeatherData.put("time",time);
                     break;
                 case 3:
                     in9WeatherData.put("weather", weather);
                     in9WeatherData.put("temp", temp);
+                    in9WeatherData.put("time",time);
                     break;
                 default:
                     System.out.println("Ouf of index");
@@ -176,15 +185,13 @@ public class OpenWeatherMapAPI {
      * @return temp C or F
      * @author Alex
      */
-
     public String getTemperature(double baseTemp) {
 
         String unit = gdm.getUserData().get(2); // checking which unit user chose C or F
-        String temp = "";
-        double double_temp = 0.0;
+        String temp;
 
-        if (unit.equals("Celsius") || unit.equals("C°")) {
-            temp = String.format("%.2f", baseTemp - 273.15f) + "°";
+        if (unit.equals("C°")) {
+            temp = String.valueOf(Math.round(baseTemp - 273.15f));
             return temp;
         } else {
             temp = String.format("%.2f", ((baseTemp - 273.15f) * 9 / 5) + 32) + "°";
