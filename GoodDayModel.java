@@ -1,5 +1,7 @@
 package goodday;
 
+import net.sf.json.JSONObject;
+
 import java.io.*;
 import java.util.ArrayList;
 
@@ -13,24 +15,24 @@ public class GoodDayModel {
     // Activities data
     private String[][] activitiesList = new String[24][2];
     // Wind conditions data
-    private String[][] windList = new String [8][2];
+    private String[][] windList = new String[8][2];
 
-    /** Constructor
-     *
+    /**
+     * Constructor
+     * <p>
      * Prepares data for the following contents.
      * Data type is this APP's contents such as activities and items.
      * -Data type:
-     *  1 -> Activities
-     *  2 -> Item
-     *  3 -> Wind
-     *
+     * 1 -> Activities
+     * 2 -> Item
+     * 3 -> Wind
+     * <p>
      * Each content has category to obtain recommended information.
      * -About detail categories, please make sure constructor's comment
      *
      * @return none
-     *
      */
-    public GoodDayModel () {
+    public GoodDayModel() {
 
         /**
          * -Activities
@@ -177,25 +179,22 @@ public class GoodDayModel {
     //======================================================================================
 
     /**
-     *
      * Searches data that provide user with GoodDay's contents.
      *
-     * @author Nobu
-     * @param dataType
-     *  make sure comment of this class's constructor
-     * @param category
-     *  make sure comment of this class's constructor
+     * @param dataType make sure comment of this class's constructor
+     * @param category make sure comment of this class's constructor
      * @return ArrayList, which is contained appropriate data by data type and category
      * @throws IOException
+     * @author Nobu
      */
-    public ArrayList<String> searchData(int dataType, String category) throws IOException{
+    public ArrayList<String> searchData(int dataType, String category) throws IOException {
 
-        ArrayList<String > resultData = new ArrayList<>();
+        ArrayList<String> resultData = new ArrayList<>();
 
         String[][] searchingDataArray = this.getDataType(dataType);
 
-        for(int i=0;i<searchingDataArray.length;i++){
-            if(searchingDataArray[i][1].equals(category)){
+        for (int i = 0; i < searchingDataArray.length; i++) {
+            if (searchingDataArray[i][1].equals(category)) {
                 resultData.add(searchingDataArray[i][0]);
             }
         }
@@ -204,20 +203,18 @@ public class GoodDayModel {
     }
 
     /**
-     *
      * Obtains array data such as activitiesList and itemList,
      * depending on dataType.
      *
-     * @author Nobu
-     * @param dataType
-     *  1 -> activitiesList
-     *  2 -> itemList
-     *  3 -> windList
+     * @param dataType 1 -> activitiesList
+     *                 2 -> itemList
+     *                 3 -> windList
      * @return A two-dimensional array, depending on dataType
+     * @author Nobu
      * @Throws NotFoundDataTypeException when {dataType < 1 or dataType > 2}
      */
-    private String[][] getDataType(int dataType) throws NotFoundDataTypeException{
-        switch (dataType){
+    private String[][] getDataType(int dataType) throws NotFoundDataTypeException {
+        switch (dataType) {
             case 1:
                 return this.activitiesList;
             case 2:
@@ -241,79 +238,86 @@ public class GoodDayModel {
     /**
      * Saves user's location that is inputted from keyboard as a file.
      * File data format:
-     *   {cityID}\n
-     *   {cityName}\n
-     *   {unit}\n
+     * {cityID}\n
+     * {cityName}\n
+     * {unit}\n
      *
      * @param location
-     * @param unit 1 => Celsius, 2 => Fahrenheit
+     * @param unit     1 => Celsius, 2 => Fahrenheit
      * @return
      * @throws IOException
      */
-    public boolean setUserSetting(String location, int unit) throws IOException{
+    public boolean setUserSetting(String location, int unit) {
 
-
-        try{
-            if(location.equals("")) throw new IOException();
-        } catch (IOException e){
-            e.printStackTrace();
-            System.out.println("[LocationError] make sure your location.");
-            System.exit(1);
-        }
 
         // Finds cityID from location
         String cityID = this.searchCityID(location);
         // Save user's setting as a file in local
         PrintWriter pw = null;
+
+        File file = new File("src/user_setting_file");
+        FileWriter fileWriter = null;
         try {
-            File file = new File("src/user_setting_file");
-            FileWriter fileWriter = new FileWriter(file);
-            BufferedWriter bw = new BufferedWriter(fileWriter);
-            pw = new PrintWriter(bw);
-        } catch (FileNotFoundException e) {
-            System.out.println("user_setting_file is not found.");
-            System.exit(1);
+            fileWriter = new FileWriter(file);
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+        BufferedWriter bw = new BufferedWriter(fileWriter);
+        pw = new PrintWriter(bw);
 
         String degree;
 
-        if(unit == 1) degree = "Celsius";
+        if (unit == 1) degree = "Celsius";
         else degree = "Fahrenheit";
-        pw.println(cityID +"\n" +location +"\n" +degree);
+        pw.println(cityID + "\n" + location + "\n" + degree);
         pw.close();
 
         return true;
     }
 
     /**
-     * Finds cityID from location.
-     * This method uses cityID_table(src/goodday/CityData/cityID_table).
+     * Finds cityID in cityID_list.json from location.
+     * This method uses cityID_table(src/goodday/CityData/cityID_table.json).
+     * If a location can't find a city id in cityID_table.json, this return "".
      *
+     * @author Nobu
      * @param location
-     * @return cityID
+     * @return cityID city name or "" when a location doesn't exist
+     * @throws FileNotFoundException,IOException,net.sf.json.JSONException
      */
-    private String searchCityID(String location){
+    private String searchCityID(String location) {
 
-        String cityID="";
+        String cityID = "", line, cityIdTable;
+
+        StringBuilder sb = new StringBuilder();
+        File file = new File("src/goodday/CityData/cityID_table.json");
+        FileReader filereader = null;
 
         try {
-            File file = new File("src/goodday/CityData/cityID_table");
-            FileReader filereader = new FileReader(file);
+            filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
-            while((cityID = br.readLine()) != null){
-                if(cityID.indexOf("," +location) == -1) continue;
-                cityID = cityID.substring(0,cityID.indexOf(","));
-                break;
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
             }
+
+            cityIdTable = sb.toString();
+            // Convert JSON
+            JSONObject jsonObject = JSONObject.fromObject(cityIdTable);
+            //System.out.println(jsonObject);
+            cityID = jsonObject.getString(location);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-            System.out.println("FileNotFoundException@GoodDayModel");
-        } catch (IOException e) {
+            System.out.println("FileNotFoundException@GoodDayModel:searchCityID");
+        } catch (IOException e){
             e.printStackTrace();
-            System.out.println("IOException@GoodDayModel");
+            System.out.println("IOException@GoodDayModel:searchCityID");
+        } catch (net.sf.json.JSONException e){
+            // This location name doesn't exist
+            cityID = "";
         }
+
         return cityID;
     }
 
@@ -321,8 +325,8 @@ public class GoodDayModel {
      * Finds and reads user_setting_file.
      * Creates empty arraylist and add to it user data:city Id, city name and temp. unit.
      *
-     * @author Alex
      * @return userData ArrayList 0 => ID, 1 => city name, 2 => unit
+     * @author Alex
      */
     public ArrayList<String> getUserData() {
 
@@ -338,9 +342,9 @@ public class GoodDayModel {
             userData.add(br.readLine());// cityId index 0
             userData.add(br.readLine()); //city name index 1
             String unit = "";
-            if(br.readLine().equals("Celsius")){
+            if (br.readLine().equals("Celsius")) {
                 unit = "C°";
-            }else{
+            } else {
                 unit = "F°";
             }
             userData.add(unit); //temp unit index 2
@@ -349,7 +353,7 @@ public class GoodDayModel {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("FileNotFound@getUserData()");
-        } catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
             System.out.println("IOException@getUserData()");
         }
@@ -358,8 +362,9 @@ public class GoodDayModel {
     }
 
 
-
-    public class NotFoundDataTypeException extends IOException{
-        public NotFoundDataTypeException(String message){super(message);}
+    public class NotFoundDataTypeException extends IOException {
+        public NotFoundDataTypeException(String message) {
+            super(message);
+        }
     }
 }
