@@ -14,7 +14,7 @@
     <children>
       <ImageView fx:id="backgroundImage" fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
-            <Image url="@img/bg/bg_3_cloudy.png" />
+            <Image url="@img/bg/Cloudy.png" />
          </image>
       </ImageView>
         <Label fx:id="labelLocation" alignment="CENTER" layoutX="429.0" layoutY="31.0" prefHeight="26.0" prefWidth="399.0" text="Place" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="50.0">
@@ -63,26 +63,26 @@
 
         <ImageView fx:id="imageActivitie1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/icon_sports/sport_00.png" />
+            <Image url="@img/Activities/NoActivity.png" />
          </image></ImageView>
       <ImageView fx:id="imageActivitie2" fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/icon_sports/sport_00.png" />
+            <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
       <ImageView fx:id="imageActivitie3" fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/icon_sports/sport_00.png" />
+            <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
       <ImageView fx:id="imageActivitie4" fitHeight="100.0" fitWidth="100.0" layoutX="750.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/icon_sports/sport_00.png" />
+            <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
       <ImageView fx:id="imageActivitie5" fitHeight="100.0" fitWidth="100.0" layoutX="910.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/icon_sports/sport_00.png" />
+            <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="1065.0" layoutY="63.0" opacity="0.3" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
@@ -103,17 +103,17 @@
          </font></Label>
         <ImageView fx:id="itemWeatherImage" fitHeight="200.0" fitWidth="426.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/Item_weather/weather_4_others.png" />
+            <Image url="@img/Item_weather/NoData.png" />
          </image>
       </ImageView>
         <ImageView fx:id="itemTempImage" fitHeight="140.0" fitWidth="426.0" layoutX="427.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/Item_temp/temp_0_nodata.png" />
+            <Image url="@img/Item_temp/LightJacket.png" />
          </image>
       </ImageView>
         <ImageView fx:id="windConditionImage" fitHeight="140.0" fitWidth="426.0" layoutX="853.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/Item_wind/wind_0_nodata.png" />
+            <Image url="@img/Item_wind/Calm.png" />
          </image>
       </ImageView>
     </children>
