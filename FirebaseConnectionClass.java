@@ -15,7 +15,7 @@ import java.util.List;
 public class FirebaseConnectionClass {
 
     //private final String JSON_FILE_NAME = "src/GoodDayFirebase-f6bbd78d2cde.json";
-    private final String JSON_FILE_NAME = "src/goodday/ReadOnlyAccount.json";
+    private final String JSON_FILE_NAME = "src/goodday/files/ReadOnlyAccount.json";
     private final String URL = "https://gooddayfirebase.firebaseio.com/";
 
     private List<String> contents = new ArrayList<String>() {{

@@ -9,6 +9,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import org.controlsfx.control.textfield.TextFields;
 
+
 import java.io.*;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -108,8 +109,6 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
             File file = new File("src/goodday/files/city_name_list");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
-
-            StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < suggestion.length; i++) {
                 suggestion[i] = br.readLine();

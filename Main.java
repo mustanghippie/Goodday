@@ -1,6 +1,5 @@
 package goodday;
 
-import com.oracle.deploy.update.UpdateCheck;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -10,7 +9,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 
 public class Main extends Application {
 
@@ -25,7 +23,7 @@ public class Main extends Application {
 
         // Setting stage
         stage = primaryStage;
-        stage.setWidth(1200);
+        stage.setWidth(1280);
         stage.setHeight(800);
 
         // If user's setting doesn't exist, this skips Register Location Page
