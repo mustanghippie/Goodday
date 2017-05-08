@@ -27,25 +27,8 @@ public class OpenWeatherMapAPI {
 
     public OpenWeatherMapAPI() {
         // Prepare open weather map API key
-        String keyValue = "";
-        try {
-            // get API key
-            File file = new File("src/key");
-            FileReader fileReader = new FileReader(file);
-
-            int ch;
-            while ((ch = fileReader.read()) != -1) {
-                keyValue += String.valueOf((char) ch);
-            }
-
-            this.setApiKey(keyValue);
-
-        } catch (FileNotFoundException e) {
-            //e.printStackTrace();
-            System.out.println("File open error");
-        } catch (IOException e) {
-            System.out.println("File read error");
-        }
+        String keyValue = gdm.fileReaderFunction("src/key");
+        this.setApiKey(keyValue);
     }
 
     /**
@@ -86,26 +69,11 @@ public class OpenWeatherMapAPI {
                 e.printStackTrace();
                 System.out.println("IOException@OpenWeatherMapAPI:code1");
             }
-
+            data = sb.toString();
         } else { // Data read from a local file
-            try {
-                File localFile = new File("src/weatherInformation.json");
-                FileReader fileReader = null;
-                fileReader = new FileReader(localFile);
-                BufferedReader br = new BufferedReader(fileReader);
+            data = gdm.fileReaderFunction("src/weatherInformation.json");
 
-                while ((line = br.readLine()) != null) {
-                    sb.append(line);
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-                System.out.println("FileNotFoundException@OpenWeatherMapAPI");
-            } catch (IOException e) {
-                System.out.println("IOException@OpenWeatherMapAPI:code2");
-            }
         }
-        // Sets data from a file or API
-        data = sb.toString();
 
         // Convert JSON
         JSONObject jsonObject = JSONObject.fromObject(data);

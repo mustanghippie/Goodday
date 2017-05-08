@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.*?>
-<fx:root prefHeight="800.0" prefWidth="1200.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root prefHeight="800.0" prefWidth="1280.0" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Button layoutX="490.0" layoutY="579.0" mnemonicParsing="false" onAction="#registerLocationBtn" prefHeight="48.0" prefWidth="221.0" text="Go">
             <font>

@@ -291,13 +291,4 @@ public class GoodDayModel {
 
         return data;
     }
-
-    /**
-     * @Todo delete
-     */
-//    public class NotFoundDataTypeException extends IOException {
-//        public NotFoundDataTypeException(String message) {
-//            super(message);
-//        }
-//    }
 }
