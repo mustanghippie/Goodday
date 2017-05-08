@@ -100,7 +100,7 @@ public class SettingPageController extends AnchorPane implements Initializable {
         String[] suggestion = new String[35586];
 
         try {
-            File file = new File("src/goodday/CityData/city_name_list");
+            File file = new File("src/goodday/files/city_name_list");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
