@@ -39,7 +39,7 @@ public class Main extends Application {
     public static void main(String[] args) throws IOException {
 
         // Debug code. you can switch debug mode to set true or false
-        debugCode(true);
+        debugCode(false);
 
         // Connects Firebase
         FirebaseConnectionClass firebase = new FirebaseConnectionClass();
