@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class GoodDayModel {
 
     // Item data
-    private String[][] itemList = new String[8][2];
+    private String[][] itemList = new String[11][2];
     // Activities data
     private String[][] activitiesList = new String[24][2];
     // Wind conditions data
