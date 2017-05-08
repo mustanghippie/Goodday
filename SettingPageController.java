@@ -74,8 +74,10 @@ public class SettingPageController extends AnchorPane implements Initializable {
         if (fahrenheitRadioButton.isSelected() == true) unit = 2;
         if (celsiusRadioButton.isSelected() == true) unit = 1;
 
-        gdm.setUserSetting(location, unit);
+        boolean successFlag = gdm.setUserSetting(location, unit);
 
+        if(!successFlag) messageLabel.setText("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
+        else messageLabel.setText("Your setting is updated successfully");
     }
 
     @FXML

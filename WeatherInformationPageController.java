@@ -76,26 +76,33 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
         // Weather information from Open Weather Map API
         HashMap<String, HashMap<String, String>> weatherInformation = owma.openWeatherMap();
+        // Contents name for getting file name
+        ArrayList<String> contentsArrayList = new ArrayList<>();
+
+        String timeIndex = "";
 
         switch (btnTime){
             case ("btnNow"):
-                labelWeather.setText(weatherInformation.get("now").get("weather"));
-                labelTemp.setText(weatherInformation.get("now").get("temp"));
+                timeIndex = "now";
                 break;
             case ("btn3hour"):
-                labelWeather.setText(weatherInformation.get("in3").get("weather"));
-                labelTemp.setText(weatherInformation.get("in3").get("temp"));
+                timeIndex = "in3";
                 break;
             case ("btn6hour"):
-                labelWeather.setText(weatherInformation.get("in6").get("weather"));
-                labelTemp.setText(weatherInformation.get("in6").get("temp"));
+                timeIndex = "in6";
                 break;
             case ("btn9hour"):
-                labelTemp.setText(weatherInformation.get("in9").get("weather"));
-                labelTemp.setText(weatherInformation.get("in9").get("temp"));
+                timeIndex = "in9";
                 break;
             default:
+                System.out.println("Make sure btnTime@WeatherInformationController");
         }
+
+        labelWeather.setText(weatherInformation.get(timeIndex).get("weather"));
+        labelTemp.setText(weatherInformation.get(timeIndex).get("temp"));
+        // Gets activities name by using category
+        contentsArrayList = gdm.findContentsImgName("Activities", weatherInformation.get(timeIndex).get("weather"),
+                weatherInformation.get(timeIndex).get("temp"), weatherInformation.get(timeIndex).get("windCondition"));
 
         // Sets time each buttons
         btn3hour.setText(weatherInformation.get("in3").get("time"));
