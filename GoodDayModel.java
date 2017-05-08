@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class GoodDayModel {
 
     // Item data
-    private String[][] itemList = new String[11][2];
+    private String[][] itemList = new String[8][2];
     // Activities data
     private String[][] activitiesList = new String[24][2];
     // Wind conditions data
@@ -118,32 +118,26 @@ public class GoodDayModel {
         //-----------------------------------
         // ITEMS RELATED TO WEATHER
         //-----------------------------------
-        this.itemList[0][0] = "No data";
+        this.itemList[0][0] = "Sunglasses";
         this.itemList[0][1] = "1";
-        this.itemList[1][0] = "Rain coat";
+        this.itemList[1][0] = "Umbrella";
         this.itemList[1][1] = "2";
-        this.itemList[2][0] = "Rain boots";
+        this.itemList[2][0] = "Winter boots";
         this.itemList[2][1] = "3";
-        this.itemList[3][0] = "Winter boots";
-        this.itemList[3][1] = "4";
-        this.itemList[4][0] = "Sunglasses";
-        this.itemList[4][1] = "5";
-        this.itemList[5][0] = "Nothing special";
-        this.itemList[5][1] = "6";
 
         //-----------------------------------
         // ITEMS RELATED TO TEMPERATURE
         //-----------------------------------
-        this.itemList[6][0] = "Winter coat";
+        this.itemList[3][0] = "Winter coat";
+        this.itemList[3][1] = "4";
+        this.itemList[4][0] = "Light jacket";
+        this.itemList[4][1] = "5";
+        this.itemList[5][0] = "Sweatpants";
+        this.itemList[5][1] = "6";
+        this.itemList[6][0] = "T-shirt";
         this.itemList[6][1] = "7";
-        this.itemList[7][0] = "Light jacket";
+        this.itemList[7][0] = "Water bottle";
         this.itemList[7][1] = "8";
-        this.itemList[8][0] = "Sweatpants";
-        this.itemList[8][1] = "9";
-        this.itemList[9][0] = "T-shirt";
-        this.itemList[9][1] = "10";
-        this.itemList[10][0] = "Water bottle";
-        this.itemList[10][1] = "11";
 
         /* -WIND-
          *  Categories
@@ -260,7 +254,7 @@ public class GoodDayModel {
         String cityID = this.searchCityID(location);
 
         // If location can't find, return false
-        if(cityID.equals("")) return false;
+        if (cityID.equals("")) return false;
 
         // Save user's setting as a file in local
         PrintWriter pw = null;
@@ -369,6 +363,50 @@ public class GoodDayModel {
         }
 
         return userData;
+    }
+
+    public ArrayList<String> findContentsImgName(String content, String weather, String temperature, String windCondition) {
+        ArrayList<String> resultContents = new ArrayList<>();
+        int temp = Integer.parseInt(temperature);
+
+        String category = "";
+
+        // Sets category
+        switch (content) {
+            case "Activities":
+
+                if (temp < 0) {
+                    category = "Category1";
+                    break;
+                }
+
+                if (weather.equals("Rainy")) {
+                    category = "Category2";
+                    break;
+                }
+
+                if (temp > 10 && !weather.equals("Rainy") &&
+                        (windCondition.equals("LightBreeze") || windCondition.equals("GentleBreeze"))) {
+                    category = "Category3";
+                    break;
+                }
+
+                if (temp > 10 && !weather.equals("Rainy")) {
+                    category = "Category4";
+                    break;
+                }
+                category = "NoCategory";
+                break;
+            default:
+                System.out.println("A content is not found.");
+
+        }
+
+        // search contents by using category
+        FirebaseConnectionClass firebase = new FirebaseConnectionClass();
+        resultContents = firebase.searchContentsFromFirebase("Activities", category);
+
+        return resultContents;
     }
 
 

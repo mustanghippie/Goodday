@@ -8,6 +8,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by Nobu on 2017/05/06.
@@ -19,8 +20,9 @@ public class FirebaseConnectionClass {
     private final String URL = "https://gooddayfirebase.firebaseio.com/";
 
     private DatabaseReference reference;
+    private ArrayList<String> resultContent = new ArrayList<>();
 
-    public FirebaseConnectionClass(){
+    public FirebaseConnectionClass() {
         InputStream stream_json = null;
         try {
             stream_json = new FileInputStream(JSON_FILE_NAME);
@@ -41,13 +43,27 @@ public class FirebaseConnectionClass {
 
     }
 
-    public void searchContentsFromFirebase(String content, int category){
-        ArrayList<String> resultContent = new ArrayList<>();
+    public ArrayList<String> searchContentsFromFirebase(String content, String category) {
+        //ArrayList<String> resultContent = new ArrayList<>();
 
-        reference.child(content).child("Category" +String.valueOf(category)).orderByKey().equalTo("0").addListenerForSingleValueEvent(new ValueEventListener() {
+        reference.child(content).child(category).orderByKey().startAt("0").addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                System.out.println(dataSnapshot.getValue());
+
+                for (int i = 0; ; i++) {
+                    if (dataSnapshot.child(String.valueOf(i)).getValue() == null) break;
+                    resultContent.add((String) dataSnapshot.child(String.valueOf(i)).getValue());
+                }
+
+                // Shuffle and delete over 5 items
+                if (resultContent.size() > 5) {
+                    Collections.shuffle(resultContent);
+                    for (int i = resultContent.size() - 1; i >= 5; i--) {
+                        resultContent.remove(i);
+                    }
+                }
+                setResultContent(resultContent);
+
             }
 
             @Override
@@ -55,8 +71,21 @@ public class FirebaseConnectionClass {
 
             }
         });
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+        return this.resultContent;
     }
 
+    public void setResultContent(ArrayList<String> resultContent){
+        this.resultContent = resultContent;
+    }
+
+    public ArrayList<String> getResultContent(){
+        return this.resultContent;
+    }
 
 }

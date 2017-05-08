@@ -127,27 +127,33 @@ public class OpenWeatherMapAPI {
             java.util.Date conversionTime = new java.util.Date(unixTimeStamp * 1000);
             SimpleDateFormat format = new SimpleDateFormat("h:mm a", Locale.CANADA);
             String time = format.format(conversionTime);
+            // Wind condition
+            String windCondition = convertWindConditionName(jObject.getJSONObject("wind").getDouble("speed"));
 
             switch (i) {
                 case 0:
                     nowWeatherData.put("weather", weather);
                     nowWeatherData.put("temp", temp);
-                    nowWeatherData.put("time",time);
+                    nowWeatherData.put("time", time);
+                    nowWeatherData.put("windCondition", windCondition);
                     break;
                 case 1:
                     in3WeatherData.put("weather", weather);
                     in3WeatherData.put("temp", temp);
-                    in3WeatherData.put("time",time);
+                    in3WeatherData.put("time", time);
+                    in3WeatherData.put("windCondition", windCondition);
                     break;
                 case 2:
                     in6WeatherData.put("weather", weather);
                     in6WeatherData.put("temp", temp);
-                    in6WeatherData.put("time",time);
+                    in6WeatherData.put("time", time);
+                    in6WeatherData.put("windCondition", windCondition);
                     break;
                 case 3:
                     in9WeatherData.put("weather", weather);
                     in9WeatherData.put("temp", temp);
-                    in9WeatherData.put("time",time);
+                    in9WeatherData.put("time", time);
+                    in9WeatherData.put("windCondition", windCondition);
                     break;
                 default:
                     System.out.println("Ouf of index");
@@ -178,12 +184,40 @@ public class OpenWeatherMapAPI {
         return allWeatherData;
     }
 
-    public String convertWeatherSimply(String weather){
+    /**
+     * Converts wind speed to wind condition.
+     *
+     * @param windSpeed
+     * @return wind condition
+     * @ author Nobu
+     */
+    public String convertWindConditionName(double windSpeed) {
+        String windCondition = "";
+
+        if (windSpeed <= 0.3) return "Calm";
+        if (windSpeed <= 1.5) return "LightAir";
+        if (windSpeed <= 3.3) return "LightBreeze";
+        if (windSpeed <= 5.5) return "GentleBreeze";
+        if (windSpeed <= 7.9) return "ModerateBreeze";
+        if (windSpeed <= 10.7) return "FreshBreeze";
+        if (windSpeed <= 13.8) return "StrongBreeze";
+
+        return "HighWind";
+    }
+
+    /**
+     * Converts weather name from open weather map API's name.
+     *
+     * @param weather
+     * @return String
+     * @author Nobu
+     */
+    public String convertWeatherSimply(String weather) {
         String simpleWeather = "";
 
         if (simpleWeather == null) System.out.println("Null Error");
 
-        switch (weather){
+        switch (weather) {
             case "Thunderstorm":
                 simpleWeather = "Rainy";
                 break;
