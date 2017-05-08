@@ -61,26 +61,26 @@
             </font>
         </Label>
 
-        <ImageView fx:id="imageActivitie1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="imageActivity1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image></ImageView>
-      <ImageView fx:id="imageActivitie2" fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageActivity2" fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivitie3" fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageActivity3" fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivitie4" fitHeight="100.0" fitWidth="100.0" layoutX="750.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageActivity4" fitHeight="100.0" fitWidth="100.0" layoutX="750.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivitie5" fitHeight="100.0" fitWidth="100.0" layoutX="910.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageActivity5" fitHeight="100.0" fitWidth="100.0" layoutX="910.0" layoutY="531.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>

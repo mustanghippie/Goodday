@@ -27,7 +27,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @FXML
     private Button btn3hour, btn6hour, btn9hour;
     @FXML
-    private ImageView imageActivitie1, imageActivitie2, imageActivitie3, imageActivitie4, imageActivitie5, itemWeatherImage, itemTempImage, windConditionImage, backgroundImage;
+    private ImageView imageActivity1, imageActivity2, imageActivity3, imageActivity4, imageActivity5, itemWeatherImage, itemTempImage, windConditionImage, backgroundImage;
 
     private AnchorPane anchorPaneBack;
 
@@ -106,11 +106,11 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
         // Activity images
         try {
-            imageActivitie1.setImage(makeImagePath("Activities", contentsArrayList.get(0)));
-            imageActivitie2.setImage(makeImagePath("Activities", contentsArrayList.get(1)));
-            imageActivitie3.setImage(makeImagePath("Activities", contentsArrayList.get(2)));
-            imageActivitie4.setImage(makeImagePath("Activities", contentsArrayList.get(3)));
-            imageActivitie5.setImage(makeImagePath("Activities", contentsArrayList.get(4)));
+            imageActivity1.setImage(makeImagePath("Activities", contentsArrayList.get(0)));
+            imageActivity2.setImage(makeImagePath("Activities", contentsArrayList.get(1)));
+            imageActivity3.setImage(makeImagePath("Activities", contentsArrayList.get(2)));
+            imageActivity4.setImage(makeImagePath("Activities", contentsArrayList.get(3)));
+            imageActivity5.setImage(makeImagePath("Activities", contentsArrayList.get(4)));
         } catch (IndexOutOfBoundsException e) {
             // resultContents < 5
         }
