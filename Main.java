@@ -1,5 +1,6 @@
 package goodday;
 
+import com.oracle.deploy.update.UpdateCheck;
 import javafx.application.Application;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -38,7 +39,10 @@ public class Main extends Application {
     public static void main(String[] args) throws IOException {
 
         // Debug code. you can switch debug mode to set true or false
-        debugCode(false);
+        debugCode(true);
+
+        // Connects Firebase
+        FirebaseConnectionClass firebase = new FirebaseConnectionClass();
 
         launch(args);
 
@@ -55,17 +59,11 @@ public class Main extends Application {
     public static void debugCode(boolean flag) throws IOException {
         if (flag) {
             System.out.println("---DEBUG---");
-            ArrayList<String> sample;
 
-            GoodDayModel gdm = new GoodDayModel();
-            sample = gdm.searchData(3,"3");
-
-            for(String val: sample){
-                //System.out.println(val.toString());
-            }
-
-            //FirebaseConnectionClass fcc = new FirebaseConnectionClass();
-            //fcc.searchContentsFromFirebase("Activities", 1);
+            UploadContentsClass ucc = new UploadContentsClass();
+            System.out.println(ucc.getActivitiesMap());
+            System.out.println(ucc.getItemListMap());
+            System.out.println(ucc.getWindMap());
 
         }
     }

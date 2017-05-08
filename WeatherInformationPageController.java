@@ -27,7 +27,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @FXML
     private Button btn3hour, btn6hour, btn9hour;
     @FXML
-    private ImageView imageActivitie1;
+    private ImageView imageActivitie1, imageActivitie2, imageActivitie3, imageActivitie4, imageActivitie5, itemWeatherImage, itemTempImage, windConditionImage, backgroundImage;
 
     private AnchorPane anchorPaneBack;
 
@@ -104,10 +104,58 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         contentsArrayList = gdm.findContentsImgName("Activities", weatherInformation.get(timeIndex).get("weather"),
                 weatherInformation.get(timeIndex).get("temp"), weatherInformation.get(timeIndex).get("windCondition"));
 
-        // Sets time each buttons
+        // Activity images
+        try {
+            imageActivitie1.setImage(makeImagePath("Activities", contentsArrayList.get(0)));
+            imageActivitie2.setImage(makeImagePath("Activities", contentsArrayList.get(1)));
+            imageActivitie3.setImage(makeImagePath("Activities", contentsArrayList.get(2)));
+            imageActivitie4.setImage(makeImagePath("Activities", contentsArrayList.get(3)));
+            imageActivitie5.setImage(makeImagePath("Activities", contentsArrayList.get(4)));
+        } catch (IndexOutOfBoundsException e) {
+            // resultContents < 5
+        }
+        contentsArrayList.clear();
+
+        // Item weather images
+        contentsArrayList = gdm.findContentsImgName("Items_weather", weatherInformation.get(timeIndex).get("weather"),
+                weatherInformation.get(timeIndex).get("temp"), weatherInformation.get(timeIndex).get("windCondition"));
+        itemWeatherImage.setImage(makeImagePath("Item_weather", contentsArrayList.get(0)));
+        contentsArrayList.clear();
+
+        // Item temperature images
+        contentsArrayList = gdm.findContentsImgName("Items_temp", weatherInformation.get(timeIndex).get("weather"),
+                weatherInformation.get(timeIndex).get("temp"), weatherInformation.get(timeIndex).get("windCondition"));
+        itemTempImage.setImage(makeImagePath("Item_temp", contentsArrayList.get(0)));
+        contentsArrayList.clear();
+
+        // Wind condition images
+        windConditionImage.setImage(makeImagePath("Item_wind", weatherInformation.get(timeIndex).get("windCondition")));
+
+        // Sets back ground image
+        backgroundImage.setImage(makeImagePath("bg", weatherInformation.get(timeIndex).get("weather")));
+        // Time buttons
         btn3hour.setText(weatherInformation.get("in3").get("time"));
         btn6hour.setText(weatherInformation.get("in6").get("time"));
         btn9hour.setText(weatherInformation.get("in9").get("time"));
+    }
+
+    /**
+     * Makes image path.
+     *
+     * @author Nobu
+     * @param fileName
+     * @return Image
+     */
+    private Image makeImagePath(String content, String fileName){
+        Image image = null;
+        try {
+            image = new Image("/goodday/img/"+content+"/"+fileName+".png");
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            System.out.println("[img is not found] " +"/goodday/img/"+content+"/"+fileName+".png");
+        }
+
+        return image;
     }
 
     /**
@@ -124,29 +172,8 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         labelLocation.setText(userData.get(1));
         // Sets unit
         labelUnit.setText(userData.get(2));
-
+        // Initialize default information(now)
         changeLayoutByHour("btnNow");
-        Image image = null;
-
-        try {
-            // Notice path starts from /goodday
-            //image = new Image("/goodday/img/icon_sports/sport_01.png");
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
-        }
-        //imageActivitie1.setImage(image);
-        //formatting temperature to display positive or negative integer number:
-//System.out.println("loop initialize");
-        //System.out.println(owma.openWeatherMap());
-//        owma.openWeatherMap().get("now").;
-//        int comma = temp_format.indexOf(".");
-//        String temp_label = temp_format.substring(0,comma);
-//
-//       //connecting labels to methods:'
-//      labelLocation.setText(gdm.getUserData().get(1));
-//      labelWeather.setText(owma.openWeatherMap().get("now"));
-//      labelTemp.setText(temp_label);
-//      labelUnit.setText(gdm.getUserData().get(2));
 
     }
 }

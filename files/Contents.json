@@ -1,0 +1,59 @@
+{
+    "Activities": [    {
+        "Category1":         {
+            "0": "Snowboarding",
+            "1": "Skiing",
+            "2": "Iceskating",
+            "3": "Hockey",
+            "4": "Snowmobile"
+        },
+        "Category2":         {
+            "0": "Yoga",
+            "1": "Swimming",
+            "2": "Darts",
+            "3": "Badminton",
+            "4": "Gym"
+        },
+        "Category3":         {
+            "0": "Surfing",
+            "1": "Kitesurfing",
+            "2": "Windsurfing",
+            "3": "Paragliding",
+            "4": "Yachting"
+        },
+        "Category4":         {
+            "0": "Volleyball",
+            "1": "Jogging",
+            "2": "Camping",
+            "3": "Horseriding",
+            "4": "Tennis",
+            "5": "Climbing",
+            "6": "Baseball",
+            "7": "Basketball",
+            "8": "Soccer"
+        }
+    }],
+    "Items": [    {
+        "Category1": {"0": "RainCoat"},
+        "Category2": {"0": "RainBoots"},
+        "Category3": {"0": "Umbrella"},
+        "Category4": {"0": "WinterBoots"},
+        "Category5": {"0": "Sunglasses"},
+        "Category6": {"0": "NothingSpecial"},
+        "Category7": {"0": "WinterCoat"},
+        "Category8": {"0": "LightJacket"},
+        "Category9": {"0": "Sweatpants"},
+        "Category10": {"0": "T-shirt"},
+        "Category11": {"0": "WaterBottle"}
+    }],
+    "WindCondition": [    {
+        "Category1": {"0": "Calm"},
+        "Category2": {"0": "LightAir"},
+        "Category3": {"0": "LightBreeze"},
+        "Category4": {"0": "GentleBreeze"},
+        "Category5": {"0": "ModerateBreeze"},
+        "Category6": {"0": "FreshBreeze"},
+        "Category7": {"0": "StrongBreeze"},
+        "Category8": {"0": "HighChange"}
+    }]
+}

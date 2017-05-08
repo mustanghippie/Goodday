@@ -89,7 +89,7 @@ public class OpenWeatherMapAPI {
 
         } else { // Data read from a local file
             try {
-                File localFile = new File("src/weatherInformation");
+                File localFile = new File("src/weatherInformation.json");
                 FileReader fileReader = null;
                 fileReader = new FileReader(localFile);
                 BufferedReader br = new BufferedReader(fileReader);
@@ -167,13 +167,13 @@ public class OpenWeatherMapAPI {
 
         // Save weather information(file)
         if (allowingConnectionFlag) {
-            File file = new File("src/weatherInformation");
+            File file = new File("src/weatherInformation.json");
             try {
                 FileWriter fileWriter = new FileWriter(file);
                 BufferedWriter bw = new BufferedWriter(fileWriter);
                 PrintWriter pw = new PrintWriter(bw);
 
-                pw.println(data);
+                pw.println(jsonObject.toString(4));
                 pw.close();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -288,7 +288,7 @@ public class OpenWeatherMapAPI {
         long timeDiff;
 
         try {
-            File file = new File("src/weatherInformation");
+            File file = new File("src/weatherInformation.json");
             FileReader fileReader = new FileReader(file);
 
             // File time when it made

@@ -4,235 +4,14 @@ import net.sf.json.JSONObject;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by Nobu on 2017/04/28.
  */
 public class GoodDayModel {
 
-    // Item data
-    private String[][] itemList = new String[8][2];
-    // Activities data
-    private String[][] activitiesList = new String[24][2];
-    // Wind conditions data
-    private String[][] windList = new String[8][2];
-
-    /**
-     * Constructor
-     * <p>
-     * Prepares data for the following contents.
-     * Data type is this APP's contents such as activities and items.
-     * -Data type:
-     * 1 -> Activities
-     * 2 -> Item
-     * 3 -> Wind
-     * <p>
-     * Each content has category to obtain recommended information.
-     * -About detail categories, please make sure constructor's comment
-     *
-     * @return none
-     */
     public GoodDayModel() {
-
-        /**
-         * -Activities
-         *  Category-
-         *    1 => Weather is less than 0C & snow  - 5 elements
-         *    2 => Suitable for rainy days - backup category, stay at home - 5 elements
-         *    3 => Temp more than 10C, not rainy (wind is between 1 and 5m/s) - 5 elements
-         *    4 => Temp more than 10C, not rainy -  9 elements
-         *
-         * @Author Alex
-         */
-
-        /* 24 sport activities: */
-        this.activitiesList[0][0] = "Snowboarding";
-        this.activitiesList[0][1] = "1";
-        this.activitiesList[1][0] = "Skiing";
-        this.activitiesList[1][1] = "1";
-        this.activitiesList[2][0] = "Ice Skating";
-        this.activitiesList[2][1] = "1";
-        this.activitiesList[3][0] = "Hockey";
-        this.activitiesList[3][1] = "1";
-        this.activitiesList[4][0] = "Snowmobile";
-        this.activitiesList[4][1] = "1";
-        this.activitiesList[5][0] = "Yoga";
-        this.activitiesList[5][1] = "2";
-        this.activitiesList[6][0] = "Swimming";
-        this.activitiesList[6][1] = "2";
-        this.activitiesList[7][0] = "Darts";
-        this.activitiesList[7][1] = "2";
-        this.activitiesList[8][0] = "Badminton";
-        this.activitiesList[8][1] = "2";
-        this.activitiesList[9][0] = "Gym";
-        this.activitiesList[9][1] = "2";
-        this.activitiesList[10][0] = "Surfing";
-        this.activitiesList[10][1] = "3";
-        this.activitiesList[11][0] = "Kitesurfing";
-        this.activitiesList[11][1] = "3";
-        this.activitiesList[12][0] = "Windsurfing";
-        this.activitiesList[12][1] = "3";
-        this.activitiesList[13][0] = "Paragliding";
-        this.activitiesList[13][1] = "3";
-        this.activitiesList[14][0] = "Yachting";
-        this.activitiesList[14][1] = "3";
-        this.activitiesList[15][0] = "Volleyball";
-        this.activitiesList[15][1] = "4";
-        this.activitiesList[16][0] = "Jogging";
-        this.activitiesList[16][1] = "4";
-        this.activitiesList[17][0] = "Camping";
-        this.activitiesList[17][1] = "4";
-        this.activitiesList[18][0] = "Horse riding";
-        this.activitiesList[18][1] = "4";
-        this.activitiesList[19][0] = "Tennis";
-        this.activitiesList[19][1] = "4";
-        this.activitiesList[20][0] = "Climbing";
-        this.activitiesList[20][1] = "4";
-        this.activitiesList[21][0] = "Baseball";
-        this.activitiesList[21][1] = "4";
-        this.activitiesList[22][0] = "Basketball";
-        this.activitiesList[22][1] = "4";
-        this.activitiesList[23][0] = "Soccer";
-        this.activitiesList[23][1] = "4";
-
-        /**
-         * -ITEMS-
-         *  Category-
-         *
-         *  RELATED TO WEATHER
-         *    1 => Weather is sunny
-         *    2 => Weather is rainy
-         *    3 => Weather is snowy.
-         *
-         *  RELATED TO TEMPERATURE
-         *    4 => Temperature is less than 5C.
-         *    5 => Temperature is more than 5C and less than 15C.
-         *    6 => Temperature is more than 15C and less than 20C.
-         *    7 => Temperature is more than 20C and less than 30C.
-         *    8 => Temperature is more than 30C.
-         *
-         * @Author Paulo
-         *
-         */
-
-        //-----------------------------------
-        // ITEMS RELATED TO WEATHER
-        //-----------------------------------
-        this.itemList[0][0] = "Sunglasses";
-        this.itemList[0][1] = "1";
-        this.itemList[1][0] = "Umbrella";
-        this.itemList[1][1] = "2";
-        this.itemList[2][0] = "Winter boots";
-        this.itemList[2][1] = "3";
-
-        //-----------------------------------
-        // ITEMS RELATED TO TEMPERATURE
-        //-----------------------------------
-        this.itemList[3][0] = "Winter coat";
-        this.itemList[3][1] = "4";
-        this.itemList[4][0] = "Light jacket";
-        this.itemList[4][1] = "5";
-        this.itemList[5][0] = "Sweatpants";
-        this.itemList[5][1] = "6";
-        this.itemList[6][0] = "T-shirt";
-        this.itemList[6][1] = "7";
-        this.itemList[7][0] = "Water bottle";
-        this.itemList[7][1] = "8";
-
-        /* -WIND-
-         *  Categories
-         *
-         *  1 =>   0.0   to   0.3 m/s
-         *  2 =>   0.4   to   1.5 m/s
-         *  3 =>   1.6   to   3.3 m/s
-         *  4 =>   3.4   to   5.5 m/s
-         *  5 =>   5.6   to   7.9 m/s
-         *  6 =>   8.0   to  10.7 m/s
-         *  7 =>  10.8   to  13.8 m/s
-         *  8 => higher than 13.8 m/s
-         *
-         *  @Author Paulo
-         */
-
-        //---------------------
-        //  8 WIND CONDITIONS
-        //---------------------
-        this.windList[0][0] = "Calm";
-        this.windList[0][1] = "1";
-        this.windList[1][0] = "Light air";
-        this.windList[1][1] = "2";
-        this.windList[2][0] = "Light breeze";
-        this.windList[2][1] = "3";
-        this.windList[3][0] = "Gentle breeze";
-        this.windList[3][1] = "4";
-        this.windList[4][0] = "Moderate breeze";
-        this.windList[4][1] = "5";
-        this.windList[5][0] = "Fresh breeze";
-        this.windList[5][1] = "6";
-        this.windList[6][0] = "Strong breeze";
-        this.windList[6][1] = "7";
-        this.windList[7][0] = "High wind";
-        this.windList[7][1] = "8";
-
-    } //    End of GoodDayModel()
-
-    //======================================================================================
-
-    /**
-     * Searches data that provide user with GoodDay's contents.
-     *
-     * @param dataType make sure comment of this class's constructor
-     * @param category make sure comment of this class's constructor
-     * @return ArrayList, which is contained appropriate data by data type and category
-     * @throws IOException
-     * @author Nobu
-     */
-    public ArrayList<String> searchData(int dataType, String category) throws IOException {
-
-        ArrayList<String> resultData = new ArrayList<>();
-
-        String[][] searchingDataArray = this.getDataType(dataType);
-
-        for (int i = 0; i < searchingDataArray.length; i++) {
-            if (searchingDataArray[i][1].equals(category)) {
-                resultData.add(searchingDataArray[i][0]);
-            }
-        }
-
-        return resultData;
-    }
-
-    /**
-     * Obtains array data such as activitiesList and itemList,
-     * depending on dataType.
-     *
-     * @param dataType 1 -> activitiesList
-     *                 2 -> itemList
-     *                 3 -> windList
-     * @return A two-dimensional array, depending on dataType
-     * @author Nobu
-     * @Throws NotFoundDataTypeException when {dataType < 1 or dataType > 2}
-     */
-    private String[][] getDataType(int dataType) throws NotFoundDataTypeException {
-        switch (dataType) {
-            case 1:
-                return this.activitiesList;
-            case 2:
-                return this.itemList;
-            case 3:
-                return this.windList;
-            default:
-                try {
-                    throw new NotFoundDataTypeException("[Make sure dataType] dataType is not found !!");
-                } catch (NotFoundDataTypeException e) {
-                    e.printStackTrace();
-                    System.out.println("!!!System down!!!");
-                    System.exit(1);
-                    // meaningless code
-                    String[][] error = {};
-                    return error;
-                }
-        }
     }
 
     /**
@@ -281,7 +60,7 @@ public class GoodDayModel {
 
     /**
      * Finds cityID in cityID_list.json from location.
-     * This method uses cityID_table(src/goodday/CityData/cityID_table.json).
+     * This method uses cityID_table(src/goodday/files/cityID_table.json).
      * If a location can't find a city id in cityID_table.json, this return "".
      *
      * @param location
@@ -294,7 +73,7 @@ public class GoodDayModel {
         String cityID = "", line, cityIdTable;
 
         StringBuilder sb = new StringBuilder();
-        File file = new File("src/goodday/CityData/cityID_table.json");
+        File file = new File("src/goodday/files/cityID_table.json");
         FileReader filereader = null;
 
         try {
@@ -368,13 +147,12 @@ public class GoodDayModel {
     public ArrayList<String> findContentsImgName(String content, String weather, String temperature, String windCondition) {
         ArrayList<String> resultContents = new ArrayList<>();
         int temp = Integer.parseInt(temperature);
-
+        String contentsJson;
         String category = "";
 
         // Sets category
         switch (content) {
             case "Activities":
-
                 if (temp < 0) {
                     category = "Category1";
                     break;
@@ -397,22 +175,129 @@ public class GoodDayModel {
                 }
                 category = "NoCategory";
                 break;
-            default:
-                System.out.println("A content is not found.");
+            case "Items_weather":
+                if (weather.equals("Thunderstorm")) {
+                    category = "Category1";
+                    break;
+                }
 
+                if (weather.equals("Drizzle")) {
+                    category = "Category2";
+                    break;
+                }
+
+                if (weather.equals("Rainy")) {
+                    category = "Category3";
+                    break;
+                }
+
+                if (weather.equals("Snowy")) {
+                    category = "Category4";
+                    break;
+                }
+
+                if (weather.equals("Sunny")) {
+                    category = "Category5";
+                    break;
+                }
+
+                if (weather.equals("Cloudy")) {
+                    category = "Category6";
+                    break;
+                }
+            case "Items_temp":
+                if (temp < 5) {
+                    category = "Category7";
+                    break;
+                }
+
+                if (temp < 15) {
+                    category = "Category8";
+                    break;
+                }
+
+                if (temp > 30) {
+                    category = "Category11";
+                    break;
+                }
+
+                if (temp > 20) {
+                    category = "Category10";
+                    break;
+                }
+
+                if (temp >= 15) {
+                    category = "Category9";
+                    break;
+                }
+
+            default:
+                category = "Category99";
         }
 
+        if (content.equals("Items_weather") || content.equals("Items_temp")) content = "Items";
         // search contents by using category
-        FirebaseConnectionClass firebase = new FirebaseConnectionClass();
-        resultContents = firebase.searchContentsFromFirebase("Activities", category);
+        contentsJson = fileReaderFunction("src/goodday/files/Contents.json");
+
+        // Converts json type
+        JSONObject jsonContents = JSONObject.fromObject(contentsJson);
+
+        for (int i = 0; ; i++) {
+            try {
+                resultContents.add(jsonContents.getJSONArray(content).getJSONObject(0).getJSONObject(category).getString(String.valueOf(i)));
+            } catch (net.sf.json.JSONException e) {
+                break;
+            }
+        }
+        // if resultContents > 5 Shuffle  and delete over 5 content
+        if (resultContents.size() > 5) {
+            Collections.shuffle(resultContents);
+            for (int i = resultContents.size() - 1; i >= 5; i--) {
+                resultContents.remove(i);
+            }
+        }
 
         return resultContents;
     }
 
+    /**
+     * Reads a text or json file.
+     *
+     * @param filePath
+     * @return String file content
+     * @author Nobu
+     */
+    public String fileReaderFunction(String filePath) {
+        String data = "";
+        try {
 
-    public class NotFoundDataTypeException extends IOException {
-        public NotFoundDataTypeException(String message) {
-            super(message);
+            File file = new File(filePath);
+            FileReader fileReader = new FileReader(file);
+            BufferedReader br = new BufferedReader(fileReader);
+            StringBuilder sb = new StringBuilder();
+
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+            }
+            data = sb.toString();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println(filePath + " is not found.");
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println(filePath + " IOException");
         }
+
+        return data;
     }
+
+    /**
+     * @Todo delete
+     */
+//    public class NotFoundDataTypeException extends IOException {
+//        public NotFoundDataTypeException(String message) {
+//            super(message);
+//        }
+//    }
 }
