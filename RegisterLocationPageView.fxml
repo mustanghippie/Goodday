@@ -22,9 +22,9 @@
             <Font name="Arial Bold" size="60.0" />
          </font>
       </Text>
-      <TextField fx:id="inputCityName" layoutX="300.0" layoutY="235.0" prefHeight="38.0" prefWidth="781.0" style="-fx-background-color: none;" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="235.0">
+      <TextField fx:id="inputCityName" layoutX="300.0" layoutY="235.0" prefHeight="38.0" prefWidth="781.0" style="-fx-background-color: none; -fx-text-fill: #333;" promptText="location" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="220.0">
          <font>
-            <Font name="Arial" size="36.0" />
+            <Font name="Arial" size="48.0" />
          </font></TextField>
       <Text fill="#8ec760" layoutX="300.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Unit" textAlignment="CENTER" wrappingWidth="680.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="370.0">
          <font>
@@ -32,17 +32,17 @@
          </font>
       </Text>
       <Line endX="980.0" layoutX="600.0" layoutY="253.0" startX="300.0" stroke="#0000004d" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="300.0" />
-      <Text layoutX="286.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fahrenheit (°F)" wrappingWidth="351.4700927734375">
+      <Text layoutX="282.0" layoutY="524.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fahrenheit (°F)" wrappingWidth="351.4700927734375">
          <font>
             <Font name="Arial Bold" size="48.0" />
          </font>
       </Text>
-      <Text layoutX="775.0" layoutY="513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celsius (°C)" wrappingWidth="345.4700927734375">
+      <Text layoutX="771.0" layoutY="523.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celsius (°C)" wrappingWidth="345.4700927734375">
          <font>
             <Font name="Arial Bold" size="48.0" />
          </font>
       </Text>
-      <RadioButton fx:id="fahrenheitRadioButton" layoutX="223.0" layoutY="474.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0">
+      <RadioButton fx:id="fahrenheitRadioButton" layoutX="219.0" layoutY="484.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0">
          <toggleGroup>
             <ToggleGroup fx:id="registerPageRadioButton" />
          </toggleGroup>
@@ -50,7 +50,7 @@
             <Font name="Arial" size="36.0" />
          </font>
       </RadioButton>
-      <RadioButton fx:id="celsiusRadioButton" layoutX="712.0" layoutY="472.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0" textFill="WHITE" toggleGroup="$registerPageRadioButton">
+      <RadioButton fx:id="celsiusRadioButton" layoutX="708.0" layoutY="482.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0" textFill="WHITE" toggleGroup="$registerPageRadioButton">
          <font>
             <Font name="Arial" size="36.0" />
          </font></RadioButton>
