@@ -72,26 +72,26 @@
             </font>
         </Label>
 
-        <ImageView fx:id="imageActivity1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="170.0">
+        <ImageView fx:id="imageActivity1" fitHeight="100.0" fitWidth="100.0" layoutX="270.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="530.0">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image></ImageView>
-      <ImageView fx:id="imageActivity2" fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="170.0">
+      <ImageView fx:id="imageActivity2" fitHeight="100.0" fitWidth="100.0" layoutX="430.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="530.0">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivity3" fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="170.0">
+      <ImageView fx:id="imageActivity3" fitHeight="100.0" fitWidth="100.0" layoutX="590.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="530.0">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivity4" fitHeight="100.0" fitWidth="100.0" layoutX="750.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="170.0">
+      <ImageView fx:id="imageActivity4" fitHeight="100.0" fitWidth="100.0" layoutX="750.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="530.0">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="imageActivity5" fitHeight="100.0" fitWidth="100.0" layoutX="910.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="170.0">
+      <ImageView fx:id="imageActivity5" fitHeight="100.0" fitWidth="100.0" layoutX="910.0" layoutY="530.0" opacity="0.8" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="530.0">
          <image>
             <Image url="@img/Activities/NoActivity.png" />
          </image>
@@ -118,17 +118,17 @@
          <font>
             <Font name="Arial Bold" size="48.0" />
          </font></Label>
-        <ImageView fx:id="itemWeatherImage" fitHeight="200.0" fitWidth="426.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="itemWeatherImage" fitHeight="200.0" fitWidth="426.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="660.0">
          <image>
             <Image url="@img/Item_weather/NoData.png" />
          </image>
       </ImageView>
-        <ImageView fx:id="itemTempImage" fitHeight="140.0" fitWidth="426.0" layoutX="427.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="itemTempImage" fitHeight="140.0" fitWidth="426.0" layoutX="427.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="660.0">
          <image>
             <Image url="@img/Item_temp/LightJacket.png" />
          </image>
       </ImageView>
-        <ImageView fx:id="windConditionImage" fitHeight="140.0" fitWidth="426.0" layoutX="853.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+        <ImageView fx:id="windConditionImage" fitHeight="140.0" fitWidth="426.0" layoutX="853.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="660.0">
          <image>
             <Image url="@img/Item_wind/Calm.png" />
          </image>
