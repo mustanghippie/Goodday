@@ -235,7 +235,7 @@ public class OpenWeatherMapAPI {
             temp = String.valueOf(Math.round(baseTemp - 273.15f));
             return temp;
         } else {
-            temp = String.format("%.2f", ((baseTemp - 273.15f) * 9 / 5) + 32) + "°";
+            temp = String.valueOf(Math.round(baseTemp - 273.15f) * 9 / 5 + 32);
             return temp;
         }
     }
