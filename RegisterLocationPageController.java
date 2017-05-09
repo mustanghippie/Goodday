@@ -67,17 +67,18 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
 
         try {
             if (inputCityName.getText().equals("")) throw new NotSetPropertyException("Please enter your location.");
-            if(celsiusRadioButton.isSelected() == false &&
-                    fahrenheitRadioButton.isSelected() == false) throw new NotSetPropertyException("Please choose unit.");
 
             // Sets unit that a user enter
             int unit;
             if(celsiusRadioButton.isSelected() == true) unit = 1;
             else unit = 2;
-
             boolean successFlag = gdm.setUserSetting(inputCityName.getText(), unit);
+            if (!successFlag) throw new NotSetPropertyException("Couldn't find the location. Please choose a city.");
 
-            if (!successFlag) throw new NotSetPropertyException("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
+            if(celsiusRadioButton.isSelected() == false &&
+                    fahrenheitRadioButton.isSelected() == false) throw new NotSetPropertyException("Please choose unit.");
+
+
 
             Main.getInstance().sendWeatherInformationPage();
         } catch (NotSetPropertyException e){
