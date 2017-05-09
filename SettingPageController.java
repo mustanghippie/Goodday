@@ -29,7 +29,7 @@ public class SettingPageController extends AnchorPane implements Initializable {
     @FXML
     RadioButton fahrenheitRadioButton;
     @FXML
-    Label messageLabel;
+    Label labelErrorMessage, labelSuccessMessage;
     @FXML
     Button closeSettingPageBtn;
 
@@ -76,8 +76,12 @@ public class SettingPageController extends AnchorPane implements Initializable {
 
         boolean successFlag = gdm.setUserSetting(location, unit);
 
-        if(!successFlag) messageLabel.setText("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
-        else messageLabel.setText("Your setting is updated successfully");
+        if(!successFlag) {
+            labelErrorMessage.setText("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
+        } else {
+            labelSuccessMessage.setText("Your setting is updated successfully");
+            gdm.deleteFileFunction("src/weatherInformation.json");
+        }
     }
 
     @FXML
@@ -118,17 +122,5 @@ public class SettingPageController extends AnchorPane implements Initializable {
             System.out.println("IOException");
         }
         TextFields.bindAutoCompletion(locationName, suggestion);
-    }
-
-    /**
-     * Shows error message on Register Location Page
-     * when a user doesn't enter location or unit setting.
-     *
-     * @author Nobu
-     */
-    public class NotSetPropertyException extends IOException {
-        public NotSetPropertyException(String message) {
-            super(message);
-        }
     }
 }
