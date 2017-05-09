@@ -25,6 +25,7 @@ public class Main extends Application {
         stage = primaryStage;
         stage.setWidth(1280);
         stage.setHeight(800);
+        stage.setResizable(false);
 
         // If user's setting doesn't exist, this skips Register Location Page
         if(!checkUserExists()) this.sendRegisterLocationPage();
