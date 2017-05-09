@@ -27,8 +27,8 @@ public class Main extends Application {
         stage.setHeight(800);
 
         // If user's setting doesn't exist, this skips Register Location Page
-        if(!checkUserExists()) this.sendRegisterLocationPage("This is RegisterLocationPage.");
-        else this.sendWeatherInformationPage("This is RegisterLocationPage.");
+        if(!checkUserExists()) this.sendRegisterLocationPage();
+        else this.sendWeatherInformationPage();
 
         stage.show();
     }
@@ -73,9 +73,9 @@ public class Main extends Application {
      * @author Nobu
      *
      */
-    public void sendRegisterLocationPage(String message){
+    public void sendRegisterLocationPage(){
         stage.setTitle("Register Location Page");
-        RegisterLocationPageController rlpController = new RegisterLocationPageController(message);
+        RegisterLocationPageController rlpController = new RegisterLocationPageController();
         this.replaceSceneContent(rlpController);
     }
 
@@ -84,13 +84,13 @@ public class Main extends Application {
      *
      * @author Nobu
      */
-    public void sendWeatherInformationPage(String message){
+    public void sendWeatherInformationPage(){
         stage.setTitle("Weather Information Page");
-        WeatherInformationPageController wipController = new WeatherInformationPageController(message);
+        WeatherInformationPageController wipController = new WeatherInformationPageController();
         this.replaceSceneContent(wipController);
     }
 
-    public void sendSettingPage(String message){
+    public void sendSettingPage(){
         stage.setTitle("Setting Page");
         SettingPageController spController = new SettingPageController();
         this.replaceSceneContent(spController);
@@ -118,7 +118,7 @@ public class Main extends Application {
      * @return boolean true => a file exists, false => a file doesn't exists
      * @throws IOException
      */
-    public boolean checkUserExists() throws IOException{
+    private boolean checkUserExists() throws IOException{
         try {
             File file = new File("src/user_setting_file.json");
             FileReader fileReader = new FileReader(file);

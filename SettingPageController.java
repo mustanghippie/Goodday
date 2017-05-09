@@ -34,12 +34,10 @@ public class SettingPageController extends AnchorPane implements Initializable {
     Button closeSettingPageBtn;
 
     public SettingPageController() {
-
         loadFXML();
-
     }
 
-    public void loadFXML() {
+    private void loadFXML() {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("SettingPage.fxml"));
         fxmlLoader.setRoot(this);
 
@@ -85,8 +83,8 @@ public class SettingPageController extends AnchorPane implements Initializable {
     }
 
     @FXML
-    public void goToWeatherInformationPage() {
-        Main.getInstance().sendWeatherInformationPage("");
+    protected void goToWeatherInformationPage() {
+        Main.getInstance().sendWeatherInformationPage();
     }
 
     @Override

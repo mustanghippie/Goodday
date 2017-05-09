@@ -1,18 +1,14 @@
 @startuml
 
 actor User
-actor GoogleMapAPI
 actor OpenWeatherMapAPI
 
 left to right direction
 
 rectangle GoodDay{
-    User -> (Get location)
     User -> (Get weather information)
     User -> (Get sport activities)
     User -> (Get accessories)
-    OpenWeatherMapAPI -left-> (Get weather information)
-    GoogleMapAPI -left-> (Set location)
     OpenWeatherMapAPI -left-> (Set weather information)
 }
 

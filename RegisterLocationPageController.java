@@ -20,20 +20,16 @@ import java.util.ResourceBundle;
 public class RegisterLocationPageController extends AnchorPane implements Initializable {
 
     @FXML
-    Label errorLabelRegisterPage;
+    private Label errorLabelRegisterPage;
     @FXML
-    TextField inputCityName;
+    private TextField inputCityName;
     @FXML
-    RadioButton fahrenheitRadioButton, celsiusRadioButton;
+    private RadioButton fahrenheitRadioButton, celsiusRadioButton;
 
-    GoodDayModel gdm = new GoodDayModel();
-
-    private String message;
+    private GoodDayModel gdm = new GoodDayModel();
 
     // Constructor
-    RegisterLocationPageController(String message) {
-        this.message = message;
-
+    RegisterLocationPageController() {
         loadFXML();
     }
 
@@ -83,7 +79,7 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
 
             if (!successFlag) throw new NotSetPropertyException("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
 
-            Main.getInstance().sendWeatherInformationPage("This is Weather Information Page.");
+            Main.getInstance().sendWeatherInformationPage();
         } catch (NotSetPropertyException e){
             errorLabelRegisterPage.setText(e.getMessage());
         }
