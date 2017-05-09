@@ -29,21 +29,14 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @FXML
     private ImageView imageActivity1, imageActivity2, imageActivity3, imageActivity4, imageActivity5, itemWeatherImage, itemTempImage, windConditionImage, backgroundImage;
 
-    private AnchorPane anchorPaneBack;
-
     private GoodDayModel gdm = new GoodDayModel();
     private OpenWeatherMapAPI owma = new OpenWeatherMapAPI();
 
-    private String message;
-
-    public WeatherInformationPageController(String message){
-        this.message = message;
-
+    public WeatherInformationPageController( ){
         loadFXML();
-
     }
 
-    public void loadFXML(){
+    private void loadFXML(){
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("WeatherInformationPageView.fxml"));
         fxmlLoader.setRoot(this);
 
@@ -58,8 +51,8 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     }
 
     @FXML
-    protected void GoToSettingPage(){
-        Main.getInstance().sendSettingPage("This is Setting Page.");
+    protected void goToSettingPage(){
+        Main.getInstance().sendSettingPage();
     }
 
     @FXML
@@ -72,7 +65,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
 
     }
 
-    public void changeLayoutByHour(String btnTime){
+    private void changeLayoutByHour(String btnTime){
 
         // Weather information from Open Weather Map API
         HashMap<String, HashMap<String, String>> weatherInformation = owma.openWeatherMap();

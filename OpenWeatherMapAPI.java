@@ -22,16 +22,17 @@ import java.util.Map;
 public class OpenWeatherMapAPI {
 
     private String apiKey = "";
-    private Map<String, String> resultWeatherInformation;
     private GoodDayModel gdm = new GoodDayModel();
 
     public OpenWeatherMapAPI() {
         // Prepare open weather map API key
         String keyValue = gdm.fileReaderFunction("src/key");
-        this.setApiKey(keyValue);
+        this.apiKey = keyValue;
     }
 
     /**
+     * Obtains weather information.
+     *
      * @return
      * @author Alex
      */
@@ -39,7 +40,7 @@ public class OpenWeatherMapAPI {
 
         String cityID = gdm.getUserData().get(0);
 
-        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.getApiKey();
+        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.apiKey;
         // Result weather information from API
         String data;
         String line; // one line from API result or a file
@@ -158,8 +159,7 @@ public class OpenWeatherMapAPI {
      * @return wind condition
      * @ author Nobu
      */
-    public String convertWindConditionName(double windSpeed) {
-        String windCondition = "";
+    private String convertWindConditionName(double windSpeed) {
 
         if (windSpeed <= 0.3) return "Calm";
         if (windSpeed <= 1.5) return "LightAir";
@@ -179,7 +179,7 @@ public class OpenWeatherMapAPI {
      * @return String
      * @author Nobu
      */
-    public String convertWeatherSimply(String weather) {
+    private String convertWeatherSimply(String weather) {
         String simpleWeather = "";
 
         if (simpleWeather == null) System.out.println("Null Error");
@@ -226,7 +226,7 @@ public class OpenWeatherMapAPI {
      * @return temp C or F
      * @author Alex
      */
-    public String getTemperature(double baseTemp) {
+    private String getTemperature(double baseTemp) {
 
         String unit = gdm.getUserData().get(2); // checking which unit user chose C or F
         String temp;
@@ -248,7 +248,7 @@ public class OpenWeatherMapAPI {
      * @throws IOException file read error, a user use this APP for the first time
      * @author Juria
      */
-    public boolean getAllowingConnectionFlag() {
+    private boolean getAllowingConnectionFlag() {
 
         Long lastModified;
         long currentTime;
@@ -272,13 +272,5 @@ public class OpenWeatherMapAPI {
             return true;
         }
 
-    }
-
-    public String getApiKey() {
-        return apiKey;
-    }
-
-    public void setApiKey(String apiKey) {
-        this.apiKey = apiKey;
     }
 }

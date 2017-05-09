@@ -7,7 +7,9 @@ class Main{
     +start()
     +sendRegisterLocationPage()
     +sendWeatherInformationPage()
-    -replaceSceneContent
+    +sendSettingPage()
+    -replaceSceneContent()
+    -checkUserExists()
     +static Main getInstance() return instance
 
 }
@@ -24,51 +26,88 @@ class SettingPageView{
   FXML
 }
 
+class FirebaseConnectionClass{
+  -KEY
+  -URL
+  +FirebaseConnectionClass()
+  -updateContentsJson()
+}
+
 class RegisterLocationPageController{
+  -errorLabelRegisterPage: @FXML Label
+  -inputCityName: @FXML TextField
+  -fahrenheitRadioButton: @FXML RadioButton
+  -celsiusRadioButton: @FXML RadioButton
   +RegisterLocationPageController()
-  +setUserSetting()
-  +getUserSetting()
-  +getCityData()
+  -loadFXML()
+  #registerLocationBtn()
+  +initialize()
 }
 
 class WeatherInformationPageController{
+  -labelLocation: @FXML Label
+  -labelWeather: @FXML Label
+  -labelTemp: @FXML Label
+  -labelUnit: @FXML Label
+  -btn3hour: @FXML Button
+  -btn6hour: @FXML Button
+  -btn9hour: @FXML Button
+  -imageActivity1: @FXML ImageView
+  -imageActivity2: @FXML ImageView
+  -imageActivity3: @FXML ImageView
+  -imageActivity4: @FXML ImageView
+  -imageActivity5: @FXML ImageView
+  -itemWeatherImage: @FXML ImageView
+  -itemTempImage: @FXML ImageView
+  -windConditionImage: @FXML ImageView
+  -backgroundImage: @FXML ImageView
   +WeatherInformationPageController()
-  +setUserSetting()
-  +getUserSetting()
-  +getCityData()
-  +getWeatherInformation()
-  +getActivities()
-  +getActivityDetail()
-  +getItems()
+  -loadFXML()
+  #goToSettingPage()
+  #changeWeatherTimeBtn()
+  -changeLayoutByHour()
+  -makeImagePath()
+  +initialize()
 }
 
 class SettingPageController{
+  -locationName: @FXML TextField
+  -celsiusRadioButton: @FXML RadioButton
+  -fahrenheitRadioButton: @FXML RadioButton
+  -labelErrorMessage: @FXML Label
+  -labelSuccessMessage: @FXML Label
+  -closeSettingPageBtn: @FXML Button
   +SettingPageController()
-  +setUserSetting()
-  +getUserSetting()
-
+  -loadFXML()
+  #applyChanges()
+  #goToWeatherInformationPage()
+  +initialize()
 }
 
 class GoodDayModel{
-  -userData Array
-  -itemData Array
-  -activitiesData Array
-  +GoodDayModel() // Prepare data
-  +saveUserData()
-  +getData()
-  +googleMapApi()
+  +GoodDayModel()
+  +setUserSetting()
+  -searchCityID()
+  +getUserData()
+  +findContentsImgName()
+  +fileReaderFunction()
+  +deleteFileFunction()
 }
 
 class OpenWeatherMapAPI{
   -String apiKey;
-  -HashMap<String,String>
   +OpenWeatherMapAPI() // Prepare data
   +openWeatherMap() resultWeatherInformation
+  -convertWindConditionName()
+  -convertWeatherSimply()
+  -getTemperature()
+  -getAllowingConnectionFlag()
 }
 
 Main -- RegisterLocationPageView
 Main -- WeatherInformationPageView
 Main -- SettingPageView
+Main -- FirebaseConnectionClass
 RegisterLocationPageView -- RegisterLocationPageController
 WeatherInformationPageView -- WeatherInformationPageController
 SettingPageView -- SettingPageController
@@ -76,5 +115,6 @@ SettingPageController -- GoodDayModel
 RegisterLocationPageController -- GoodDayModel
 WeatherInformationPageController -- GoodDayModel
 WeatherInformationPageController -- OpenWeatherMapAPI
+GoodDayModel -- OpenWeatherMapAPI
 
 @enduml

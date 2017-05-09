@@ -14,8 +14,8 @@ import java.util.List;
  */
 public class FirebaseConnectionClass {
 
-    //private final String JSON_FILE_NAME = "src/GoodDayFirebase-f6bbd78d2cde.json";
-    private final String JSON_FILE_NAME = "src/goodday/files/ReadOnlyAccount.json";
+    //private final String KEY = "src/GoodDayFirebase-f6bbd78d2cde.json";
+    private final String KEY = "src/goodday/files/ReadOnlyAccount.json";
     private final String URL = "https://gooddayfirebase.firebaseio.com/";
 
     private List<String> contents = new ArrayList<String>() {{
@@ -28,7 +28,7 @@ public class FirebaseConnectionClass {
     public FirebaseConnectionClass() {
         InputStream stream_json = null;
         try {
-            stream_json = new FileInputStream(JSON_FILE_NAME);
+            stream_json = new FileInputStream(KEY);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             System.out.println("FileNotFound@FirebaseConnectionClass");
