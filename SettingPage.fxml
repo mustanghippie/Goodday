@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
@@ -43,12 +46,25 @@
             <ToggleGroup fx:id="changeUnitRadioButton" />
          </toggleGroup></RadioButton>
       <RadioButton fx:id="celsiusRadioButton" layoutX="748.0" layoutY="554.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="0.0" textFill="WHITE" toggleGroup="$changeUnitRadioButton" />
-      <Label fx:id="messageLabel" alignment="CENTER" layoutX="276.0" layoutY="24.0" prefHeight="113.0" prefWidth="670.0" textFill="RED">
+      <Label fx:id="labelErrorMessage" alignment="CENTER" layoutX="276.0" layoutY="24.0" prefHeight="113.0" prefWidth="670.0" textFill="RED">
          <font>
             <Font name="Helvetica Neue" size="24.0" />
          </font>
       </Label>
-      <Button fx:id="closeSettingPageBtn" layoutX="1091.0" layoutY="40.0" mnemonicParsing="false" onAction="#goToWeatherInformationPage" text="close" />
+      <Label fx:id="labelSuccessMessage" alignment="CENTER" layoutX="276.0" layoutY="24.0" prefHeight="113.0" prefWidth="670.0" textFill="#43dd28">
+         <font>
+            <Font name="Helvetica Neue" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeSettingPageBtn" layoutX="1134.0" layoutY="18.0" mnemonicParsing="false" onAction="#goToWeatherInformationPage" text="close" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <padding>
+            <Insets bottom="25.0" left="30.0" right="30.0" top="25.0" />
+         </padding></Button>
+      <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/icon_close.png" />
+         </image>
+      </ImageView>
       <TextField fx:id="locationName" layoutX="257.0" layoutY="251.0" prefHeight="35.0" prefWidth="590.0" promptText="location" style="-fx-background-color: Black;">
          <font>
             <Font name="Helvetica Neue" size="48.0" />

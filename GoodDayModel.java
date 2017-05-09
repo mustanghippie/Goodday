@@ -3,8 +3,7 @@ package goodday;
 import net.sf.json.JSONObject;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 /**
  * Created by Nobu on 2017/04/28.
@@ -28,6 +27,7 @@ public class GoodDayModel {
      */
     public boolean setUserSetting(String location, int unit) {
 
+        Map<String, String> userSetting = new LinkedHashMap<>();
 
         // Finds cityID from location
         String cityID = this.searchCityID(location);
@@ -35,25 +35,48 @@ public class GoodDayModel {
         // If location can't find, return false
         if (cityID.equals("")) return false;
 
-        // Save user's setting as a file in local
-        PrintWriter pw = null;
-
-        File file = new File("src/user_setting_file");
-        FileWriter fileWriter = null;
-        try {
-            fileWriter = new FileWriter(file);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        BufferedWriter bw = new BufferedWriter(fileWriter);
-        pw = new PrintWriter(bw);
-
         String degree;
-
         if (unit == 1) degree = "Celsius";
         else degree = "Fahrenheit";
-        pw.println(cityID + "\n" + location + "\n" + degree);
-        pw.close();
+
+        // make json type
+        userSetting.put("cityID", cityID);
+        userSetting.put("cityName", location);
+        userSetting.put("unit", degree);
+
+        JSONObject jsonUserSetting = JSONObject.fromObject(userSetting);
+
+        try {
+            // Save user's setting as a file in local
+            File file = new File("src/user_setting_file.json");
+            FileWriter fileWriter = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fileWriter);
+            PrintWriter pw = new PrintWriter(bw);
+
+            pw.println(jsonUserSetting.toString(4));
+            pw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("FileWriteError@GoodDayModel:setUserSetting");
+            return false;
+        }
+
+//        File file = new File("src/user_setting_file");
+//        FileWriter fileWriter = null;
+//        try {
+//            fileWriter = new FileWriter(file);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        BufferedWriter bw = new BufferedWriter(fileWriter);
+//        pw = new PrintWriter(bw);
+//
+//        String degree;
+//
+//        if (unit == 1) degree = "Celsius";
+//        else degree = "Fahrenheit";
+//        pw.println(cityID + "\n" + location + "\n" + degree);
+//        pw.close();
 
         return true;
     }
@@ -106,44 +129,37 @@ public class GoodDayModel {
 
     /**
      * Finds and reads user_setting_file.
-     * Creates empty arraylist and add to it user data:city Id, city name and temp. unit.
+     * Creates empty ArrayList and add to it user data:city Id, city name and temp. unit.
      *
      * @return userData ArrayList 0 => ID, 1 => city name, 2 => unit
      * @author Alex
      */
     public ArrayList<String> getUserData() {
 
-
         ArrayList<String> userData = new ArrayList<>();
+        String unit;
+        JSONObject jsonUserSetting = JSONObject.fromObject(this.fileReaderFunction("src/user_setting_file.json"));
 
+        if (jsonUserSetting.getString("unit").equals("Celsius")) unit = "C°";
+        else unit = "F°";
 
-        try {
-            File file = new File("src/user_setting_file");
-            FileReader filereader = new FileReader(file);
-            BufferedReader br = new BufferedReader(filereader);
-
-            userData.add(br.readLine());// cityId index 0
-            userData.add(br.readLine()); //city name index 1
-            String unit = "";
-            if (br.readLine().equals("Celsius")) {
-                unit = "C°";
-            } else {
-                unit = "F°";
-            }
-            userData.add(unit); //temp unit index 2
-
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-            System.out.println("FileNotFound@getUserData()");
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("IOException@getUserData()");
-        }
+        userData.add(jsonUserSetting.getString("cityID"));// cityId index 0
+        userData.add(jsonUserSetting.getString("cityName"));// city name index 1
+        userData.add(unit); //temp unit index 2
 
         return userData;
     }
 
+    /**
+     * Obtains image path by using category.
+     *
+     * @param content
+     * @param weather
+     * @param temperature
+     * @param windCondition
+     * @return ArrayList image name (Activities, item_weather, item_temperature, wind condition)
+     * @author Nobu
+     */
     public ArrayList<String> findContentsImgName(String content, String weather, String temperature, String windCondition) {
         ArrayList<String> resultContents = new ArrayList<>();
         int temp = Integer.parseInt(temperature);
@@ -173,7 +189,7 @@ public class GoodDayModel {
                     category = "Category4";
                     break;
                 }
-                category = "NoCategory";
+                category = "Category2";
                 break;
             case "Items_weather":
                 if (weather.equals("Thunderstorm")) {
@@ -291,4 +307,24 @@ public class GoodDayModel {
 
         return data;
     }
+
+    /**
+     * Deletes a file function.
+     * If it could delete a file, return true.
+     *
+     * @param filePath
+     * @return boolean delete successfully => true, fails to delete -> false
+     */
+    protected boolean deleteFileFunction(String filePath){
+
+        File file = new File(filePath);
+
+        if(file.exists()){
+            file.delete();
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 }

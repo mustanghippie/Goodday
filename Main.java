@@ -48,7 +48,7 @@ public class Main extends Application {
 
     /**
      * Debug code
-     * You can check items and activities data in Model class
+     * You can check items and activities data
      *
      * @author Nobu
      * @param flag
@@ -120,7 +120,7 @@ public class Main extends Application {
      */
     public boolean checkUserExists() throws IOException{
         try {
-            File file = new File("src/user_setting_file");
+            File file = new File("src/user_setting_file.json");
             FileReader fileReader = new FileReader(file);
         } catch (FileNotFoundException e) {
             return false;

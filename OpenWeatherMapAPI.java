@@ -37,7 +37,6 @@ public class OpenWeatherMapAPI {
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
 
-        // VancouverID 6173331
         String cityID = gdm.getUserData().get(0);
 
         String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.getApiKey();
