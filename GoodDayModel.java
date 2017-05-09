@@ -60,24 +60,6 @@ public class GoodDayModel {
             System.out.println("FileWriteError@GoodDayModel:setUserSetting");
             return false;
         }
-
-//        File file = new File("src/user_setting_file");
-//        FileWriter fileWriter = null;
-//        try {
-//            fileWriter = new FileWriter(file);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//        BufferedWriter bw = new BufferedWriter(fileWriter);
-//        pw = new PrintWriter(bw);
-//
-//        String degree;
-//
-//        if (unit == 1) degree = "Celsius";
-//        else degree = "Fahrenheit";
-//        pw.println(cityID + "\n" + location + "\n" + degree);
-//        pw.close();
-
         return true;
     }
 
