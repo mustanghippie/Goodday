@@ -12,7 +12,7 @@ import org.controlsfx.control.textfield.TextFields;
 
 import java.io.*;
 import java.net.URL;
-import java.util.ArrayList;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
@@ -91,18 +91,18 @@ public class SettingPageController extends AnchorPane implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
 
         // User setting
-        ArrayList<String> userData = gdm.getUserData();
+        Map<String,String> userData = gdm.getUserData();
         // Sets user's city name
-        locationName.setPromptText(userData.get(1));
+        locationName.setPromptText(userData.get("cityName"));
         // Sets user's unit
-        if (userData.get(2).equals("C°")) celsiusRadioButton.setSelected(true);
+        if (userData.get("unit").equals("C°")) celsiusRadioButton.setSelected(true);
         else fahrenheitRadioButton.setSelected(true);
 
         // suggestion function
-        String[] suggestion = new String[35586];
+        String[] suggestion = new String[6556];
 
         try {
-            File file = new File("src/goodday/files/city_name_list");
+            File file = new File("src/goodday/files/Suggestion_list");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 

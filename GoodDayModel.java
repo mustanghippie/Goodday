@@ -3,22 +3,21 @@ package goodday;
 import net.sf.json.JSONObject;
 
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 /**
  * Created by Nobu on 2017/04/28.
  */
 public class GoodDayModel {
-
+    
     public GoodDayModel() {
     }
 
     /**
-     * Saves user's location that is inputted from keyboard as a file.
-     * File data format:
-     * {cityID}\n
-     * {cityName}\n
-     * {unit}\n
+     * Saves user's setting that is inputted from keyboard as a json file.
      *
      * @param location
      * @param unit     1 => Celsius, 2 => Fahrenheit
@@ -28,22 +27,31 @@ public class GoodDayModel {
     public boolean setUserSetting(String location, int unit) {
 
         Map<String, String> userSetting = new LinkedHashMap<>();
-
-        // Finds cityID from location
-        String cityID = this.searchCityID(location);
+        String degree;
+        String lat,lon; // Latitude Longitude
+        String timeZone;
 
         // If location can't find, return false
-        if (cityID.equals("")) return false;
+        if (!this.searchCityName(location)) return false;
 
-        String degree;
+        // Gets latitude and longitude
+        lat = this.getLatitudeAndLongitude(location)[0];
+        lon = this.getLatitudeAndLongitude(location)[1];
+
+        // Gets time zone
+        timeZone = this.getTimeZone(location);
+
         if (unit == 1) degree = "Celsius";
         else degree = "Fahrenheit";
 
         // make json type
-        userSetting.put("cityID", cityID);
         userSetting.put("cityName", location);
         userSetting.put("unit", degree);
+        userSetting.put("lat",lat);
+        userSetting.put("lon", lon);
+        userSetting.put("timeZone", timeZone);
 
+        // Translates json object
         JSONObject jsonUserSetting = JSONObject.fromObject(userSetting);
 
         try {
@@ -64,6 +72,57 @@ public class GoodDayModel {
     }
 
     /**
+     * Finds time zone in City_list.json by using location(city name).
+     * Make sure location exists in City_list.json before you use this method.
+     *
+     * @Nobu
+     * @param location
+     * @return String time zone of the location
+     */
+    private String getTimeZone(String location){
+
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
+        return (String)jsonCityList.getJSONObject(location).get("timeZone");
+    }
+
+    /**
+     * Finds latitude and longitude in City_list.json by using location(city name).
+     * Make sure location exists in City_list.json before you use this method.
+     *
+     * @param location
+     * @return String[] 0 => latitude, 1 => longitude
+     */
+    private String[] getLatitudeAndLongitude(String location){
+        String[] latAndLon = new String[2];
+
+
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
+        latAndLon[0] = (String)jsonCityList.getJSONObject(location).get("lat");
+        latAndLon[1] = (String)jsonCityList.getJSONObject(location).get("lon");
+
+        return latAndLon;
+    }
+
+    /**
+     * Finds city name in City_list.json from location.
+     * If a location can't find a city id in city_list.json, this returns FALSE.
+     *
+     * @author Nobu
+     * @param location
+     * @return
+     */
+    private boolean searchCityName(String location){
+        // search
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
+        if((jsonCityList.get(location)) == null) return false;
+        return true;
+    }
+
+    /**
+     * @deprecated
+     *
+     * This method will be deleted.
+     *
      * Finds cityID in cityID_list.json from location.
      * This method uses cityID_table(src/goodday/files/cityID_table.json).
      * If a location can't find a city id in cityID_table.json, this return "".
@@ -116,18 +175,21 @@ public class GoodDayModel {
      * @return userData ArrayList 0 => ID, 1 => city name, 2 => unit
      * @author Alex
      */
-    public ArrayList<String> getUserData() {
+    public Map<String,String> getUserData() {
 
-        ArrayList<String> userData = new ArrayList<>();
+        //ArrayList<String> userData = new ArrayList<>();
+        Map<String,String> userData = new LinkedHashMap<>();
         String unit;
         JSONObject jsonUserSetting = JSONObject.fromObject(this.fileReaderFunction("src/user_setting_file.json"));
 
         if (jsonUserSetting.getString("unit").equals("Celsius")) unit = "C°";
         else unit = "F°";
 
-        userData.add(jsonUserSetting.getString("cityID"));// cityId index 0
-        userData.add(jsonUserSetting.getString("cityName"));// city name index 1
-        userData.add(unit); //temp unit index 2
+        userData.put("cityName",jsonUserSetting.getString("cityName"));
+        userData.put("unit", unit);
+        userData.put("lat", jsonUserSetting.getString("lat"));
+        userData.put("lon", jsonUserSetting.getString("lon"));
+        userData.put("timeZone", jsonUserSetting.getString("timeZone"));
 
         return userData;
     }

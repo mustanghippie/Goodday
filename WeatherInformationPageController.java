@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 /**
@@ -159,12 +160,12 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     public void initialize(URL location, ResourceBundle resources) {
 
         // user data 0 => ID, 1 => city name, 2 => unit
-        ArrayList<String> userData = gdm.getUserData();
+        Map<String,String> userData = gdm.getUserData();
 
         // Sets a location
-        labelLocation.setText(userData.get(1));
+        labelLocation.setText(userData.get("cityName"));
         // Sets unit
-        labelUnit.setText(userData.get(2));
+        labelUnit.setText(userData.get("unit"));
         // Initialize default information(now)
         changeLayoutByHour("btnNow");
 

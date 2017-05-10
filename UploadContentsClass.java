@@ -39,7 +39,7 @@ public class UploadContentsClass {
          * -Activities
          *  Category-
          *    1 => Weather is less than 0C & snow  - 5 elements
-         *    2 => Suitable for rainy days - backup category, stay at home - 5 elements
+         *    2 => Suitable for rainy days - MakeCityJson category, stay at home - 5 elements
          *    3 => Temp more than 10C, not rainy (wind is between 1 and 5m/s) - 5 elements
          *    4 => Temp more than 10C, not rainy -  9 elements
          *
