@@ -10,7 +10,7 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.Locale;
-import java.util.Map;
+import java.util.TimeZone;
 
 
 /**
@@ -38,9 +38,12 @@ public class OpenWeatherMapAPI {
      */
     public HashMap<String, HashMap<String, String>> openWeatherMap() {
 
-        String cityID = gdm.getUserData().get(0);
+        // Gets latitude 緯度 longitude 経度
+        String lat = gdm.getUserData().get("lat");
+        String lon = gdm.getUserData().get("lon");
 
-        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.apiKey;
+        //String requestURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&APPID=" + this.apiKey;
+        String requestURL = "http://api.openweathermap.org/data/2.5/forecast?lat=" +lat +"&lon=" +lon +"&APPID=" + this.apiKey;
         // Result weather information from API
         String data;
         String line; // one line from API result or a file
@@ -93,9 +96,13 @@ public class OpenWeatherMapAPI {
             // Calculates time from time stamp
             long unixTimeStamp = Long.parseLong(jObject.getString("dt"));
             java.util.Date conversionTime = new java.util.Date(unixTimeStamp * 1000);
+
+            // Sets time zone
+            TimeZone tz = TimeZone.getTimeZone(gdm.getUserData().get("timeZone"));
             SimpleDateFormat format = new SimpleDateFormat("h:mm a", Locale.CANADA);
+            format.setTimeZone(tz);
             String time = format.format(conversionTime);
-            // Wind condition
+
             String windCondition = convertWindConditionName(jObject.getJSONObject("wind").getDouble("speed"));
 
             switch (i) {
@@ -155,9 +162,9 @@ public class OpenWeatherMapAPI {
     /**
      * Converts wind speed to wind condition.
      *
+     * @author Nobu
      * @param windSpeed
      * @return wind condition
-     * @ author Nobu
      */
     private String convertWindConditionName(double windSpeed) {
 
@@ -228,7 +235,7 @@ public class OpenWeatherMapAPI {
      */
     private String getTemperature(double baseTemp) {
 
-        String unit = gdm.getUserData().get(2); // checking which unit user chose C or F
+        String unit = gdm.getUserData().get("unit"); // checking which unit user chose C or F
         String temp;
 
         if (unit.equals("C°")) {
