@@ -67,7 +67,7 @@ public class SettingPageController extends AnchorPane implements Initializable {
         String location = locationName.getText();
         int unit = 0;
 
-        if (location.equals("")) location = gdm.getUserData().get(1);
+        if (location.equals("")) location = gdm.getUserData().get("cityName");
 
         if (fahrenheitRadioButton.isSelected() == true) unit = 2;
         if (celsiusRadioButton.isSelected() == true) unit = 1;
@@ -102,7 +102,7 @@ public class SettingPageController extends AnchorPane implements Initializable {
         String[] suggestion = new String[6556];
 
         try {
-            File file = new File("src/goodday/files/Suggestion_list");
+            File file = new File("src/goodday/files/Suggestion_list.txt");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 

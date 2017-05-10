@@ -102,7 +102,7 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
         String[] suggestion = new String[6556];
 
         try {
-            File file = new File("src/goodday/files/Suggestion_list");
+            File file = new File("src/goodday/files/Suggestion_list.txt");
             FileReader filereader = new FileReader(file);
             BufferedReader br = new BufferedReader(filereader);
 
