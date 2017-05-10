@@ -22,7 +22,7 @@
             <Font name="Arial Bold" size="60.0" />
          </font>
       </Text>
-      <TextField fx:id="inputCityName" layoutX="300.0" layoutY="235.0" prefHeight="38.0" prefWidth="781.0" style="-fx-background-color: none; -fx-text-fill: #333;" promptText="location" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="220.0">
+      <TextField fx:id="inputCityName" layoutX="300.0" layoutY="235.0" prefHeight="38.0" prefWidth="781.0" style="-fx-background-color: none; -fx-text-fill: #333;" promptText="Search location" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="300.0" AnchorPane.topAnchor="220.0">
          <font>
             <Font name="Arial" size="48.0" />
          </font></TextField>
