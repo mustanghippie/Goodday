@@ -75,7 +75,7 @@ public class SettingPageController extends AnchorPane implements Initializable {
         boolean successFlag = gdm.setUserSetting(location, unit);
 
         if(!successFlag) {
-            labelErrorMessage.setText("Sorry, we could't find your city.\nPlease try to enter a nearby city. ");
+            labelErrorMessage.setText("Couldn't find the location. Please choose a city.");
         } else {
             labelSuccessMessage.setText("Your setting is updated successfully");
             gdm.deleteFileFunction("src/weatherInformation.json");
