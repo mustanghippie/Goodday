@@ -1,0 +1,1448 @@
+{
+    "Ozubulu, NG":     {
+        "cityName": "Ozubulu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.85305",
+        "lat": "5.95753"
+    },
+    "Gwarzo, NG":     {
+        "cityName": "Gwarzo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.9337",
+        "lat": "11.91597"
+    },
+    "Monguno, NG":     {
+        "cityName": "Monguno, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.61224",
+        "lat": "12.67059"
+    },
+    "Bode Saadu, NG":     {
+        "cityName": "Bode Saadu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.78227",
+        "lat": "8.939"
+    },
+    "Calabar, NG":     {
+        "cityName": "Calabar, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.32695",
+        "lat": "4.95893"
+    },
+    "Azare, NG":     {
+        "cityName": "Azare, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.19069",
+        "lat": "11.67478"
+    },
+    "Soba, NG":     {
+        "cityName": "Soba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.05749",
+        "lat": "10.98133"
+    },
+    "Obudu, NG":     {
+        "cityName": "Obudu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.16453",
+        "lat": "6.66819"
+    },
+    "Makoko, NG":     {
+        "cityName": "Makoko, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.38778",
+        "lat": "6.49611"
+    },
+    "Zungeru, NG":     {
+        "cityName": "Zungeru, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.15238",
+        "lat": "9.80726"
+    },
+    "Ifo, NG":     {
+        "cityName": "Ifo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.19518",
+        "lat": "6.81491"
+    },
+    "Magumeri, NG":     {
+        "cityName": "Magumeri, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.8262",
+        "lat": "12.11451"
+    },
+    "Abuja, NG":     {
+        "cityName": "Abuja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.49508",
+        "lat": "9.05785"
+    },
+    "Ikom, NG":     {
+        "cityName": "Ikom, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.70632",
+        "lat": "5.96669"
+    },
+    "Suleja, NG":     {
+        "cityName": "Suleja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.17939",
+        "lat": "9.18059"
+    },
+    "Nafada, NG":     {
+        "cityName": "Nafada, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.33261",
+        "lat": "11.09596"
+    },
+    "Igbeti, NG":     {
+        "cityName": "Igbeti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.13113",
+        "lat": "8.74921"
+    },
+    "Jega, NG":     {
+        "cityName": "Jega, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.37963",
+        "lat": "12.22219"
+    },
+    "Tambuwal, NG":     {
+        "cityName": "Tambuwal, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.64605",
+        "lat": "12.40592"
+    },
+    "Ikot Ekpene, NG":     {
+        "cityName": "Ikot Ekpene, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.71481",
+        "lat": "5.18194"
+    },
+    "Nsukka, NG":     {
+        "cityName": "Nsukka, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.39577",
+        "lat": "6.85783"
+    },
+    "Gaya, NG":     {
+        "cityName": "Gaya, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.0027",
+        "lat": "11.86064"
+    },
+    "Wudil, NG":     {
+        "cityName": "Wudil, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.84422",
+        "lat": "11.80937"
+    },
+    "Ikire, NG":     {
+        "cityName": "Ikire, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.18739",
+        "lat": "7.37241"
+    },
+    "Darazo, NG":     {
+        "cityName": "Darazo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.41062",
+        "lat": "10.9992"
+    },
+    "Wukari, NG":     {
+        "cityName": "Wukari, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.77786",
+        "lat": "7.87139"
+    },
+    "Beli, NG":     {
+        "cityName": "Beli, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.97187",
+        "lat": "7.85868"
+    },
+    "Gamboru, NG":     {
+        "cityName": "Gamboru, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "14.2069",
+        "lat": "12.37299"
+    },
+    "Ise-Ekiti, NG":     {
+        "cityName": "Ise-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.42333",
+        "lat": "7.46478"
+    },
+    "Jimeta, NG":     {
+        "cityName": "Jimeta, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.45819",
+        "lat": "9.27949"
+    },
+    "Lokoja, NG":     {
+        "cityName": "Lokoja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.74048",
+        "lat": "7.79688"
+    },
+    "Birnin Kebbi, NG":     {
+        "cityName": "Birnin Kebbi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.1975",
+        "lat": "12.45389"
+    },
+    "Bama, NG":     {
+        "cityName": "Bama, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.68952",
+        "lat": "11.52134"
+    },
+    "Owo, NG":     {
+        "cityName": "Owo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.58681",
+        "lat": "7.1962"
+    },
+    "Birnin Kudu, NG":     {
+        "cityName": "Birnin Kudu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.47856",
+        "lat": "11.45207"
+    },
+    "Auchi, NG":     {
+        "cityName": "Auchi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.2636",
+        "lat": "7.06756"
+    },
+    "Lere, NG":     {
+        "cityName": "Lere, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.57286",
+        "lat": "10.38584"
+    },
+    "Jalingo, NG":     {
+        "cityName": "Jalingo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.3596",
+        "lat": "8.89367"
+    },
+    "Inisa, NG":     {
+        "cityName": "Inisa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.33333",
+        "lat": "7.85"
+    },
+    "Kaduna, NG":     {
+        "cityName": "Kaduna, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.43879",
+        "lat": "10.52641"
+    },
+    "Iwo, NG":     {
+        "cityName": "Iwo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.18156",
+        "lat": "7.63527"
+    },
+    "Ode, NG":     {
+        "cityName": "Ode, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.7117",
+        "lat": "7.7899"
+    },
+    "Funtua, NG":     {
+        "cityName": "Funtua, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.31174",
+        "lat": "11.52351"
+    },
+    "Zaria, NG":     {
+        "cityName": "Zaria, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.7227",
+        "lat": "11.11128"
+    },
+    "Kamba, NG":     {
+        "cityName": "Kamba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.65478",
+        "lat": "11.85172"
+    },
+    "Port Harcourt, NG":     {
+        "cityName": "Port Harcourt, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.0134",
+        "lat": "4.77742"
+    },
+    "Geidam, NG":     {
+        "cityName": "Geidam, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.92649",
+        "lat": "12.89439"
+    },
+    "Jebba, NG":     {
+        "cityName": "Jebba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.83333",
+        "lat": "9.13333"
+    },
+    "Ijebu-Ode, NG":     {
+        "cityName": "Ijebu-Ode, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.91731",
+        "lat": "6.81944"
+    },
+    "Ugep, NG":     {
+        "cityName": "Ugep, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.08098",
+        "lat": "5.80865"
+    },
+    "Gembu, NG":     {
+        "cityName": "Gembu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.25652",
+        "lat": "6.72556"
+    },
+    "Katsina, NG":     {
+        "cityName": "Katsina, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.60177",
+        "lat": "12.99082"
+    },
+    "Gumel, NG":     {
+        "cityName": "Gumel, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.38807",
+        "lat": "12.6269"
+    },
+    "Aramoko-Ekiti, NG":     {
+        "cityName": "Aramoko-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.04054",
+        "lat": "7.70483"
+    },
+    "Gwaram, NG":     {
+        "cityName": "Gwaram, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.88385",
+        "lat": "11.27727"
+    },
+    "Ilesa, NG":     {
+        "cityName": "Ilesa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.74161",
+        "lat": "7.62789"
+    },
+    "Kano, NG":     {
+        "cityName": "Kano, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.51672",
+        "lat": "12.00012"
+    },
+    "Awgu, NG":     {
+        "cityName": "Awgu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.47739",
+        "lat": "6.07278"
+    },
+    "Okrika, NG":     {
+        "cityName": "Okrika, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.08368",
+        "lat": "4.74215"
+    },
+    "Agbor, NG":     {
+        "cityName": "Agbor, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.1942",
+        "lat": "6.25375"
+    },
+    "Ilaro, NG":     {
+        "cityName": "Ilaro, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.01416",
+        "lat": "6.88901"
+    },
+    "Idanre, NG":     {
+        "cityName": "Idanre, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.1159",
+        "lat": "7.1127"
+    },
+    "Asaba, NG":     {
+        "cityName": "Asaba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.73187",
+        "lat": "6.19824"
+    },
+    "Fiditi, NG":     {
+        "cityName": "Fiditi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.91722",
+        "lat": "7.71361"
+    },
+    "Oyan, NG":     {
+        "cityName": "Oyan, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.76667",
+        "lat": "8.05"
+    },
+    "Katsina-Ala, NG":     {
+        "cityName": "Katsina-Ala, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.28465",
+        "lat": "7.16938"
+    },
+    "Sokoto, NG":     {
+        "cityName": "Sokoto, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.24322",
+        "lat": "13.06269"
+    },
+    "Oguta, NG":     {
+        "cityName": "Oguta, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.80936",
+        "lat": "5.71044"
+    },
+    "Onitsha, NG":     {
+        "cityName": "Onitsha, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.78569",
+        "lat": "6.14978"
+    },
+    "Lafiagi, NG":     {
+        "cityName": "Lafiagi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.41641",
+        "lat": "8.85299"
+    },
+    "Numan, NG":     {
+        "cityName": "Numan, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.03062",
+        "lat": "9.46374"
+    },
+    "Ganye, NG":     {
+        "cityName": "Ganye, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.05107",
+        "lat": "8.43497"
+    },
+    "Kumo, NG":     {
+        "cityName": "Kumo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.21055",
+        "lat": "10.04807"
+    },
+    "Jos, NG":     {
+        "cityName": "Jos, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.89212",
+        "lat": "9.92849"
+    },
+    "Oke Ila, NG":     {
+        "cityName": "Oke Ila, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.98333",
+        "lat": "7.95"
+    },
+    "Nkwerre, NG":     {
+        "cityName": "Nkwerre, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.10384",
+        "lat": "5.75917"
+    },
+    "Kabba, NG":     {
+        "cityName": "Kabba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.07502",
+        "lat": "7.82719"
+    },
+    "Ibi, NG":     {
+        "cityName": "Ibi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.74431",
+        "lat": "8.18122"
+    },
+    "Badagry, NG":     {
+        "cityName": "Badagry, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "2.88132",
+        "lat": "6.41502"
+    },
+    "Kiyawa, NG":     {
+        "cityName": "Kiyawa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.6069",
+        "lat": "11.78442"
+    },
+    "Ogoja, NG":     {
+        "cityName": "Ogoja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.79923",
+        "lat": "6.6584"
+    },
+    "Ado-Ekiti, NG":     {
+        "cityName": "Ado-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.22087",
+        "lat": "7.62329"
+    },
+    "Ikeja, NG":     {
+        "cityName": "Ikeja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.34205",
+        "lat": "6.59651"
+    },
+    "Kachia, NG":     {
+        "cityName": "Kachia, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.95407",
+        "lat": "9.87342"
+    },
+    "Ikirun, NG":     {
+        "cityName": "Ikirun, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.66741",
+        "lat": "7.91283"
+    },
+    "Ado Odo, NG":     {
+        "cityName": "Ado Odo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "2.93333",
+        "lat": "6.6"
+    },
+    "Yenagoa, NG":     {
+        "cityName": "Yenagoa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.26764",
+        "lat": "4.92675"
+    },
+    "Sapele, NG":     {
+        "cityName": "Sapele, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.67666",
+        "lat": "5.89405"
+    },
+    "Ijebu-Igbo, NG":     {
+        "cityName": "Ijebu-Igbo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.99938",
+        "lat": "6.97198"
+    },
+    "Garko, NG":     {
+        "cityName": "Garko, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.16458",
+        "lat": "10.17506"
+    },
+    "Ibeto, NG":     {
+        "cityName": "Ibeto, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.14501",
+        "lat": "10.48536"
+    },
+    "Kaura Namoda, NG":     {
+        "cityName": "Kaura Namoda, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.58648",
+        "lat": "12.59371"
+    },
+    "Igbara-Odo, NG":     {
+        "cityName": "Igbara-Odo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.06258",
+        "lat": "7.50251"
+    },
+    "Owerri, NG":     {
+        "cityName": "Owerri, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.03325",
+        "lat": "5.48363"
+    },
+    "Otukpa, NG":     {
+        "cityName": "Otukpa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.65945",
+        "lat": "7.10168"
+    },
+    "Oyo, NG":     {
+        "cityName": "Oyo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.93125",
+        "lat": "7.85257"
+    },
+    "Bende, NG":     {
+        "cityName": "Bende, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.63359",
+        "lat": "5.55874"
+    },
+    "Orita Eruwa, NG":     {
+        "cityName": "Orita Eruwa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.43333",
+        "lat": "7.55"
+    },
+    "Minna, NG":     {
+        "cityName": "Minna, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.54776",
+        "lat": "9.61524"
+    },
+    "Ughelli, NG":     {
+        "cityName": "Ughelli, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.00407",
+        "lat": "5.48956"
+    },
+    "Ilorin, NG":     {
+        "cityName": "Ilorin, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.54214",
+        "lat": "8.49664"
+    },
+    "Nkpor, NG":     {
+        "cityName": "Nkpor, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.83042",
+        "lat": "6.15038"
+    },
+    "Nasarawa, NG":     {
+        "cityName": "Nasarawa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.70821",
+        "lat": "8.53895"
+    },
+    "Epe, NG":     {
+        "cityName": "Epe, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.98336",
+        "lat": "6.58412"
+    },
+    "Ibadan, NG":     {
+        "cityName": "Ibadan, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.90591",
+        "lat": "7.37756"
+    },
+    "Bonny, NG":     {
+        "cityName": "Bonny, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.17074",
+        "lat": "4.4516"
+    },
+    "Shagamu, NG":     {
+        "cityName": "Shagamu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.64633",
+        "lat": "6.8485"
+    },
+    "Lafia, NG":     {
+        "cityName": "Lafia, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.51532",
+        "lat": "8.4939"
+    },
+    "Egbe, NG":     {
+        "cityName": "Egbe, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.51667",
+        "lat": "8.21667"
+    },
+    "Umuahia, NG":     {
+        "cityName": "Umuahia, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.49461",
+        "lat": "5.52491"
+    },
+    "Ila Orangun, NG":     {
+        "cityName": "Ila Orangun, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.90421",
+        "lat": "8.01714"
+    },
+    "Baro, NG":     {
+        "cityName": "Baro, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.41667",
+        "lat": "8.6"
+    },
+    "Yola, NG":     {
+        "cityName": "Yola, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.48146",
+        "lat": "9.20839"
+    },
+    "Oke Mesi, NG":     {
+        "cityName": "Oke Mesi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.91667",
+        "lat": "7.81667"
+    },
+    "Kafanchan, NG":     {
+        "cityName": "Kafanchan, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.2926",
+        "lat": "9.58126"
+    },
+    "Ikere-Ekiti, NG":     {
+        "cityName": "Ikere-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.23041",
+        "lat": "7.49748"
+    },
+    "Elele, NG":     {
+        "cityName": "Elele, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.81411",
+        "lat": "5.1009"
+    },
+    "Tegina, NG":     {
+        "cityName": "Tegina, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.1906",
+        "lat": "10.0706"
+    },
+    "Lagos, NG":     {
+        "cityName": "Lagos, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.39467",
+        "lat": "6.45407"
+    },
+    "Nguru, NG":     {
+        "cityName": "Nguru, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.45536",
+        "lat": "12.87695"
+    },
+    "Keffi, NG":     {
+        "cityName": "Keffi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.87354",
+        "lat": "8.84651"
+    },
+    "Igbo-Ukwu, NG":     {
+        "cityName": "Igbo-Ukwu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.02027",
+        "lat": "6.01798"
+    },
+    "Gombe, NG":     {
+        "cityName": "Gombe, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.16729",
+        "lat": "10.28969"
+    },
+    "Biu, NG":     {
+        "cityName": "Biu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.19458",
+        "lat": "10.61285"
+    },
+    "Eket, NG":     {
+        "cityName": "Eket, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.92438",
+        "lat": "4.64231"
+    },
+    "Patigi, NG":     {
+        "cityName": "Patigi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.75561",
+        "lat": "8.72851"
+    },
+    "Gombi, NG":     {
+        "cityName": "Gombi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.73684",
+        "lat": "10.16756"
+    },
+    "Igbo-Ora, NG":     {
+        "cityName": "Igbo-Ora, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.28788",
+        "lat": "7.43383"
+    },
+    "Doma, NG":     {
+        "cityName": "Doma, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.35544",
+        "lat": "8.39307"
+    },
+    "Emure-Ekiti, NG":     {
+        "cityName": "Emure-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.45925",
+        "lat": "7.43636"
+    },
+    "Wamba, NG":     {
+        "cityName": "Wamba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.60315",
+        "lat": "8.94153"
+    },
+    "Lapai, NG":     {
+        "cityName": "Lapai, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.57089",
+        "lat": "9.04439"
+    },
+    "Degema Hulk, NG":     {
+        "cityName": "Degema Hulk, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.74957",
+        "lat": "4.76145"
+    },
+    "Hadejia, NG":     {
+        "cityName": "Hadejia, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.04115",
+        "lat": "12.45347"
+    },
+    "Uromi, NG":     {
+        "cityName": "Uromi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.33333",
+        "lat": "6.7"
+    },
+    "Bauchi, NG":     {
+        "cityName": "Bauchi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.84388",
+        "lat": "10.31032"
+    },
+    "Damboa, NG":     {
+        "cityName": "Damboa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "12.75638",
+        "lat": "11.15534"
+    },
+    "Kaiama, NG":     {
+        "cityName": "Kaiama, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.94101",
+        "lat": "9.6053"
+    },
+    "Efon-Alaaye, NG":     {
+        "cityName": "Efon-Alaaye, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.92235",
+        "lat": "7.65649"
+    },
+    "Ajaokuta, NG":     {
+        "cityName": "Ajaokuta, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.65497",
+        "lat": "7.56229"
+    },
+    "Uga, NG":     {
+        "cityName": "Uga, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.0793",
+        "lat": "5.93576"
+    },
+    "Rano, NG":     {
+        "cityName": "Rano, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.58065",
+        "lat": "11.55684"
+    },
+    "Billiri, NG":     {
+        "cityName": "Billiri, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.22624",
+        "lat": "9.86545"
+    },
+    "Modakeke, NG":     {
+        "cityName": "Modakeke, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.26667",
+        "lat": "7.38333"
+    },
+    "Kari, NG":     {
+        "cityName": "Kari, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.561",
+        "lat": "11.2471"
+    },
+    "Ijebu-Jesa, NG":     {
+        "cityName": "Ijebu-Jesa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.81436",
+        "lat": "7.68267"
+    },
+    "Kuje, NG":     {
+        "cityName": "Kuje, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.22756",
+        "lat": "8.87952"
+    },
+    "Illela, NG":     {
+        "cityName": "Illela, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.29777",
+        "lat": "13.73064"
+    },
+    "Gashua, NG":     {
+        "cityName": "Gashua, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.04057",
+        "lat": "12.87398"
+    },
+    "Argungu, NG":     {
+        "cityName": "Argungu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.52514",
+        "lat": "12.74482"
+    },
+    "Enugu, NG":     {
+        "cityName": "Enugu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.49883",
+        "lat": "6.44132"
+    },
+    "Igboho, NG":     {
+        "cityName": "Igboho, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.75628",
+        "lat": "8.83784"
+    },
+    "Kwale, NG":     {
+        "cityName": "Kwale, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.43402",
+        "lat": "5.70773"
+    },
+    "Isanlu-Itedoijowa, NG":     {
+        "cityName": "Isanlu-Itedoijowa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.83528",
+        "lat": "8.27445"
+    },
+    "Afikpo, NG":     {
+        "cityName": "Afikpo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.93534",
+        "lat": "5.89258"
+    },
+    "Kontagora, NG":     {
+        "cityName": "Kontagora, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.4708",
+        "lat": "10.40319"
+    },
+    "Okigwe, NG":     {
+        "cityName": "Okigwe, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.35056",
+        "lat": "5.82917"
+    },
+    "Kumagunnam, NG":     {
+        "cityName": "Kumagunnam, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.63468",
+        "lat": "13.15498"
+    },
+    "Dutse, NG":     {
+        "cityName": "Dutse, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.33896",
+        "lat": "11.75618"
+    },
+    "Awka, NG":     {
+        "cityName": "Awka, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.07199",
+        "lat": "6.21269"
+    },
+    "Maiduguri, NG":     {
+        "cityName": "Maiduguri, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.15712",
+        "lat": "11.84692"
+    },
+    "Makurdi, NG":     {
+        "cityName": "Makurdi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.52139",
+        "lat": "7.73375"
+    },
+    "Ekpoma, NG":     {
+        "cityName": "Ekpoma, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.14029",
+        "lat": "6.743"
+    },
+    "Gummi, NG":     {
+        "cityName": "Gummi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.11776",
+        "lat": "12.14484"
+    },
+    "Igbor, NG":     {
+        "cityName": "Igbor, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.60805",
+        "lat": "7.45123"
+    },
+    "Ihiala, NG":     {
+        "cityName": "Ihiala, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.85944",
+        "lat": "5.85475"
+    },
+    "Ebute Ikorodu, NG":     {
+        "cityName": "Ebute Ikorodu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.48818",
+        "lat": "6.60086"
+    },
+    "Aba, NG":     {
+        "cityName": "Aba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.36667",
+        "lat": "5.10658"
+    },
+    "Esuk Oron, NG":     {
+        "cityName": "Esuk Oron, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.25341",
+        "lat": "4.80293"
+    },
+    "Sofo-Birnin-Gwari, NG":     {
+        "cityName": "Sofo-Birnin-Gwari, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.78036",
+        "lat": "11.01537"
+    },
+    "Olupona, NG":     {
+        "cityName": "Olupona, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.18333",
+        "lat": "7.6"
+    },
+    "Zuru, NG":     {
+        "cityName": "Zuru, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.23494",
+        "lat": "11.43522"
+    },
+    "Takum, NG":     {
+        "cityName": "Takum, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.98333",
+        "lat": "7.26667"
+    },
+    "Amaigbo, NG":     {
+        "cityName": "Amaigbo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.83829",
+        "lat": "5.78917"
+    },
+    "Okuta, NG":     {
+        "cityName": "Okuta, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.18333",
+        "lat": "9.21667"
+    },
+    "Enugu-Ukwu, NG":     {
+        "cityName": "Enugu-Ukwu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.00525",
+        "lat": "6.17146"
+    },
+    "Ipoti, NG":     {
+        "cityName": "Ipoti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.07691",
+        "lat": "7.87377"
+    },
+    "Iperu, NG":     {
+        "cityName": "Iperu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.66557",
+        "lat": "6.91002"
+    },
+    "Deba, NG":     {
+        "cityName": "Deba, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.3871",
+        "lat": "10.21187"
+    },
+    "Burutu, NG":     {
+        "cityName": "Burutu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.50826",
+        "lat": "5.35328"
+    },
+    "Aku, NG":     {
+        "cityName": "Aku, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.31826",
+        "lat": "6.70902"
+    },
+    "Malumfashi, NG":     {
+        "cityName": "Malumfashi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.62061",
+        "lat": "11.78935"
+    },
+    "Gwadabawa, NG":     {
+        "cityName": "Gwadabawa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.23812",
+        "lat": "13.35819"
+    },
+    "Nnewi, NG":     {
+        "cityName": "Nnewi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.91729",
+        "lat": "6.01962"
+    },
+    "Lalupon, NG":     {
+        "cityName": "Lalupon, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.06667",
+        "lat": "7.46667"
+    },
+    "Ilobu, NG":     {
+        "cityName": "Ilobu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.48557",
+        "lat": "7.84036"
+    },
+    "Gusau, NG":     {
+        "cityName": "Gusau, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.66412",
+        "lat": "12.17024"
+    },
+    "Dukku, NG":     {
+        "cityName": "Dukku, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.77221",
+        "lat": "10.82379"
+    },
+    "Ogaminana, NG":     {
+        "cityName": "Ogaminana, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.21798",
+        "lat": "7.59383"
+    },
+    "Eha Amufu, NG":     {
+        "cityName": "Eha Amufu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.75961",
+        "lat": "6.65915"
+    },
+    "Benin City, NG":     {
+        "cityName": "Benin City, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.62575",
+        "lat": "6.33815"
+    },
+    "Pankshin, NG":     {
+        "cityName": "Pankshin, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "9.4352",
+        "lat": "9.32541"
+    },
+    "Itu, NG":     {
+        "cityName": "Itu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.98373",
+        "lat": "5.20131"
+    },
+    "Offa, NG":     {
+        "cityName": "Offa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.72074",
+        "lat": "8.14911"
+    },
+    "Moriki, NG":     {
+        "cityName": "Moriki, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.48754",
+        "lat": "12.87405"
+    },
+    "Abeokuta, NG":     {
+        "cityName": "Abeokuta, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.34509",
+        "lat": "7.15571"
+    },
+    "Rijau, NG":     {
+        "cityName": "Rijau, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.25556",
+        "lat": "11.10389"
+    },
+    "Igede-Ekiti, NG":     {
+        "cityName": "Igede-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.12627",
+        "lat": "7.6685"
+    },
+    "Abakaliki, NG":     {
+        "cityName": "Abakaliki, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.11368",
+        "lat": "6.32485"
+    },
+    "Mubi, NG":     {
+        "cityName": "Mubi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.26701",
+        "lat": "10.26858"
+    },
+    "Idah, NG":     {
+        "cityName": "Idah, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.73866",
+        "lat": "7.11345"
+    },
+    "Otan Ayegbaju, NG":     {
+        "cityName": "Otan Ayegbaju, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.78836",
+        "lat": "7.94783"
+    },
+    "Osogbo, NG":     {
+        "cityName": "Osogbo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.55698",
+        "lat": "7.77104"
+    },
+    "Obonoma, NG":     {
+        "cityName": "Obonoma, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.79084",
+        "lat": "4.71131"
+    },
+    "Uyo, NG":     {
+        "cityName": "Uyo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.9335",
+        "lat": "5.05127"
+    },
+    "Ondo, NG":     {
+        "cityName": "Ondo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.83528",
+        "lat": "7.09316"
+    },
+    "Saki, NG":     {
+        "cityName": "Saki, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.39393",
+        "lat": "8.66762"
+    },
+    "Dutsen Wai, NG":     {
+        "cityName": "Dutsen Wai, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.199",
+        "lat": "10.85009"
+    },
+    "Enugu-Ezike, NG":     {
+        "cityName": "Enugu-Ezike, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.45534",
+        "lat": "6.9827"
+    },
+    "Ohafia-Ifigh, NG":     {
+        "cityName": "Ohafia-Ifigh, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.81191",
+        "lat": "5.61455"
+    },
+    "Mokwa, NG":     {
+        "cityName": "Mokwa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.05412",
+        "lat": "9.29482"
+    },
+    "Pindiga, NG":     {
+        "cityName": "Pindiga, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "10.95229",
+        "lat": "9.98433"
+    },
+    "Kagoro, NG":     {
+        "cityName": "Kagoro, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.39043",
+        "lat": "9.60776"
+    },
+    "Buguma, NG":     {
+        "cityName": "Buguma, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.86236",
+        "lat": "4.73614"
+    },
+    "Warri, NG":     {
+        "cityName": "Warri, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.75006",
+        "lat": "5.51737"
+    },
+    "Talata Mafara, NG":     {
+        "cityName": "Talata Mafara, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.06225",
+        "lat": "12.56841"
+    },
+    "Potiskum, NG":     {
+        "cityName": "Potiskum, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.08108",
+        "lat": "11.71391"
+    },
+    "Ubiaja, NG":     {
+        "cityName": "Ubiaja, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.38494",
+        "lat": "6.65581"
+    },
+    "Ezza-Ohu, NG":     {
+        "cityName": "Ezza-Ohu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.08432",
+        "lat": "6.44094"
+    },
+    "Babana, NG":     {
+        "cityName": "Babana, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.81495",
+        "lat": "10.42949"
+    },
+    "Ejigbo, NG":     {
+        "cityName": "Ejigbo, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.31419",
+        "lat": "7.90292"
+    },
+    "Bukuru, NG":     {
+        "cityName": "Bukuru, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.86397",
+        "lat": "9.79399"
+    },
+    "Bida, NG":     {
+        "cityName": "Bida, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.0099",
+        "lat": "9.08044"
+    },
+    "Marte, NG":     {
+        "cityName": "Marte, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.8293",
+        "lat": "12.36532"
+    },
+    "Akwanga, NG":     {
+        "cityName": "Akwanga, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.40655",
+        "lat": "8.91077"
+    },
+    "Dikwa, NG":     {
+        "cityName": "Dikwa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.91815",
+        "lat": "12.03609"
+    },
+    "Gbongan, NG":     {
+        "cityName": "Gbongan, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.35351",
+        "lat": "7.47734"
+    },
+    "Anchau, NG":     {
+        "cityName": "Anchau, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.39233",
+        "lat": "10.96245"
+    },
+    "Okene, NG":     {
+        "cityName": "Okene, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.23589",
+        "lat": "7.55122"
+    },
+    "Gwoza, NG":     {
+        "cityName": "Gwoza, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.69595",
+        "lat": "11.08313"
+    },
+    "Agulu, NG":     {
+        "cityName": "Agulu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "7.061",
+        "lat": "6.10045"
+    },
+    "Akure, NG":     {
+        "cityName": "Akure, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.19312",
+        "lat": "7.25256"
+    },
+    "Apomu, NG":     {
+        "cityName": "Apomu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "4.18335",
+        "lat": "7.35156"
+    },
+    "Ijero-Ekiti, NG":     {
+        "cityName": "Ijero-Ekiti, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "5.06716",
+        "lat": "7.81514"
+    },
+    "Kukawa, NG":     {
+        "cityName": "Kukawa, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "13.56617",
+        "lat": "12.92475"
+    },
+    "Isieke, NG":     {
+        "cityName": "Isieke, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.03736",
+        "lat": "6.38186"
+    },
+    "Effium, NG":     {
+        "cityName": "Effium, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "8.05814",
+        "lat": "6.63105"
+    },
+    "Daura, NG":     {
+        "cityName": "Daura, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.406",
+        "lat": "11.5541"
+    },
+    "Damaturu, NG":     {
+        "cityName": "Damaturu, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "11.96083",
+        "lat": "11.74697"
+    },
+    "Ogwashi-Uku, NG":     {
+        "cityName": "Ogwashi-Uku, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "6.52461",
+        "lat": "6.17811"
+    },
+    "Kisi, NG":     {
+        "cityName": "Kisi, NG",
+        "timeZone": "Africa/Lagos",
+        "lon": "3.85196",
+        "lat": "9.08297"
+    }
+}

@@ -26,7 +26,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @FXML
     private Label labelLocation, labelWeather, labelTemp, labelUnit;
     @FXML
-    private Button btn3hour, btn6hour, btn9hour;
+    private Button btnNow, btn3hour, btn6hour, btn9hour;
     @FXML
     private ImageView imageActivity1, imageActivity2, imageActivity3, imageActivity4, imageActivity5, itemWeatherImage, itemTempImage, windConditionImage, backgroundImage;
 
@@ -128,6 +128,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         // Sets back ground image
         backgroundImage.setImage(makeImagePath("bg", weatherInformation.get(timeIndex).get("weather")));
         // Time buttons
+        btnNow.setText(weatherInformation.get("now").get("time"));
         btn3hour.setText(weatherInformation.get("in3").get("time"));
         btn6hour.setText(weatherInformation.get("in6").get("time"));
         btn9hour.setText(weatherInformation.get("in9").get("time"));

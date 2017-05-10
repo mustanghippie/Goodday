@@ -1,0 +1,716 @@
+{
+    "Kyonju, KR":     {
+        "cityName": "Kyonju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.21167",
+        "lat": "35.84278"
+    },
+    "Kunwi, KR":     {
+        "cityName": "Kunwi, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.57278",
+        "lat": "36.23472"
+    },
+    "Yeonil, KR":     {
+        "cityName": "Yeonil, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.35162",
+        "lat": "35.99526"
+    },
+    "Suwon, KR":     {
+        "cityName": "Suwon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.00889",
+        "lat": "37.29111"
+    },
+    "Yŏng-dong, KR":     {
+        "cityName": "Yŏng-dong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.77639",
+        "lat": "36.175"
+    },
+    "Naju, KR":     {
+        "cityName": "Naju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.7175",
+        "lat": "35.0292"
+    },
+    "Taesal-li, KR":     {
+        "cityName": "Taesal-li, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.4542",
+        "lat": "36.9714"
+    },
+    "Hongsung, KR":     {
+        "cityName": "Hongsung, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.665",
+        "lat": "36.6009"
+    },
+    "Asan, KR":     {
+        "cityName": "Asan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.00417",
+        "lat": "36.78361"
+    },
+    "Osan, KR":     {
+        "cityName": "Osan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.07056",
+        "lat": "37.15222"
+    },
+    "T’aebaek, KR":     {
+        "cityName": "T’aebaek, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.9889",
+        "lat": "37.1759"
+    },
+    "Gimcheon, KR":     {
+        "cityName": "Gimcheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.11981",
+        "lat": "36.12176"
+    },
+    "Chinju, KR":     {
+        "cityName": "Chinju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.08472",
+        "lat": "35.19278"
+    },
+    "Koesan, KR":     {
+        "cityName": "Koesan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.79472",
+        "lat": "36.81083"
+    },
+    "Tangjin, KR":     {
+        "cityName": "Tangjin, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.62972",
+        "lat": "36.89444"
+    },
+    "Taisen-ri, KR":     {
+        "cityName": "Taisen-ri, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.59772",
+        "lat": "36.34931"
+    },
+    "Hwasun, KR":     {
+        "cityName": "Hwasun, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.98746",
+        "lat": "35.06125"
+    },
+    "Namyangju, KR":     {
+        "cityName": "Namyangju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.21417",
+        "lat": "37.63667"
+    },
+    "Incheon, KR":     {
+        "cityName": "Incheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.70515",
+        "lat": "37.45646"
+    },
+    "Yangp'yŏng, KR":     {
+        "cityName": "Yangp'yŏng, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.49056",
+        "lat": "37.48972"
+    },
+    "Jeju City, KR":     {
+        "cityName": "Jeju City, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.52194",
+        "lat": "33.50972"
+    },
+    "Kyosai, KR":     {
+        "cityName": "Kyosai, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.58861",
+        "lat": "34.85028"
+    },
+    "Kwangyang, KR":     {
+        "cityName": "Kwangyang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.58917",
+        "lat": "34.97528"
+    },
+    "Gapyeong, KR":     {
+        "cityName": "Gapyeong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.51059",
+        "lat": "37.83101"
+    },
+    "Eisen, KR":     {
+        "cityName": "Eisen, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.93083",
+        "lat": "35.9675"
+    },
+    "Anyang-si, KR":     {
+        "cityName": "Anyang-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.92694",
+        "lat": "37.3925"
+    },
+    "Naesŏ, KR":     {
+        "cityName": "Naesŏ, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.52",
+        "lat": "35.24972"
+    },
+    "Busan, KR":     {
+        "cityName": "Busan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.04028",
+        "lat": "35.10278"
+    },
+    "Cheonan, KR":     {
+        "cityName": "Cheonan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.1522",
+        "lat": "36.8065"
+    },
+    "Gijang, KR":     {
+        "cityName": "Gijang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.21389",
+        "lat": "35.24417"
+    },
+    "Changwon, KR":     {
+        "cityName": "Changwon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.68111",
+        "lat": "35.22806"
+    },
+    "Kosong, KR":     {
+        "cityName": "Kosong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.4676",
+        "lat": "38.37881"
+    },
+    "Ansan-si, KR":     {
+        "cityName": "Ansan-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.82194",
+        "lat": "37.32361"
+    },
+    "Pubal, KR":     {
+        "cityName": "Pubal, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.50778",
+        "lat": "37.29167"
+    },
+    "Seosan, KR":     {
+        "cityName": "Seosan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.45222",
+        "lat": "36.78167"
+    },
+    "Kang-neung, KR":     {
+        "cityName": "Kang-neung, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.89611",
+        "lat": "37.75556"
+    },
+    "Guri-si, KR":     {
+        "cityName": "Guri-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.1394",
+        "lat": "37.5986"
+    },
+    "Sejong, KR":     {
+        "cityName": "Sejong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.29223",
+        "lat": "36.59245"
+    },
+    "Munsan, KR":     {
+        "cityName": "Munsan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.785",
+        "lat": "37.85944"
+    },
+    "Gyeongsan-si, KR":     {
+        "cityName": "Gyeongsan-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.73778",
+        "lat": "35.82333"
+    },
+    "Chuncheon, KR":     {
+        "cityName": "Chuncheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.73417",
+        "lat": "37.87472"
+    },
+    "Sinan, KR":     {
+        "cityName": "Sinan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.10863",
+        "lat": "34.8262"
+    },
+    "Hwacheon, KR":     {
+        "cityName": "Hwacheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.70632",
+        "lat": "38.10705"
+    },
+    "Kinzan, KR":     {
+        "cityName": "Kinzan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.48889",
+        "lat": "36.10306"
+    },
+    "Sinhyeon, KR":     {
+        "cityName": "Sinhyeon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.62667",
+        "lat": "34.8825"
+    },
+    "Goyang-si, KR":     {
+        "cityName": "Goyang-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.835",
+        "lat": "37.65639"
+    },
+    "Ungsang, KR":     {
+        "cityName": "Ungsang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.16861",
+        "lat": "35.40611"
+    },
+    "Gongju, KR":     {
+        "cityName": "Gongju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.12472",
+        "lat": "36.45556"
+    },
+    "Changnyeong, KR":     {
+        "cityName": "Changnyeong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.49506",
+        "lat": "35.54145"
+    },
+    "Changsu, KR":     {
+        "cityName": "Changsu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.51523",
+        "lat": "35.64842"
+    },
+    "Anseong, KR":     {
+        "cityName": "Anseong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.27028",
+        "lat": "37.01083"
+    },
+    "Masan, KR":     {
+        "cityName": "Masan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.83149",
+        "lat": "35.12725"
+    },
+    "Cheongsong gun, KR":     {
+        "cityName": "Cheongsong gun, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.057",
+        "lat": "36.43351"
+    },
+    "Yŏnmu, KR":     {
+        "cityName": "Yŏnmu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.1",
+        "lat": "36.12944"
+    },
+    "Sokcho, KR":     {
+        "cityName": "Sokcho, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.59181",
+        "lat": "38.20701"
+    },
+    "Beolgyo, KR":     {
+        "cityName": "Beolgyo, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.34293",
+        "lat": "34.84495"
+    },
+    "Hayang, KR":     {
+        "cityName": "Hayang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.82",
+        "lat": "35.91333"
+    },
+    "Wanju, KR":     {
+        "cityName": "Wanju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.14752",
+        "lat": "35.84509"
+    },
+    "Wŏnju, KR":     {
+        "cityName": "Wŏnju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.94528",
+        "lat": "37.35139"
+    },
+    "Hwado, KR":     {
+        "cityName": "Hwado, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.3075",
+        "lat": "37.6525"
+    },
+    "Gaigeturi, KR":     {
+        "cityName": "Gaigeturi, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.31833",
+        "lat": "33.46444"
+    },
+    "Yangju, KR":     {
+        "cityName": "Yangju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.06169",
+        "lat": "37.83311"
+    },
+    "Uijeongbu-si, KR":     {
+        "cityName": "Uijeongbu-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.0474",
+        "lat": "37.7415"
+    },
+    "Moppo, KR":     {
+        "cityName": "Moppo, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.38861",
+        "lat": "34.79361"
+    },
+    "Sangju, KR":     {
+        "cityName": "Sangju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.16056",
+        "lat": "36.41528"
+    },
+    "Goseong, KR":     {
+        "cityName": "Goseong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.32361",
+        "lat": "34.97631"
+    },
+    "Nonsan, KR":     {
+        "cityName": "Nonsan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.08472",
+        "lat": "36.20389"
+    },
+    "Gumi, KR":     {
+        "cityName": "Gumi, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.336",
+        "lat": "36.1136"
+    },
+    "Iksan, KR":     {
+        "cityName": "Iksan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.95444",
+        "lat": "35.94389"
+    },
+    "Jeonju, KR":     {
+        "cityName": "Jeonju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.14889",
+        "lat": "35.82194"
+    },
+    "Kurye, KR":     {
+        "cityName": "Kurye, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.46444",
+        "lat": "35.20944"
+    },
+    "Bucheon-si, KR":     {
+        "cityName": "Bucheon-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.78306",
+        "lat": "37.49889"
+    },
+    "Jinan-gun, KR":     {
+        "cityName": "Jinan-gun, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.42528",
+        "lat": "35.79167"
+    },
+    "Wabu, KR":     {
+        "cityName": "Wabu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.22028",
+        "lat": "37.58972"
+    },
+    "Santyoku, KR":     {
+        "cityName": "Santyoku, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.17083",
+        "lat": "37.44056"
+    },
+    "Hanam, KR":     {
+        "cityName": "Hanam, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.20556",
+        "lat": "37.54"
+    },
+    "Hwawŏn, KR":     {
+        "cityName": "Hwawŏn, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.50083",
+        "lat": "35.80167"
+    },
+    "Pohang, KR":     {
+        "cityName": "Pohang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.36481",
+        "lat": "36.02917"
+    },
+    "Daejeon, KR":     {
+        "cityName": "Daejeon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.41972",
+        "lat": "36.32139"
+    },
+    "Daegu, KR":     {
+        "cityName": "Daegu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.59111",
+        "lat": "35.87028"
+    },
+    "Chinch'ŏn, KR":     {
+        "cityName": "Chinch'ŏn, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.44333",
+        "lat": "36.85667"
+    },
+    "Mungyeong, KR":     {
+        "cityName": "Mungyeong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.19946",
+        "lat": "36.59458"
+    },
+    "Kwangmyŏng, KR":     {
+        "cityName": "Kwangmyŏng, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.86639",
+        "lat": "37.47722"
+    },
+    "Yesan, KR":     {
+        "cityName": "Yesan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.84272",
+        "lat": "36.67756"
+    },
+    "Gwangju, KR":     {
+        "cityName": "Gwangju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.91556",
+        "lat": "35.15472"
+    },
+    "Neietsu, KR":     {
+        "cityName": "Neietsu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.46821",
+        "lat": "37.18447"
+    },
+    "Seongnam-si, KR":     {
+        "cityName": "Seongnam-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.13778",
+        "lat": "37.43861"
+    },
+    "Reiko, KR":     {
+        "cityName": "Reiko, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.50944",
+        "lat": "35.275"
+    },
+    "Okcheon, KR":     {
+        "cityName": "Okcheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.568",
+        "lat": "36.3012"
+    },
+    "Tonghae, KR":     {
+        "cityName": "Tonghae, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.10694",
+        "lat": "37.54389"
+    },
+    "Ganghwa-gun, KR":     {
+        "cityName": "Ganghwa-gun, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.48556",
+        "lat": "37.74722"
+    },
+    "Yanggu, KR":     {
+        "cityName": "Yanggu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.98944",
+        "lat": "38.10583"
+    },
+    "Muan, KR":     {
+        "cityName": "Muan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.47899",
+        "lat": "34.99014"
+    },
+    "Miryang, KR":     {
+        "cityName": "Miryang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.74889",
+        "lat": "35.49333"
+    },
+    "Suncheon, KR":     {
+        "cityName": "Suncheon, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.48947",
+        "lat": "34.94808"
+    },
+    "Puan, KR":     {
+        "cityName": "Puan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.73194",
+        "lat": "35.72806"
+    },
+    "Yangsan, KR":     {
+        "cityName": "Yangsan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.03358",
+        "lat": "35.34199"
+    },
+    "Fuyo, KR":     {
+        "cityName": "Fuyo, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.9125",
+        "lat": "36.28194"
+    },
+    "Hongch’ŏn, KR":     {
+        "cityName": "Hongch’ŏn, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.8857",
+        "lat": "37.6918"
+    },
+    "Waegwan, KR":     {
+        "cityName": "Waegwan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.39785",
+        "lat": "35.99251"
+    },
+    "Gunsan, KR":     {
+        "cityName": "Gunsan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.71139",
+        "lat": "35.97861"
+    },
+    "Heunghae, KR":     {
+        "cityName": "Heunghae, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.34517",
+        "lat": "36.10945"
+    },
+    "Andong, KR":     {
+        "cityName": "Andong, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.72275",
+        "lat": "36.56636"
+    },
+    "Seoul, KR":     {
+        "cityName": "Seoul, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.9784",
+        "lat": "37.566"
+    },
+    "Ulsan, KR":     {
+        "cityName": "Ulsan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "129.31667",
+        "lat": "35.53722"
+    },
+    "Cheongju-si, KR":     {
+        "cityName": "Cheongju-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.48972",
+        "lat": "36.63722"
+    },
+    "Seogwipo, KR":     {
+        "cityName": "Seogwipo, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.56181",
+        "lat": "33.25333"
+    },
+    "Imsil, KR":     {
+        "cityName": "Imsil, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.27944",
+        "lat": "35.61306"
+    },
+    "Kimje, KR":     {
+        "cityName": "Kimje, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.88889",
+        "lat": "35.80167"
+    },
+    "Yeoju, KR":     {
+        "cityName": "Yeoju, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.63389",
+        "lat": "37.29583"
+    },
+    "Jenzan, KR":     {
+        "cityName": "Jenzan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.2975",
+        "lat": "36.24083"
+    },
+    "Seonghwan, KR":     {
+        "cityName": "Seonghwan, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.13139",
+        "lat": "36.91556"
+    },
+    "Yeosu, KR":     {
+        "cityName": "Yeosu, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.66528",
+        "lat": "34.76278"
+    },
+    "Icheon-si, KR":     {
+        "cityName": "Icheon-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.4425",
+        "lat": "37.27917"
+    },
+    "Hwaseong-si, KR":     {
+        "cityName": "Hwaseong-si, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.8169",
+        "lat": "37.20682"
+    },
+    "Nangen, KR":     {
+        "cityName": "Nangen, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "127.38583",
+        "lat": "35.41"
+    },
+    "Haenam, KR":     {
+        "cityName": "Haenam, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.59889",
+        "lat": "34.57111"
+    },
+    "Koch'ang, KR":     {
+        "cityName": "Koch'ang, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "126.7",
+        "lat": "35.43333"
+    },
+    "Kimhae, KR":     {
+        "cityName": "Kimhae, KR",
+        "timeZone": "Asia/Seoul",
+        "lon": "128.88111",
+        "lat": "35.23417"
+    }
+}
