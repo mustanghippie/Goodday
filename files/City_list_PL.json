@@ -1,0 +1,1964 @@
+{
+    "Gliwice, PL":     {
+        "cityName": "Gliwice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.67658",
+        "lat": "50.29761"
+    },
+    "Bielawa, PL":     {
+        "cityName": "Bielawa, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.623",
+        "lat": "50.69075"
+    },
+    "Trzebinia, PL":     {
+        "cityName": "Trzebinia, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.46966",
+        "lat": "50.15931"
+    },
+    "Rydułtowy, PL":     {
+        "cityName": "Rydułtowy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.41703",
+        "lat": "50.05857"
+    },
+    "Rumia, PL":     {
+        "cityName": "Rumia, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.38802",
+        "lat": "54.57092"
+    },
+    "Głogów, PL":     {
+        "cityName": "Głogów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.0845",
+        "lat": "51.66361"
+    },
+    "Myślenice, PL":     {
+        "cityName": "Myślenice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.9383",
+        "lat": "49.83383"
+    },
+    "Boguszów-Gorce, PL":     {
+        "cityName": "Boguszów-Gorce, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.20494",
+        "lat": "50.75514"
+    },
+    "Wadowice, PL":     {
+        "cityName": "Wadowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.49292",
+        "lat": "49.88335"
+    },
+    "Nowy Sącz, PL":     {
+        "cityName": "Nowy Sącz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.69705",
+        "lat": "49.62177"
+    },
+    "Lędziny, PL":     {
+        "cityName": "Lędziny, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.13149",
+        "lat": "50.14264"
+    },
+    "Oborniki, PL":     {
+        "cityName": "Oborniki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.81406",
+        "lat": "52.64739"
+    },
+    "Police, PL":     {
+        "cityName": "Police, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.57182",
+        "lat": "53.55214"
+    },
+    "Luboń, PL":     {
+        "cityName": "Luboń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.89267",
+        "lat": "52.34705"
+    },
+    "Opole, PL":     {
+        "cityName": "Opole, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.92533",
+        "lat": "50.67211"
+    },
+    "Konin, PL":     {
+        "cityName": "Konin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.25121",
+        "lat": "52.22338"
+    },
+    "Ostrów Mazowiecka, PL":     {
+        "cityName": "Ostrów Mazowiecka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.89507",
+        "lat": "52.80245"
+    },
+    "Kozienice, PL":     {
+        "cityName": "Kozienice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.54779",
+        "lat": "51.58294"
+    },
+    "Piastów, PL":     {
+        "cityName": "Piastów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.83952",
+        "lat": "52.18435"
+    },
+    "Gryfice, PL":     {
+        "cityName": "Gryfice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.20027",
+        "lat": "53.9165"
+    },
+    "Piła, PL":     {
+        "cityName": "Piła, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.73782",
+        "lat": "53.15145"
+    },
+    "Wałcz, PL":     {
+        "cityName": "Wałcz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.47122",
+        "lat": "53.27787"
+    },
+    "Solec Kujawski, PL":     {
+        "cityName": "Solec Kujawski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.22572",
+        "lat": "53.08371"
+    },
+    "Stargard Szczeciński, PL":     {
+        "cityName": "Stargard Szczeciński, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.0499",
+        "lat": "53.33672"
+    },
+    "Świdnik, PL":     {
+        "cityName": "Świdnik, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.69621",
+        "lat": "51.21898"
+    },
+    "Wołomin, PL":     {
+        "cityName": "Wołomin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.24207",
+        "lat": "52.34006"
+    },
+    "Zgorzelec, PL":     {
+        "cityName": "Zgorzelec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.00835",
+        "lat": "51.14942"
+    },
+    "Żary, PL":     {
+        "cityName": "Żary, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.13727",
+        "lat": "51.64205"
+    },
+    "Jelcz Laskowice, PL":     {
+        "cityName": "Jelcz Laskowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.31649",
+        "lat": "51.02134"
+    },
+    "Radom, PL":     {
+        "cityName": "Radom, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.14714",
+        "lat": "51.40253"
+    },
+    "Ostróda, PL":     {
+        "cityName": "Ostróda, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.96486",
+        "lat": "53.69671"
+    },
+    "Mława, PL":     {
+        "cityName": "Mława, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.3841",
+        "lat": "53.11278"
+    },
+    "Zielonka, PL":     {
+        "cityName": "Zielonka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.16018",
+        "lat": "52.30376"
+    },
+    "Mielec, PL":     {
+        "cityName": "Mielec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.4239",
+        "lat": "50.28709"
+    },
+    "Szamotuły, PL":     {
+        "cityName": "Szamotuły, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.57794",
+        "lat": "52.61201"
+    },
+    "Łódź, PL":     {
+        "cityName": "Łódź, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.46667",
+        "lat": "51.75"
+    },
+    "Złotoryja, PL":     {
+        "cityName": "Złotoryja, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.91979",
+        "lat": "51.12637"
+    },
+    "Chojnice, PL":     {
+        "cityName": "Chojnice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.55701",
+        "lat": "53.69554"
+    },
+    "Starachowice, PL":     {
+        "cityName": "Starachowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.07126",
+        "lat": "51.0374"
+    },
+    "Jawor, PL":     {
+        "cityName": "Jawor, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.19347",
+        "lat": "51.05132"
+    },
+    "Śrem, PL":     {
+        "cityName": "Śrem, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.01508",
+        "lat": "52.08868"
+    },
+    "Tomaszów Mazowiecki, PL":     {
+        "cityName": "Tomaszów Mazowiecki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.00855",
+        "lat": "51.53131"
+    },
+    "Gierłoż, PL":     {
+        "cityName": "Gierłoż, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.49551",
+        "lat": "54.08134"
+    },
+    "Gorlice, PL":     {
+        "cityName": "Gorlice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.16035",
+        "lat": "49.65563"
+    },
+    "Będzin, PL":     {
+        "cityName": "Będzin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.12565",
+        "lat": "50.32607"
+    },
+    "Włocławek, PL":     {
+        "cityName": "Włocławek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.0678",
+        "lat": "52.64817"
+    },
+    "Włochy, PL":     {
+        "cityName": "Włochy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.94612",
+        "lat": "52.17941"
+    },
+    "Wesoła, PL":     {
+        "cityName": "Wesoła, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.22407",
+        "lat": "52.25451"
+    },
+    "Sokółka, PL":     {
+        "cityName": "Sokółka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.50228",
+        "lat": "53.40715"
+    },
+    "Kraków, PL":     {
+        "cityName": "Kraków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.93658",
+        "lat": "50.06143"
+    },
+    "Ząbki, PL":     {
+        "cityName": "Ząbki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.10539",
+        "lat": "52.29271"
+    },
+    "Gorzów Wielkopolski, PL":     {
+        "cityName": "Gorzów Wielkopolski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.22878",
+        "lat": "52.73679"
+    },
+    "Prudnik, PL":     {
+        "cityName": "Prudnik, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.57461",
+        "lat": "50.32124"
+    },
+    "Piotrków Trybunalski, PL":     {
+        "cityName": "Piotrków Trybunalski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.70321",
+        "lat": "51.40547"
+    },
+    "Radzyń Podlaski, PL":     {
+        "cityName": "Radzyń Podlaski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.61667",
+        "lat": "51.78333"
+    },
+    "Tomaszów Lubelski, PL":     {
+        "cityName": "Tomaszów Lubelski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.41616",
+        "lat": "50.44767"
+    },
+    "Dąbrowa Górnicza, PL":     {
+        "cityName": "Dąbrowa Górnicza, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.2374",
+        "lat": "50.31818"
+    },
+    "Bieruń, PL":     {
+        "cityName": "Bieruń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.09291",
+        "lat": "50.09"
+    },
+    "Busko-Zdrój, PL":     {
+        "cityName": "Busko-Zdrój, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.71884",
+        "lat": "50.47078"
+    },
+    "Brzesko, PL":     {
+        "cityName": "Brzesko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.60606",
+        "lat": "49.96911"
+    },
+    "Rypin, PL":     {
+        "cityName": "Rypin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.40941",
+        "lat": "53.06603"
+    },
+    "Olsztyn, PL":     {
+        "cityName": "Olsztyn, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.49416",
+        "lat": "53.77995"
+    },
+    "Stalowa Wola, PL":     {
+        "cityName": "Stalowa Wola, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.05334",
+        "lat": "50.58286"
+    },
+    "Białystok, PL":     {
+        "cityName": "Białystok, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.16433",
+        "lat": "53.13333"
+    },
+    "Pleszew, PL":     {
+        "cityName": "Pleszew, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.78549",
+        "lat": "51.89636"
+    },
+    "Lubliniec, PL":     {
+        "cityName": "Lubliniec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.6844",
+        "lat": "50.66897"
+    },
+    "Ustroń, PL":     {
+        "cityName": "Ustroń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.80198",
+        "lat": "49.72153"
+    },
+    "Siemianowice Śląskie, PL":     {
+        "cityName": "Siemianowice Śląskie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.02901",
+        "lat": "50.32738"
+    },
+    "Głuchołazy, PL":     {
+        "cityName": "Głuchołazy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.38355",
+        "lat": "50.31505"
+    },
+    "Kętrzyn, PL":     {
+        "cityName": "Kętrzyn, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.37527",
+        "lat": "54.07676"
+    },
+    "Gniezno, PL":     {
+        "cityName": "Gniezno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.58259",
+        "lat": "52.53481"
+    },
+    "Marki, PL":     {
+        "cityName": "Marki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.10474",
+        "lat": "52.32065"
+    },
+    "Świnoujście, PL":     {
+        "cityName": "Świnoujście, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.24712",
+        "lat": "53.91053"
+    },
+    "Łęczyca, PL":     {
+        "cityName": "Łęczyca, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.19972",
+        "lat": "52.05959"
+    },
+    "Turek, PL":     {
+        "cityName": "Turek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.50055",
+        "lat": "52.01548"
+    },
+    "Garwolin, PL":     {
+        "cityName": "Garwolin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.61466",
+        "lat": "51.89747"
+    },
+    "Działdowo, PL":     {
+        "cityName": "Działdowo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.17004",
+        "lat": "53.23958"
+    },
+    "Dzierżoniów, PL":     {
+        "cityName": "Dzierżoniów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.65141",
+        "lat": "50.7282"
+    },
+    "Zielona Góra, PL":     {
+        "cityName": "Zielona Góra, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.50643",
+        "lat": "51.93548"
+    },
+    "Kutno, PL":     {
+        "cityName": "Kutno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.36409",
+        "lat": "52.23064"
+    },
+    "Giżycko, PL":     {
+        "cityName": "Giżycko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.76441",
+        "lat": "54.03811"
+    },
+    "Strzegom, PL":     {
+        "cityName": "Strzegom, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.35006",
+        "lat": "50.96264"
+    },
+    "Nowogard, PL":     {
+        "cityName": "Nowogard, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.1163",
+        "lat": "53.67437"
+    },
+    "Konstantynów Łódzki, PL":     {
+        "cityName": "Konstantynów Łódzki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.32564",
+        "lat": "51.74776"
+    },
+    "Koszalin, PL":     {
+        "cityName": "Koszalin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.17222",
+        "lat": "54.19438"
+    },
+    "Ruda Śląska, PL":     {
+        "cityName": "Ruda Śląska, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.85632",
+        "lat": "50.2584"
+    },
+    "Legionowo, PL":     {
+        "cityName": "Legionowo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.92664",
+        "lat": "52.40149"
+    },
+    "Nowy Tomyśl, PL":     {
+        "cityName": "Nowy Tomyśl, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.12844",
+        "lat": "52.3195"
+    },
+    "Kęty, PL":     {
+        "cityName": "Kęty, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.22333",
+        "lat": "49.88214"
+    },
+    "Nysa, PL":     {
+        "cityName": "Nysa, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.33437",
+        "lat": "50.47379"
+    },
+    "Bełchatów, PL":     {
+        "cityName": "Bełchatów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.35671",
+        "lat": "51.36883"
+    },
+    "Końskie, PL":     {
+        "cityName": "Końskie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.40607",
+        "lat": "51.19166"
+    },
+    "Złotów, PL":     {
+        "cityName": "Złotów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.04082",
+        "lat": "53.36346"
+    },
+    "Żoliborz, PL":     {
+        "cityName": "Żoliborz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.98644",
+        "lat": "52.26896"
+    },
+    "Sochaczew, PL":     {
+        "cityName": "Sochaczew, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.23838",
+        "lat": "52.22944"
+    },
+    "Przeworsk, PL":     {
+        "cityName": "Przeworsk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.49408",
+        "lat": "50.05912"
+    },
+    "Ustka, PL":     {
+        "cityName": "Ustka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.86194",
+        "lat": "54.58048"
+    },
+    "Chełmno, PL":     {
+        "cityName": "Chełmno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.4251",
+        "lat": "53.34855"
+    },
+    "Gdańsk, PL":     {
+        "cityName": "Gdańsk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.64637",
+        "lat": "54.35205"
+    },
+    "Świdwin, PL":     {
+        "cityName": "Świdwin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.77671",
+        "lat": "53.77464"
+    },
+    "Bytom, PL":     {
+        "cityName": "Bytom, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.93282",
+        "lat": "50.34802"
+    },
+    "Białogard, PL":     {
+        "cityName": "Białogard, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.98751",
+        "lat": "54.00696"
+    },
+    "Sieradz, PL":     {
+        "cityName": "Sieradz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.73023",
+        "lat": "51.59584"
+    },
+    "Biała Podlaska, PL":     {
+        "cityName": "Biała Podlaska, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.11652",
+        "lat": "52.03238"
+    },
+    "Tczew, PL":     {
+        "cityName": "Tczew, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.77787",
+        "lat": "54.09242"
+    },
+    "Tarnobrzeg, PL":     {
+        "cityName": "Tarnobrzeg, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.67937",
+        "lat": "50.57304"
+    },
+    "Ozorków, PL":     {
+        "cityName": "Ozorków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.29139",
+        "lat": "51.96336"
+    },
+    "Kościan, PL":     {
+        "cityName": "Kościan, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.64866",
+        "lat": "52.08829"
+    },
+    "Wodzisław Śląski, PL":     {
+        "cityName": "Wodzisław Śląski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.47205",
+        "lat": "50.00377"
+    },
+    "Ursus, PL":     {
+        "cityName": "Ursus, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.88419",
+        "lat": "52.19517"
+    },
+    "Ełk, PL":     {
+        "cityName": "Ełk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.36469",
+        "lat": "53.82824"
+    },
+    "Sierpc, PL":     {
+        "cityName": "Sierpc, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.66913",
+        "lat": "52.8568"
+    },
+    "Otwock, PL":     {
+        "cityName": "Otwock, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.26129",
+        "lat": "52.10577"
+    },
+    "Racibórz, PL":     {
+        "cityName": "Racibórz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.21928",
+        "lat": "50.09195"
+    },
+    "Czechowice-Dziedzice, PL":     {
+        "cityName": "Czechowice-Dziedzice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.00479",
+        "lat": "49.91342"
+    },
+    "Nowa Ruda, PL":     {
+        "cityName": "Nowa Ruda, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.50164",
+        "lat": "50.58008"
+    },
+    "Warsaw, PL":     {
+        "cityName": "Warsaw, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.01178",
+        "lat": "52.22977"
+    },
+    "Świętochłowice, PL":     {
+        "cityName": "Świętochłowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.91726",
+        "lat": "50.29636"
+    },
+    "Sosnowiec, PL":     {
+        "cityName": "Sosnowiec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.10385",
+        "lat": "50.28682"
+    },
+    "Żywiec, PL":     {
+        "cityName": "Żywiec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.19243",
+        "lat": "49.68529"
+    },
+    "Goleniów, PL":     {
+        "cityName": "Goleniów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.82854",
+        "lat": "53.56392"
+    },
+    "Choszczno, PL":     {
+        "cityName": "Choszczno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.42054",
+        "lat": "53.16905"
+    },
+    "Dębica, PL":     {
+        "cityName": "Dębica, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.41141",
+        "lat": "50.05146"
+    },
+    "Bogatynia, PL":     {
+        "cityName": "Bogatynia, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.95634",
+        "lat": "50.90747"
+    },
+    "Konstancin-Jeziorna, PL":     {
+        "cityName": "Konstancin-Jeziorna, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.11761",
+        "lat": "52.0938"
+    },
+    "Szczecin, PL":     {
+        "cityName": "Szczecin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.55302",
+        "lat": "53.42894"
+    },
+    "Mińsk Mazowiecki, PL":     {
+        "cityName": "Mińsk Mazowiecki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.57251",
+        "lat": "52.17935"
+    },
+    "Cieszyn, PL":     {
+        "cityName": "Cieszyn, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.63213",
+        "lat": "49.75133"
+    },
+    "Rawa Mazowiecka, PL":     {
+        "cityName": "Rawa Mazowiecka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.25493",
+        "lat": "51.76437"
+    },
+    "Lubań, PL":     {
+        "cityName": "Lubań, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.28768",
+        "lat": "51.12014"
+    },
+    "Sulejówek, PL":     {
+        "cityName": "Sulejówek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.26902",
+        "lat": "52.25221"
+    },
+    "Ząbkowice Śląskie, PL":     {
+        "cityName": "Ząbkowice Śląskie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.81239",
+        "lat": "50.58969"
+    },
+    "Pyskowice, PL":     {
+        "cityName": "Pyskowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.63333",
+        "lat": "50.4"
+    },
+    "Łask, PL":     {
+        "cityName": "Łask, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.13278",
+        "lat": "51.59056"
+    },
+    "Legnica, PL":     {
+        "cityName": "Legnica, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.1619",
+        "lat": "51.21006"
+    },
+    "Zamość, PL":     {
+        "cityName": "Zamość, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.25196",
+        "lat": "50.72314"
+    },
+    "Skierniewice, PL":     {
+        "cityName": "Skierniewice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.15837",
+        "lat": "51.95485"
+    },
+    "Śródmieście, PL":     {
+        "cityName": "Śródmieście, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.01644",
+        "lat": "52.22904"
+    },
+    "Olkusz, PL":     {
+        "cityName": "Olkusz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.56503",
+        "lat": "50.2813"
+    },
+    "Kartuzy, PL":     {
+        "cityName": "Kartuzy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.19735",
+        "lat": "54.33424"
+    },
+    "Gdynia, PL":     {
+        "cityName": "Gdynia, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.53188",
+        "lat": "54.51889"
+    },
+    "Białołeka, PL":     {
+        "cityName": "Białołeka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.97204",
+        "lat": "52.32127"
+    },
+    "Orzesze, PL":     {
+        "cityName": "Orzesze, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.77923",
+        "lat": "50.15595"
+    },
+    "Sanok, PL":     {
+        "cityName": "Sanok, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.2056",
+        "lat": "49.55573"
+    },
+    "Słubice, PL":     {
+        "cityName": "Słubice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.56065",
+        "lat": "52.35088"
+    },
+    "Jaworzno, PL":     {
+        "cityName": "Jaworzno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.27498",
+        "lat": "50.20528"
+    },
+    "Kędzierzyn-Koźle, PL":     {
+        "cityName": "Kędzierzyn-Koźle, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.22606",
+        "lat": "50.34984"
+    },
+    "Międzyrzecz, PL":     {
+        "cityName": "Międzyrzecz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.57801",
+        "lat": "52.44461"
+    },
+    "Trzcianka, PL":     {
+        "cityName": "Trzcianka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.45629",
+        "lat": "53.04063"
+    },
+    "Siedlce, PL":     {
+        "cityName": "Siedlce, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.29006",
+        "lat": "52.16772"
+    },
+    "Wawer, PL":     {
+        "cityName": "Wawer, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.17752",
+        "lat": "52.19656"
+    },
+    "Fordon, PL":     {
+        "cityName": "Fordon, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.17036",
+        "lat": "53.14821"
+    },
+    "Radomsko, PL":     {
+        "cityName": "Radomsko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.44477",
+        "lat": "51.06713"
+    },
+    "Bydgoszcz, PL":     {
+        "cityName": "Bydgoszcz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.00762",
+        "lat": "53.1235"
+    },
+    "Sandomierz, PL":     {
+        "cityName": "Sandomierz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.74898",
+        "lat": "50.68265"
+    },
+    "Krosno, PL":     {
+        "cityName": "Krosno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.77058",
+        "lat": "49.68866"
+    },
+    "Mikołów, PL":     {
+        "cityName": "Mikołów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.9041",
+        "lat": "50.17103"
+    },
+    "Wągrowiec, PL":     {
+        "cityName": "Wągrowiec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.19961",
+        "lat": "52.80842"
+    },
+    "Hajnówka, PL":     {
+        "cityName": "Hajnówka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.58122",
+        "lat": "52.74328"
+    },
+    "Czeladź, PL":     {
+        "cityName": "Czeladź, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.07824",
+        "lat": "50.31542"
+    },
+    "Strzelce Opolskie, PL":     {
+        "cityName": "Strzelce Opolskie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.30056",
+        "lat": "50.5107"
+    },
+    "Polkowice, PL":     {
+        "cityName": "Polkowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.07261",
+        "lat": "51.50391"
+    },
+    "Świebodzin, PL":     {
+        "cityName": "Świebodzin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.53355",
+        "lat": "52.24751"
+    },
+    "Czerwionka-Leszczyny, PL":     {
+        "cityName": "Czerwionka-Leszczyny, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.67762",
+        "lat": "50.15007"
+    },
+    "Ostrołęka, PL":     {
+        "cityName": "Ostrołęka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.57566",
+        "lat": "53.08621"
+    },
+    "Aleksandrów Łódzki, PL":     {
+        "cityName": "Aleksandrów Łódzki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.30384",
+        "lat": "51.81965"
+    },
+    "Ostrów Wielkopolski, PL":     {
+        "cityName": "Ostrów Wielkopolski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.80686",
+        "lat": "51.65501"
+    },
+    "Siemiatycze, PL":     {
+        "cityName": "Siemiatycze, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.86231",
+        "lat": "52.42719"
+    },
+    "Zabrze, PL":     {
+        "cityName": "Zabrze, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.78576",
+        "lat": "50.32492"
+    },
+    "Myszków, PL":     {
+        "cityName": "Myszków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.32461",
+        "lat": "50.5752"
+    },
+    "Nowy Targ, PL":     {
+        "cityName": "Nowy Targ, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.03228",
+        "lat": "49.47783"
+    },
+    "Łańcut, PL":     {
+        "cityName": "Łańcut, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.22912",
+        "lat": "50.06871"
+    },
+    "Pabianice, PL":     {
+        "cityName": "Pabianice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.35473",
+        "lat": "51.66446"
+    },
+    "Oleśnica, PL":     {
+        "cityName": "Oleśnica, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.38986",
+        "lat": "51.21338"
+    },
+    "Kostrzyn nad Odrą, PL":     {
+        "cityName": "Kostrzyn nad Odrą, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.64953",
+        "lat": "52.58713"
+    },
+    "Jastrzębie Zdrój, PL":     {
+        "cityName": "Jastrzębie Zdrój, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.57479",
+        "lat": "49.95542"
+    },
+    "Poznań, PL":     {
+        "cityName": "Poznań, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.92993",
+        "lat": "52.40692"
+    },
+    "Chrzanów, PL":     {
+        "cityName": "Chrzanów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.40203",
+        "lat": "50.13546"
+    },
+    "Augustów, PL":     {
+        "cityName": "Augustów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.97979",
+        "lat": "53.84321"
+    },
+    "Knurów, PL":     {
+        "cityName": "Knurów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.65067",
+        "lat": "50.21971"
+    },
+    "Bolesławiec, PL":     {
+        "cityName": "Bolesławiec, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.5697",
+        "lat": "51.26418"
+    },
+    "Rzeszów, PL":     {
+        "cityName": "Rzeszów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.99901",
+        "lat": "50.04132"
+    },
+    "Starogard Gdański, PL":     {
+        "cityName": "Starogard Gdański, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.52638",
+        "lat": "53.96396"
+    },
+    "Wieliczka, PL":     {
+        "cityName": "Wieliczka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.06473",
+        "lat": "49.98738"
+    },
+    "Bielsko-Biala, PL":     {
+        "cityName": "Bielsko-Biala, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.04686",
+        "lat": "49.82245"
+    },
+    "Elbląg, PL":     {
+        "cityName": "Elbląg, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.40884",
+        "lat": "54.1522"
+    },
+    "Sokołów Podlaski, PL":     {
+        "cityName": "Sokołów Podlaski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.25307",
+        "lat": "52.40677"
+    },
+    "Mokotów, PL":     {
+        "cityName": "Mokotów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.03487",
+        "lat": "52.1934"
+    },
+    "Chełm, PL":     {
+        "cityName": "Chełm, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.4716",
+        "lat": "51.14312"
+    },
+    "Częstochowa, PL":     {
+        "cityName": "Częstochowa, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.12409",
+        "lat": "50.79646"
+    },
+    "Brzeg, PL":     {
+        "cityName": "Brzeg, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.4674",
+        "lat": "50.86079"
+    },
+    "Sopot, PL":     {
+        "cityName": "Sopot, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.56003",
+        "lat": "54.4418"
+    },
+    "Kluczbork, PL":     {
+        "cityName": "Kluczbork, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.21816",
+        "lat": "50.97281"
+    },
+    "Ciechanów, PL":     {
+        "cityName": "Ciechanów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.61996",
+        "lat": "52.88141"
+    },
+    "Żyrardów, PL":     {
+        "cityName": "Żyrardów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.44599",
+        "lat": "52.0488"
+    },
+    "Bemowo, PL":     {
+        "cityName": "Bemowo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.90844",
+        "lat": "52.2546"
+    },
+    "Krasnystaw, PL":     {
+        "cityName": "Krasnystaw, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.1742",
+        "lat": "50.98464"
+    },
+    "Międzyrzec Podlaski, PL":     {
+        "cityName": "Międzyrzec Podlaski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.78248",
+        "lat": "51.9864"
+    },
+    "Jarosław, PL":     {
+        "cityName": "Jarosław, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.67776",
+        "lat": "50.01623"
+    },
+    "Mysłowice, PL":     {
+        "cityName": "Mysłowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.16668",
+        "lat": "50.20745"
+    },
+    "Tarnowskie Góry, PL":     {
+        "cityName": "Tarnowskie Góry, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.86147",
+        "lat": "50.44548"
+    },
+    "Radlin, PL":     {
+        "cityName": "Radlin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.47626",
+        "lat": "50.0502"
+    },
+    "Wieluń, PL":     {
+        "cityName": "Wieluń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.56964",
+        "lat": "51.22097"
+    },
+    "Lidzbark Warmiński, PL":     {
+        "cityName": "Lidzbark Warmiński, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.57954",
+        "lat": "54.12588"
+    },
+    "Rembertów, PL":     {
+        "cityName": "Rembertów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.16355",
+        "lat": "52.26059"
+    },
+    "Targówek, PL":     {
+        "cityName": "Targówek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.04845",
+        "lat": "52.29185"
+    },
+    "Lublin, PL":     {
+        "cityName": "Lublin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.56667",
+        "lat": "51.25"
+    },
+    "Rawicz, PL":     {
+        "cityName": "Rawicz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.85852",
+        "lat": "51.60946"
+    },
+    "Bielsk Podlaski, PL":     {
+        "cityName": "Bielsk Podlaski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.18647",
+        "lat": "52.76512"
+    },
+    "Krapkowice, PL":     {
+        "cityName": "Krapkowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.96539",
+        "lat": "50.47515"
+    },
+    "Oświęcim, PL":     {
+        "cityName": "Oświęcim, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.21037",
+        "lat": "50.03437"
+    },
+    "Milanówek, PL":     {
+        "cityName": "Milanówek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.67155",
+        "lat": "52.11879"
+    },
+    "Zduńska Wola, PL":     {
+        "cityName": "Zduńska Wola, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.93974",
+        "lat": "51.59915"
+    },
+    "Nowy Dwór Mazowiecki, PL":     {
+        "cityName": "Nowy Dwór Mazowiecki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.71652",
+        "lat": "52.43022"
+    },
+    "Łapy, PL":     {
+        "cityName": "Łapy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.88422",
+        "lat": "52.9911"
+    },
+    "Libiąż, PL":     {
+        "cityName": "Libiąż, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.31568",
+        "lat": "50.10396"
+    },
+    "Brodnica, PL":     {
+        "cityName": "Brodnica, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.39653",
+        "lat": "53.25967"
+    },
+    "Wola, PL":     {
+        "cityName": "Wola, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.98869",
+        "lat": "52.2401"
+    },
+    "Kościerzyna, PL":     {
+        "cityName": "Kościerzyna, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.98119",
+        "lat": "54.12226"
+    },
+    "Świdnica, PL":     {
+        "cityName": "Świdnica, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.48859",
+        "lat": "50.84378"
+    },
+    "Zakopane, PL":     {
+        "cityName": "Zakopane, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.94885",
+        "lat": "49.29899"
+    },
+    "Braniewo, PL":     {
+        "cityName": "Braniewo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.81959",
+        "lat": "54.37971"
+    },
+    "Skarżysko-Kamienna, PL":     {
+        "cityName": "Skarżysko-Kamienna, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.87162",
+        "lat": "51.11311"
+    },
+    "Łomianki, PL":     {
+        "cityName": "Łomianki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.88602",
+        "lat": "52.33413"
+    },
+    "Kobyłka, PL":     {
+        "cityName": "Kobyłka, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.19589",
+        "lat": "52.33953"
+    },
+    "Rybnik, PL":     {
+        "cityName": "Rybnik, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.54179",
+        "lat": "50.09713"
+    },
+    "Kalisz, PL":     {
+        "cityName": "Kalisz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.09102",
+        "lat": "51.76109"
+    },
+    "Kłodzko, PL":     {
+        "cityName": "Kłodzko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.66145",
+        "lat": "50.43488"
+    },
+    "Jelcz, PL":     {
+        "cityName": "Jelcz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.32095",
+        "lat": "51.02102"
+    },
+    "Pisz, PL":     {
+        "cityName": "Pisz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.81253",
+        "lat": "53.62744"
+    },
+    "Opoczno, PL":     {
+        "cityName": "Opoczno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.27827",
+        "lat": "51.37569"
+    },
+    "Grudziądz, PL":     {
+        "cityName": "Grudziądz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.75366",
+        "lat": "53.48411"
+    },
+    "Namysłów, PL":     {
+        "cityName": "Namysłów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.72284",
+        "lat": "51.07592"
+    },
+    "Gostyń, PL":     {
+        "cityName": "Gostyń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.01225",
+        "lat": "51.88247"
+    },
+    "Lębork, PL":     {
+        "cityName": "Lębork, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.75012",
+        "lat": "54.53921"
+    },
+    "Łaziska Górne, PL":     {
+        "cityName": "Łaziska Górne, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.84215",
+        "lat": "50.14952"
+    },
+    "Wyszków, PL":     {
+        "cityName": "Wyszków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.4584",
+        "lat": "52.59278"
+    },
+    "Świebodzice, PL":     {
+        "cityName": "Świebodzice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.3282",
+        "lat": "50.85975"
+    },
+    "Sulechów, PL":     {
+        "cityName": "Sulechów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.62513",
+        "lat": "52.08362"
+    },
+    "Jasło, PL":     {
+        "cityName": "Jasło, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.47252",
+        "lat": "49.74506"
+    },
+    "Dęblin, PL":     {
+        "cityName": "Dęblin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.84829",
+        "lat": "51.55912"
+    },
+    "Toruń, PL":     {
+        "cityName": "Toruń, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.59814",
+        "lat": "53.01375"
+    },
+    "Radzionków, PL":     {
+        "cityName": "Radzionków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.90232",
+        "lat": "50.40026"
+    },
+    "Krotoszyn, PL":     {
+        "cityName": "Krotoszyn, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.43738",
+        "lat": "51.69868"
+    },
+    "Pruszków, PL":     {
+        "cityName": "Pruszków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.81214",
+        "lat": "52.17072"
+    },
+    "Ostrowiec Świętokrzyski, PL":     {
+        "cityName": "Ostrowiec Świętokrzyski, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.38525",
+        "lat": "50.92936"
+    },
+    "Kabaty, PL":     {
+        "cityName": "Kabaty, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.08148",
+        "lat": "52.13012"
+    },
+    "Wejherowo, PL":     {
+        "cityName": "Wejherowo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.23559",
+        "lat": "54.60568"
+    },
+    "Gubin, PL":     {
+        "cityName": "Gubin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.72837",
+        "lat": "51.94956"
+    },
+    "Chorzów, PL":     {
+        "cityName": "Chorzów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.9742",
+        "lat": "50.30582"
+    },
+    "Pionki, PL":     {
+        "cityName": "Pionki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.44995",
+        "lat": "51.47604"
+    },
+    "Lubin, PL":     {
+        "cityName": "Lubin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.20149",
+        "lat": "51.40089"
+    },
+    "Piaseczno, PL":     {
+        "cityName": "Piaseczno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.02397",
+        "lat": "52.0814"
+    },
+    "Gryfino, PL":     {
+        "cityName": "Gryfino, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "14.48831",
+        "lat": "53.25243"
+    },
+    "Reda, PL":     {
+        "cityName": "Reda, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.34717",
+        "lat": "54.60528"
+    },
+    "Jarocin, PL":     {
+        "cityName": "Jarocin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.50256",
+        "lat": "51.97266"
+    },
+    "Grodzisk Mazowiecki, PL":     {
+        "cityName": "Grodzisk Mazowiecki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.6337",
+        "lat": "52.10387"
+    },
+    "Szczytno, PL":     {
+        "cityName": "Szczytno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.98747",
+        "lat": "53.56259"
+    },
+    "Głowno, PL":     {
+        "cityName": "Głowno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.71565",
+        "lat": "51.96463"
+    },
+    "Lubartów, PL":     {
+        "cityName": "Lubartów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.60952",
+        "lat": "51.46026"
+    },
+    "Bartoszyce, PL":     {
+        "cityName": "Bartoszyce, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.80819",
+        "lat": "54.25354"
+    },
+    "Jędrzejów, PL":     {
+        "cityName": "Jędrzejów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.30454",
+        "lat": "50.63945"
+    },
+    "Bielany, PL":     {
+        "cityName": "Bielany, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.93531",
+        "lat": "52.29242"
+    },
+    "Płock, PL":     {
+        "cityName": "Płock, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.70638",
+        "lat": "52.54682"
+    },
+    "Kraśnik, PL":     {
+        "cityName": "Kraśnik, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.22706",
+        "lat": "50.9236"
+    },
+    "Wrocław, PL":     {
+        "cityName": "Wrocław, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.03333",
+        "lat": "51.1"
+    },
+    "Pruszcz Gdański, PL":     {
+        "cityName": "Pruszcz Gdański, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.63625",
+        "lat": "54.26217"
+    },
+    "Przasnysz, PL":     {
+        "cityName": "Przasnysz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.88029",
+        "lat": "53.01907"
+    },
+    "Koło, PL":     {
+        "cityName": "Koło, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.63865",
+        "lat": "52.20024"
+    },
+    "Łuków, PL":     {
+        "cityName": "Łuków, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.37956",
+        "lat": "51.929"
+    },
+    "Kielce, PL":     {
+        "cityName": "Kielce, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.62752",
+        "lat": "50.87033"
+    },
+    "Tarnów, PL":     {
+        "cityName": "Tarnów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.98698",
+        "lat": "50.01381"
+    },
+    "Grajewo, PL":     {
+        "cityName": "Grajewo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.45537",
+        "lat": "53.64728"
+    },
+    "Inowrocław, PL":     {
+        "cityName": "Inowrocław, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.26387",
+        "lat": "52.79886"
+    },
+    "Łowicz, PL":     {
+        "cityName": "Łowicz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.94525",
+        "lat": "52.10714"
+    },
+    "Żagań, PL":     {
+        "cityName": "Żagań, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.31486",
+        "lat": "51.61759"
+    },
+    "Chodzież, PL":     {
+        "cityName": "Chodzież, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.9198",
+        "lat": "52.99505"
+    },
+    "Łomża, PL":     {
+        "cityName": "Łomża, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.05935",
+        "lat": "53.17806"
+    },
+    "Suwałki, PL":     {
+        "cityName": "Suwałki, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.93087",
+        "lat": "54.11175"
+    },
+    "Nisko, PL":     {
+        "cityName": "Nisko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.13968",
+        "lat": "50.51987"
+    },
+    "Świecie, PL":     {
+        "cityName": "Świecie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.44742",
+        "lat": "53.40953"
+    },
+    "Józefów, PL":     {
+        "cityName": "Józefów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.23589",
+        "lat": "52.13707"
+    },
+    "Praga Południe, PL":     {
+        "cityName": "Praga Południe, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.08545",
+        "lat": "52.24424"
+    },
+    "Oława, PL":     {
+        "cityName": "Oława, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.2926",
+        "lat": "50.9466"
+    },
+    "Ropczyce, PL":     {
+        "cityName": "Ropczyce, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.60891",
+        "lat": "50.05229"
+    },
+    "Olecko, PL":     {
+        "cityName": "Olecko, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.50704",
+        "lat": "54.03374"
+    },
+    "Środa Wielkopolska, PL":     {
+        "cityName": "Środa Wielkopolska, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.27617",
+        "lat": "52.22843"
+    },
+    "Katowice, PL":     {
+        "cityName": "Katowice, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.02754",
+        "lat": "50.25841"
+    },
+    "Bytów, PL":     {
+        "cityName": "Bytów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.49187",
+        "lat": "54.17057"
+    },
+    "Szczecinek, PL":     {
+        "cityName": "Szczecinek, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.69937",
+        "lat": "53.70791"
+    },
+    "Zawiercie, PL":     {
+        "cityName": "Zawiercie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.41679",
+        "lat": "50.48766"
+    },
+    "Zambrów, PL":     {
+        "cityName": "Zambrów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.24319",
+        "lat": "52.9855"
+    },
+    "Wałbrzych, PL":     {
+        "cityName": "Wałbrzych, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.28432",
+        "lat": "50.77141"
+    },
+    "Praga Północ, PL":     {
+        "cityName": "Praga Północ, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.03472",
+        "lat": "52.25443"
+    },
+    "Gostynin, PL":     {
+        "cityName": "Gostynin, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.46194",
+        "lat": "52.42938"
+    },
+    "Hrubieszów, PL":     {
+        "cityName": "Hrubieszów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "23.89251",
+        "lat": "50.80502"
+    },
+    "Słupsk, PL":     {
+        "cityName": "Słupsk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.02872",
+        "lat": "54.46405"
+    },
+    "Chełmża, PL":     {
+        "cityName": "Chełmża, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.60466",
+        "lat": "53.18463"
+    },
+    "Ochota, PL":     {
+        "cityName": "Ochota, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.98526",
+        "lat": "52.22096"
+    },
+    "Biłgoraj, PL":     {
+        "cityName": "Biłgoraj, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.72204",
+        "lat": "50.54114"
+    },
+    "Iława, PL":     {
+        "cityName": "Iława, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.56849",
+        "lat": "53.59601"
+    },
+    "Andrychów, PL":     {
+        "cityName": "Andrychów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.33834",
+        "lat": "49.85497"
+    },
+    "Pułtusk, PL":     {
+        "cityName": "Pułtusk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.08276",
+        "lat": "52.7025"
+    },
+    "Września, PL":     {
+        "cityName": "Września, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.56519",
+        "lat": "52.32512"
+    },
+    "Pszczyna, PL":     {
+        "cityName": "Pszczyna, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.95382",
+        "lat": "49.98037"
+    },
+    "Kamienna Góra, PL":     {
+        "cityName": "Kamienna Góra, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.03037",
+        "lat": "50.78314"
+    },
+    "Skawina, PL":     {
+        "cityName": "Skawina, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.82869",
+        "lat": "49.97524"
+    },
+    "Kołobrzeg, PL":     {
+        "cityName": "Kołobrzeg, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.58342",
+        "lat": "54.17565"
+    },
+    "Mrągowo, PL":     {
+        "cityName": "Mrągowo, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.30507",
+        "lat": "53.86437"
+    },
+    "Bochnia, PL":     {
+        "cityName": "Bochnia, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.43028",
+        "lat": "49.96905"
+    },
+    "Leszno, PL":     {
+        "cityName": "Leszno, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "16.57494",
+        "lat": "51.84034"
+    },
+    "Piekary Śląskie, PL":     {
+        "cityName": "Piekary Śląskie, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.92653",
+        "lat": "50.38017"
+    },
+    "Puławy, PL":     {
+        "cityName": "Puławy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.96939",
+        "lat": "51.41655"
+    },
+    "Malbork, PL":     {
+        "cityName": "Malbork, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.0266",
+        "lat": "54.03591"
+    },
+    "Jelenia Góra, PL":     {
+        "cityName": "Jelenia Góra, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.72899",
+        "lat": "50.89973"
+    },
+    "Płońsk, PL":     {
+        "cityName": "Płońsk, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "20.37552",
+        "lat": "52.62348"
+    },
+    "Przemyśl, PL":     {
+        "cityName": "Przemyśl, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.76728",
+        "lat": "49.78498"
+    },
+    "Swarzędz, PL":     {
+        "cityName": "Swarzędz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.08503",
+        "lat": "52.41289"
+    },
+    "Nowa Sól, PL":     {
+        "cityName": "Nowa Sól, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "15.71702",
+        "lat": "51.80333"
+    },
+    "Nakło nad Notecią, PL":     {
+        "cityName": "Nakło nad Notecią, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "17.60181",
+        "lat": "53.14214"
+    },
+    "Łęczna, PL":     {
+        "cityName": "Łęczna, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "22.88135",
+        "lat": "51.30121"
+    },
+    "Ursynów, PL":     {
+        "cityName": "Ursynów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.05041",
+        "lat": "52.15051"
+    },
+    "Kwidzyn, PL":     {
+        "cityName": "Kwidzyn, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.93114",
+        "lat": "53.72495"
+    },
+    "Żory, PL":     {
+        "cityName": "Żory, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.70062",
+        "lat": "50.04523"
+    },
+    "Staszów, PL":     {
+        "cityName": "Staszów, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "21.16593",
+        "lat": "50.56307"
+    },
+    "Zgierz, PL":     {
+        "cityName": "Zgierz, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "19.40623",
+        "lat": "51.85561"
+    },
+    "Tychy, PL":     {
+        "cityName": "Tychy, PL",
+        "timeZone": "Europe/Warsaw",
+        "lon": "18.96641",
+        "lat": "50.13717"
+    }
+}

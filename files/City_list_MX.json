@@ -1,0 +1,3260 @@
+{
+    "Ecatepec, MX":     {
+        "cityName": "Ecatepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.06064",
+        "lat": "19.60492"
+    },
+    "San Miguel de Papasquiaro, MX":     {
+        "cityName": "San Miguel de Papasquiaro, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-105.3364",
+        "lat": "24.83078"
+    },
+    "Piedras Negras, MX":     {
+        "cityName": "Piedras Negras, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-100.52353",
+        "lat": "28.70007"
+    },
+    "Motozintla, MX":     {
+        "cityName": "Motozintla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.24605",
+        "lat": "15.36694"
+    },
+    "Melchor Ocampo, MX":     {
+        "cityName": "Melchor Ocampo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.14485",
+        "lat": "19.70186"
+    },
+    "Río Grande, MX":     {
+        "cityName": "Río Grande, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.03034",
+        "lat": "23.82647"
+    },
+    "Ciudad Guzmán, MX":     {
+        "cityName": "Ciudad Guzmán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.4617",
+        "lat": "19.70466"
+    },
+    "Castaños, MX":     {
+        "cityName": "Castaños, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.43211",
+        "lat": "26.78932"
+    },
+    "Arcelia, MX":     {
+        "cityName": "Arcelia, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.28148",
+        "lat": "18.31847"
+    },
+    "Tizayuca, MX":     {
+        "cityName": "Tizayuca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.97607",
+        "lat": "19.83721"
+    },
+    "Cuernavaca, MX":     {
+        "cityName": "Cuernavaca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.23075",
+        "lat": "18.9261"
+    },
+    "Coatzintla, MX":     {
+        "cityName": "Coatzintla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.46823",
+        "lat": "20.48699"
+    },
+    "Ocoyoacac, MX":     {
+        "cityName": "Ocoyoacac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.45787",
+        "lat": "19.27127"
+    },
+    "Oaxaca, MX":     {
+        "cityName": "Oaxaca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.72365",
+        "lat": "17.06542"
+    },
+    "Catemaco, MX":     {
+        "cityName": "Catemaco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.11398",
+        "lat": "18.42131"
+    },
+    "Nochistlán de Mejía, MX":     {
+        "cityName": "Nochistlán de Mejía, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.8459",
+        "lat": "21.36435"
+    },
+    "Tonalá, MX":     {
+        "cityName": "Tonalá, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.23423",
+        "lat": "20.62445"
+    },
+    "Calvillo, MX":     {
+        "cityName": "Calvillo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.71849",
+        "lat": "21.84583"
+    },
+    "Pinotepa Nacional, MX":     {
+        "cityName": "Pinotepa Nacional, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.05297",
+        "lat": "16.34014"
+    },
+    "Xico, MX":     {
+        "cityName": "Xico, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.00819",
+        "lat": "19.42178"
+    },
+    "Villa de Costa Rica, MX":     {
+        "cityName": "Villa de Costa Rica, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-107.38836",
+        "lat": "24.59167"
+    },
+    "Paracho de Verduzco, MX":     {
+        "cityName": "Paracho de Verduzco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.04897",
+        "lat": "19.64745"
+    },
+    "San Juan de los Lagos, MX":     {
+        "cityName": "San Juan de los Lagos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.33036",
+        "lat": "21.24893"
+    },
+    "Tultepec, MX":     {
+        "cityName": "Tultepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.12806",
+        "lat": "19.685"
+    },
+    "Xochitepec, MX":     {
+        "cityName": "Xochitepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.23049",
+        "lat": "18.7808"
+    },
+    "San Pablo Autopan, MX":     {
+        "cityName": "San Pablo Autopan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.65724",
+        "lat": "19.35638"
+    },
+    "Navolato, MX":     {
+        "cityName": "Navolato, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-107.70225",
+        "lat": "24.7661"
+    },
+    "Peto, MX":     {
+        "cityName": "Peto, MX",
+        "timeZone": "America/Merida",
+        "lon": "-88.92282",
+        "lat": "20.12776"
+    },
+    "Atotonilco el Alto, MX":     {
+        "cityName": "Atotonilco el Alto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.50942",
+        "lat": "20.55079"
+    },
+    "Progreso de Alvaro Obregon, MX":     {
+        "cityName": "Progreso de Alvaro Obregon, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.18988",
+        "lat": "20.24929"
+    },
+    "Colima, MX":     {
+        "cityName": "Colima, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.72714",
+        "lat": "19.24997"
+    },
+    "Taxco de Alarcón, MX":     {
+        "cityName": "Taxco de Alarcón, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.60592",
+        "lat": "18.55462"
+    },
+    "San Cristóbal de las Casas, MX":     {
+        "cityName": "San Cristóbal de las Casas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.64126",
+        "lat": "16.73176"
+    },
+    "Nuevo Casas Grandes, MX":     {
+        "cityName": "Nuevo Casas Grandes, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-107.91166",
+        "lat": "30.41552"
+    },
+    "San José del Cabo, MX":     {
+        "cityName": "San José del Cabo, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-109.69771",
+        "lat": "23.05888"
+    },
+    "Cárdenas, MX":     {
+        "cityName": "Cárdenas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.37559",
+        "lat": "18.00135"
+    },
+    "Milpa Alta, MX":     {
+        "cityName": "Milpa Alta, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.02317",
+        "lat": "19.19251"
+    },
+    "Teolocholco, MX":     {
+        "cityName": "Teolocholco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.19083",
+        "lat": "19.24333"
+    },
+    "Huatusco de Chicuellar, MX":     {
+        "cityName": "Huatusco de Chicuellar, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.9676",
+        "lat": "19.14876"
+    },
+    "San Mateo Atenco, MX":     {
+        "cityName": "San Mateo Atenco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.53214",
+        "lat": "19.26757"
+    },
+    "Jiutepec, MX":     {
+        "cityName": "Jiutepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.17778",
+        "lat": "18.88139"
+    },
+    "Tepatlaxco de Hidalgo, MX":     {
+        "cityName": "Tepatlaxco de Hidalgo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.96595",
+        "lat": "19.06747"
+    },
+    "Ocosingo, MX":     {
+        "cityName": "Ocosingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.09374",
+        "lat": "16.90639"
+    },
+    "Manzanillo, MX":     {
+        "cityName": "Manzanillo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.31583",
+        "lat": "19.05222"
+    },
+    "Santa Cruz de Juventino Rosas, MX":     {
+        "cityName": "Santa Cruz de Juventino Rosas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.99286",
+        "lat": "20.64337"
+    },
+    "Apan, MX":     {
+        "cityName": "Apan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.45086",
+        "lat": "19.71128"
+    },
+    "Medina, MX":     {
+        "cityName": "Medina, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.6225",
+        "lat": "21.14972"
+    },
+    "Tapachula, MX":     {
+        "cityName": "Tapachula, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.25749",
+        "lat": "14.90385"
+    },
+    "Ixtapa, MX":     {
+        "cityName": "Ixtapa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-105.20487",
+        "lat": "20.71641"
+    },
+    "Ocotlán, MX":     {
+        "cityName": "Ocotlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.77358",
+        "lat": "20.3553"
+    },
+    "Villagrán, MX":     {
+        "cityName": "Villagrán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.99745",
+        "lat": "20.51452"
+    },
+    "San Rafael Tlanalapan, MX":     {
+        "cityName": "San Rafael Tlanalapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.46806",
+        "lat": "19.29167"
+    },
+    "Guasave, MX":     {
+        "cityName": "Guasave, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-108.46756",
+        "lat": "25.56745"
+    },
+    "Chalco, MX":     {
+        "cityName": "Chalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.89775",
+        "lat": "19.26174"
+    },
+    "Acajete, MX":     {
+        "cityName": "Acajete, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.95231",
+        "lat": "19.11154"
+    },
+    "Víctor Rosales, MX":     {
+        "cityName": "Víctor Rosales, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.70222",
+        "lat": "22.94889"
+    },
+    "Valladolid, MX":     {
+        "cityName": "Valladolid, MX",
+        "timeZone": "America/Merida",
+        "lon": "-88.19936",
+        "lat": "20.68812"
+    },
+    "Altamira, MX":     {
+        "cityName": "Altamira, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-97.93867",
+        "lat": "22.39215"
+    },
+    "Azcapotzalco, MX":     {
+        "cityName": "Azcapotzalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.18594",
+        "lat": "19.48698"
+    },
+    "El Salto, MX":     {
+        "cityName": "El Salto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.5",
+        "lat": "20.33333"
+    },
+    "Santiago Tulantepec, MX":     {
+        "cityName": "Santiago Tulantepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.35563",
+        "lat": "20.03618"
+    },
+    "Ciudad General Escobedo, MX":     {
+        "cityName": "Ciudad General Escobedo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.31791",
+        "lat": "25.79698"
+    },
+    "San Miguel Zinacantepec, MX":     {
+        "cityName": "San Miguel Zinacantepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.73394",
+        "lat": "19.28428"
+    },
+    "Allende, MX":     {
+        "cityName": "Allende, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.01442",
+        "lat": "25.27673"
+    },
+    "Jerez de García Salinas, MX":     {
+        "cityName": "Jerez de García Salinas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.99034",
+        "lat": "22.64862"
+    },
+    "Ixtapa-Zihuatanejo, MX":     {
+        "cityName": "Ixtapa-Zihuatanejo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.55212",
+        "lat": "17.64344"
+    },
+    "Álvaro Obregón, MX":     {
+        "cityName": "Álvaro Obregón, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.20329",
+        "lat": "19.35867"
+    },
+    "Ocozocoautla de Espinosa, MX":     {
+        "cityName": "Ocozocoautla de Espinosa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.37476",
+        "lat": "16.76231"
+    },
+    "Tlapa de Comonfort, MX":     {
+        "cityName": "Tlapa de Comonfort, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.57599",
+        "lat": "17.54528"
+    },
+    "Villa Cuauhtémoc Otzolotepec, MX":     {
+        "cityName": "Villa Cuauhtémoc Otzolotepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.55872",
+        "lat": "19.41676"
+    },
+    "Salvatierra, MX":     {
+        "cityName": "Salvatierra, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.87923",
+        "lat": "20.21249"
+    },
+    "Fraccionamiento Real Palmas, MX":     {
+        "cityName": "Fraccionamiento Real Palmas, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.15972",
+        "lat": "25.90417"
+    },
+    "Zacoalco de Torres, MX":     {
+        "cityName": "Zacoalco de Torres, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.5687",
+        "lat": "20.22816"
+    },
+    "Martínez de la Torre, MX":     {
+        "cityName": "Martínez de la Torre, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.06078",
+        "lat": "20.07082"
+    },
+    "Naucalpan de Juárez, MX":     {
+        "cityName": "Naucalpan de Juárez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.27667",
+        "lat": "19.39694"
+    },
+    "Pánuco, MX":     {
+        "cityName": "Pánuco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.18498",
+        "lat": "22.05373"
+    },
+    "La Cruz, MX":     {
+        "cityName": "La Cruz, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-106.8925",
+        "lat": "23.92126"
+    },
+    "Miguel Hidalgo, MX":     {
+        "cityName": "Miguel Hidalgo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.20091",
+        "lat": "19.43471"
+    },
+    "Tijuana, MX":     {
+        "cityName": "Tijuana, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-117.00371",
+        "lat": "32.5027"
+    },
+    "Misantla, MX":     {
+        "cityName": "Misantla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.85194",
+        "lat": "19.92992"
+    },
+    "Nuevo México, MX":     {
+        "cityName": "Nuevo México, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.44297",
+        "lat": "20.7565"
+    },
+    "Cabo San Lucas, MX":     {
+        "cityName": "Cabo San Lucas, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-109.91238",
+        "lat": "22.89088"
+    },
+    "Berriozábal, MX":     {
+        "cityName": "Berriozábal, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.27163",
+        "lat": "16.79853"
+    },
+    "Chiconcuac, MX":     {
+        "cityName": "Chiconcuac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.89884",
+        "lat": "19.55939"
+    },
+    "Iztacalco, MX":     {
+        "cityName": "Iztacalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.09778",
+        "lat": "19.39528"
+    },
+    "Los Mochis, MX":     {
+        "cityName": "Los Mochis, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-108.99808",
+        "lat": "25.79302"
+    },
+    "Tlalnepantla, MX":     {
+        "cityName": "Tlalnepantla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.19538",
+        "lat": "19.54005"
+    },
+    "Reyes Acozac, MX":     {
+        "cityName": "Reyes Acozac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.98079",
+        "lat": "19.7755"
+    },
+    "San Salvador Tizatlalli, MX":     {
+        "cityName": "San Salvador Tizatlalli, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.59083",
+        "lat": "19.26028"
+    },
+    "Axochiapan, MX":     {
+        "cityName": "Axochiapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.75358",
+        "lat": "18.50246"
+    },
+    "Ojo de Agua, MX":     {
+        "cityName": "Ojo de Agua, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.01",
+        "lat": "19.68028"
+    },
+    "Puente de Ixtla, MX":     {
+        "cityName": "Puente de Ixtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.31806",
+        "lat": "18.61472"
+    },
+    "Champotón, MX":     {
+        "cityName": "Champotón, MX",
+        "timeZone": "America/Merida",
+        "lon": "-90.72576",
+        "lat": "19.34441"
+    },
+    "Atlacomulco de Fabela, MX":     {
+        "cityName": "Atlacomulco de Fabela, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.875",
+        "lat": "19.79919"
+    },
+    "San Jerónimo Ixtepec, MX":     {
+        "cityName": "San Jerónimo Ixtepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.10223",
+        "lat": "16.57855"
+    },
+    "Torreon, MX":     {
+        "cityName": "Torreon, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-103.41898",
+        "lat": "25.54389"
+    },
+    "Palenque, MX":     {
+        "cityName": "Palenque, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-91.98248",
+        "lat": "17.50953"
+    },
+    "Pueblo Nuevo, MX":     {
+        "cityName": "Pueblo Nuevo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-105.38313",
+        "lat": "23.37927"
+    },
+    "Teocaltiche, MX":     {
+        "cityName": "Teocaltiche, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.57449",
+        "lat": "21.43421"
+    },
+    "Ciudad Lerdo, MX":     {
+        "cityName": "Ciudad Lerdo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-103.52456",
+        "lat": "25.53718"
+    },
+    "Altotonga, MX":     {
+        "cityName": "Altotonga, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.24514",
+        "lat": "19.76613"
+    },
+    "Tesistán, MX":     {
+        "cityName": "Tesistán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.46993",
+        "lat": "20.80051"
+    },
+    "Amozoc de Mota, MX":     {
+        "cityName": "Amozoc de Mota, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.045",
+        "lat": "19.04611"
+    },
+    "San Andrés Cholula, MX":     {
+        "cityName": "San Andrés Cholula, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.29526",
+        "lat": "19.05144"
+    },
+    "Montemorelos, MX":     {
+        "cityName": "Montemorelos, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.82865",
+        "lat": "25.18909"
+    },
+    "Las Choapas, MX":     {
+        "cityName": "Las Choapas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.09646",
+        "lat": "17.91177"
+    },
+    "San Martin Texmelucan de Labastida, MX":     {
+        "cityName": "San Martin Texmelucan de Labastida, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.43885",
+        "lat": "19.28431"
+    },
+    "Cananea, MX":     {
+        "cityName": "Cananea, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.29062",
+        "lat": "30.98699"
+    },
+    "Jardines de la Silla (Jardines), MX":     {
+        "cityName": "Jardines de la Silla (Jardines), MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.18778",
+        "lat": "25.62944"
+    },
+    "Soledad de Graciano Sánchez, MX":     {
+        "cityName": "Soledad de Graciano Sánchez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.94083",
+        "lat": "22.18306"
+    },
+    "Zapopan, MX":     {
+        "cityName": "Zapopan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.38479",
+        "lat": "20.72356"
+    },
+    "Ciudad Sabinas, MX":     {
+        "cityName": "Ciudad Sabinas, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.11738",
+        "lat": "27.85591"
+    },
+    "Pénjamo, MX":     {
+        "cityName": "Pénjamo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.72261",
+        "lat": "20.43108"
+    },
+    "Cuautla, MX":     {
+        "cityName": "Cuautla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.93525",
+        "lat": "18.8106"
+    },
+    "Huauchinango, MX":     {
+        "cityName": "Huauchinango, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.05491",
+        "lat": "20.17376"
+    },
+    "Ciudad Constitución, MX":     {
+        "cityName": "Ciudad Constitución, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-111.66256",
+        "lat": "25.0321"
+    },
+    "Sabinas Hidalgo, MX":     {
+        "cityName": "Sabinas Hidalgo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.18187",
+        "lat": "26.50358"
+    },
+    "Sanctorum, MX":     {
+        "cityName": "Sanctorum, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.25417",
+        "lat": "19.09917"
+    },
+    "Lomas del Sur, MX":     {
+        "cityName": "Lomas del Sur, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.4175",
+        "lat": "20.4925"
+    },
+    "Tantoyuca, MX":     {
+        "cityName": "Tantoyuca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.2257",
+        "lat": "21.35064"
+    },
+    "Tepatitlán de Morelos, MX":     {
+        "cityName": "Tepatitlán de Morelos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.76347",
+        "lat": "20.81692"
+    },
+    "Papantla de Olarte, MX":     {
+        "cityName": "Papantla de Olarte, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.32495",
+        "lat": "20.44655"
+    },
+    "Tequila, MX":     {
+        "cityName": "Tequila, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.83599",
+        "lat": "20.88205"
+    },
+    "Santa Cruz Xoxocotlán, MX":     {
+        "cityName": "Santa Cruz Xoxocotlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.73518",
+        "lat": "17.02958"
+    },
+    "Juchitán de Zaragoza, MX":     {
+        "cityName": "Juchitán de Zaragoza, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.01975",
+        "lat": "16.43603"
+    },
+    "Villa del Prado 2da Sección, MX":     {
+        "cityName": "Villa del Prado 2da Sección, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.97167",
+        "lat": "32.42389"
+    },
+    "Chichén-Itzá, MX":     {
+        "cityName": "Chichén-Itzá, MX",
+        "timeZone": "America/Merida",
+        "lon": "-88.56667",
+        "lat": "20.66667"
+    },
+    "Cadereyta, MX":     {
+        "cityName": "Cadereyta, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.98333",
+        "lat": "25.58333"
+    },
+    "Orizaba, MX":     {
+        "cityName": "Orizaba, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.09957",
+        "lat": "18.85195"
+    },
+    "San Miguel Coatlinchán, MX":     {
+        "cityName": "San Miguel Coatlinchán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.87274",
+        "lat": "19.44999"
+    },
+    "Frontera Comalapa, MX":     {
+        "cityName": "Frontera Comalapa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.14282",
+        "lat": "15.66046"
+    },
+    "Ojinaga, MX":     {
+        "cityName": "Ojinaga, MX",
+        "timeZone": "America/Ojinaga",
+        "lon": "-104.54487",
+        "lat": "29.56689"
+    },
+    "Iguala de la Independencia, MX":     {
+        "cityName": "Iguala de la Independencia, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.5413",
+        "lat": "18.34536"
+    },
+    "Huetamo de Núñez, MX":     {
+        "cityName": "Huetamo de Núñez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.897",
+        "lat": "18.62926"
+    },
+    "Dolores Hidalgo Cuna de la Independencia Nacional, MX":     {
+        "cityName": "Dolores Hidalgo Cuna de la Independencia Nacional, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.9325",
+        "lat": "21.15611"
+    },
+    "Loreto, MX":     {
+        "cityName": "Loreto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.98898",
+        "lat": "22.27248"
+    },
+    "Celaya, MX":     {
+        "cityName": "Celaya, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.8157",
+        "lat": "20.52353"
+    },
+    "Coatepec, MX":     {
+        "cityName": "Coatepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.96148",
+        "lat": "19.45229"
+    },
+    "Río de Teapa, MX":     {
+        "cityName": "Río de Teapa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.90033",
+        "lat": "17.78342"
+    },
+    "Valle de Bravo, MX":     {
+        "cityName": "Valle de Bravo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.13132",
+        "lat": "19.19501"
+    },
+    "Victoria de Durango, MX":     {
+        "cityName": "Victoria de Durango, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-104.65756",
+        "lat": "24.02032"
+    },
+    "Lagos de Moreno, MX":     {
+        "cityName": "Lagos de Moreno, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.93768",
+        "lat": "21.35666"
+    },
+    "Comonfort, MX":     {
+        "cityName": "Comonfort, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.75946",
+        "lat": "20.72278"
+    },
+    "San Francisco Acuautla, MX":     {
+        "cityName": "San Francisco Acuautla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.86034",
+        "lat": "19.34564"
+    },
+    "Nogales, MX":     {
+        "cityName": "Nogales, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.94217",
+        "lat": "31.30862"
+    },
+    "Fortín de las Flores, MX":     {
+        "cityName": "Fortín de las Flores, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97",
+        "lat": "18.90806"
+    },
+    "Hermosillo, MX":     {
+        "cityName": "Hermosillo, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.97732",
+        "lat": "29.1026"
+    },
+    "Huimanguillo, MX":     {
+        "cityName": "Huimanguillo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.38926",
+        "lat": "17.83366"
+    },
+    "San Sebastián el Grande, MX":     {
+        "cityName": "San Sebastián el Grande, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.41667",
+        "lat": "20.51667"
+    },
+    "Comalcalco, MX":     {
+        "cityName": "Comalcalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.22397",
+        "lat": "18.26316"
+    },
+    "Parral, MX":     {
+        "cityName": "Parral, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-105.6664",
+        "lat": "26.93022"
+    },
+    "Río Bravo, MX":     {
+        "cityName": "Río Bravo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-98.09414",
+        "lat": "25.98729"
+    },
+    "Jojutla, MX":     {
+        "cityName": "Jojutla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.18028",
+        "lat": "18.61472"
+    },
+    "Morelia, MX":     {
+        "cityName": "Morelia, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.18443",
+        "lat": "19.70078"
+    },
+    "Veracruz, MX":     {
+        "cityName": "Veracruz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.1429",
+        "lat": "19.18095"
+    },
+    "Las Delicias, MX":     {
+        "cityName": "Las Delicias, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.94361",
+        "lat": "32.40889"
+    },
+    "Moroleón, MX":     {
+        "cityName": "Moroleón, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.19208",
+        "lat": "20.12571"
+    },
+    "Río Blanco, MX":     {
+        "cityName": "Río Blanco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.156",
+        "lat": "18.83036"
+    },
+    "San Felipe, MX":     {
+        "cityName": "San Felipe, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.21566",
+        "lat": "21.47831"
+    },
+    "Santa Anita, MX":     {
+        "cityName": "Santa Anita, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.44",
+        "lat": "20.55056"
+    },
+    "Villa Juárez, MX":     {
+        "cityName": "Villa Juárez, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-107.54059",
+        "lat": "24.65869"
+    },
+    "Xoxocotla, MX":     {
+        "cityName": "Xoxocotla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.24577",
+        "lat": "18.68415"
+    },
+    "Puerto Escondido, MX":     {
+        "cityName": "Puerto Escondido, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.07726",
+        "lat": "15.87037"
+    },
+    "Heroica Caborca, MX":     {
+        "cityName": "Heroica Caborca, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-112.15822",
+        "lat": "30.71825"
+    },
+    "Xicotepec de Juárez, MX":     {
+        "cityName": "Xicotepec de Juárez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.96111",
+        "lat": "20.27605"
+    },
+    "Nicolás Romero, MX":     {
+        "cityName": "Nicolás Romero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.3068",
+        "lat": "19.64177"
+    },
+    "Matías Romero, MX":     {
+        "cityName": "Matías Romero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.03939",
+        "lat": "16.87902"
+    },
+    "Cosamaloapan de Carpio, MX":     {
+        "cityName": "Cosamaloapan de Carpio, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.79857",
+        "lat": "18.36759"
+    },
+    "San Pedro, MX":     {
+        "cityName": "San Pedro, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-103.21667",
+        "lat": "25.43333"
+    },
+    "San José Iturbide, MX":     {
+        "cityName": "San José Iturbide, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.38416",
+        "lat": "21.00153"
+    },
+    "Frontera, MX":     {
+        "cityName": "Frontera, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.6453",
+        "lat": "18.54326"
+    },
+    "Túxpam de Rodríguez Cano, MX":     {
+        "cityName": "Túxpam de Rodríguez Cano, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.40805",
+        "lat": "20.95777"
+    },
+    "Santiago Ixcuintla, MX":     {
+        "cityName": "Santiago Ixcuintla, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-105.20844",
+        "lat": "21.81295"
+    },
+    "Atoyac de Álvarez, MX":     {
+        "cityName": "Atoyac de Álvarez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.43306",
+        "lat": "17.20667"
+    },
+    "Alto Lucero, MX":     {
+        "cityName": "Alto Lucero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.44194",
+        "lat": "20.95361"
+    },
+    "Acaponeta, MX":     {
+        "cityName": "Acaponeta, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-105.36369",
+        "lat": "22.49396"
+    },
+    "Ixtapaluca, MX":     {
+        "cityName": "Ixtapaluca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.88284",
+        "lat": "19.31556"
+    },
+    "Tepic, MX":     {
+        "cityName": "Tepic, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-104.89569",
+        "lat": "21.50951"
+    },
+    "Amecameca, MX":     {
+        "cityName": "Amecameca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.76649",
+        "lat": "19.12384"
+    },
+    "Zapotlanejo, MX":     {
+        "cityName": "Zapotlanejo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.06766",
+        "lat": "20.62248"
+    },
+    "Jiménez, MX":     {
+        "cityName": "Jiménez, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-105.4",
+        "lat": "28.33333"
+    },
+    "Colonia Nativitas, MX":     {
+        "cityName": "Colonia Nativitas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.13685",
+        "lat": "19.38119"
+    },
+    "Tlalpan, MX":     {
+        "cityName": "Tlalpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.16787",
+        "lat": "19.29707"
+    },
+    "Ampliación San Mateo (Colonia Solidaridad), MX":     {
+        "cityName": "Ampliación San Mateo (Colonia Solidaridad), MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.14722",
+        "lat": "19.61639"
+    },
+    "Saltillo, MX":     {
+        "cityName": "Saltillo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.0053",
+        "lat": "25.42321"
+    },
+    "San Isidro, MX":     {
+        "cityName": "San Isidro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.95056",
+        "lat": "19.33972"
+    },
+    "Fraccionamiento Ciudad Olmeca, MX":     {
+        "cityName": "Fraccionamiento Ciudad Olmeca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.5525",
+        "lat": "18.15056"
+    },
+    "Nicolás R Casillas, MX":     {
+        "cityName": "Nicolás R Casillas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.46622",
+        "lat": "20.54638"
+    },
+    "Irapuato, MX":     {
+        "cityName": "Irapuato, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.35628",
+        "lat": "20.67675"
+    },
+    "Chignahuapan, MX":     {
+        "cityName": "Chignahuapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.03171",
+        "lat": "19.83866"
+    },
+    "San Bernardino Tlaxcalancingo, MX":     {
+        "cityName": "San Bernardino Tlaxcalancingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.27698",
+        "lat": "19.02867"
+    },
+    "Garza García, MX":     {
+        "cityName": "Garza García, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.37758",
+        "lat": "25.65384"
+    },
+    "Ozumba de Alzate, MX":     {
+        "cityName": "Ozumba de Alzate, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.79516",
+        "lat": "19.03689"
+    },
+    "La Ermita, MX":     {
+        "cityName": "La Ermita, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.73306",
+        "lat": "21.15194"
+    },
+    "Palmarito Tochapan, MX":     {
+        "cityName": "Palmarito Tochapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.63833",
+        "lat": "18.90135"
+    },
+    "Cortazar, MX":     {
+        "cityName": "Cortazar, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.96067",
+        "lat": "20.48008"
+    },
+    "Heroica Matamoros, MX":     {
+        "cityName": "Heroica Matamoros, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-97.50417",
+        "lat": "25.87972"
+    },
+    "Pachuca de Soto, MX":     {
+        "cityName": "Pachuca de Soto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.73329",
+        "lat": "20.11697"
+    },
+    "Atlixco, MX":     {
+        "cityName": "Atlixco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.43613",
+        "lat": "18.90815"
+    },
+    "Agua Prieta, MX":     {
+        "cityName": "Agua Prieta, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-109.54876",
+        "lat": "31.33071"
+    },
+    "Santiago Tuxtla, MX":     {
+        "cityName": "Santiago Tuxtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.3006",
+        "lat": "18.46576"
+    },
+    "Uriangato, MX":     {
+        "cityName": "Uriangato, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.18251",
+        "lat": "20.14085"
+    },
+    "Tecamachalco, MX":     {
+        "cityName": "Tecamachalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.73344",
+        "lat": "18.88352"
+    },
+    "Pórticos de San Antonio, MX":     {
+        "cityName": "Pórticos de San Antonio, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-117.03417",
+        "lat": "32.4425"
+    },
+    "Valle de Santiago, MX":     {
+        "cityName": "Valle de Santiago, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.19222",
+        "lat": "20.3914"
+    },
+    "Tacámbaro de Codallos, MX":     {
+        "cityName": "Tacámbaro de Codallos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.45824",
+        "lat": "19.23502"
+    },
+    "Ciudad Apodaca, MX":     {
+        "cityName": "Ciudad Apodaca, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.18839",
+        "lat": "25.78195"
+    },
+    "Salamanca, MX":     {
+        "cityName": "Salamanca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.19154",
+        "lat": "20.57196"
+    },
+    "Tula de Allende, MX":     {
+        "cityName": "Tula de Allende, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.34397",
+        "lat": "20.05161"
+    },
+    "Sayula, MX":     {
+        "cityName": "Sayula, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.60027",
+        "lat": "19.88225"
+    },
+    "Ciudad Fernández, MX":     {
+        "cityName": "Ciudad Fernández, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.01153",
+        "lat": "21.94045"
+    },
+    "Moyotzingo, MX":     {
+        "cityName": "Moyotzingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.40486",
+        "lat": "19.24811"
+    },
+    "Capulhuac, MX":     {
+        "cityName": "Capulhuac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.46585",
+        "lat": "19.19354"
+    },
+    "Coyotepec, MX":     {
+        "cityName": "Coyotepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.21295",
+        "lat": "19.77722"
+    },
+    "Ciudad Valles, MX":     {
+        "cityName": "Ciudad Valles, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.01667",
+        "lat": "21.98333"
+    },
+    "Teapa, MX":     {
+        "cityName": "Teapa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.95211",
+        "lat": "17.5497"
+    },
+    "Marfil, MX":     {
+        "cityName": "Marfil, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.28434",
+        "lat": "20.99165"
+    },
+    "Cuautlancingo, MX":     {
+        "cityName": "Cuautlancingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.27319",
+        "lat": "19.08995"
+    },
+    "Coacalco, MX":     {
+        "cityName": "Coacalco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.10689",
+        "lat": "19.62923"
+    },
+    "San Pedro Madera, MX":     {
+        "cityName": "San Pedro Madera, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-108.14684",
+        "lat": "29.19366"
+    },
+    "Kanasín, MX":     {
+        "cityName": "Kanasín, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.55871",
+        "lat": "20.93482"
+    },
+    "Autlán de Navarro, MX":     {
+        "cityName": "Autlán de Navarro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.36664",
+        "lat": "19.76822"
+    },
+    "Cuautitlán, MX":     {
+        "cityName": "Cuautitlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.17989",
+        "lat": "19.67052"
+    },
+    "Ciudad Madero, MX":     {
+        "cityName": "Ciudad Madero, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-97.83623",
+        "lat": "22.27228"
+    },
+    "Ríoverde, MX":     {
+        "cityName": "Ríoverde, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.99488",
+        "lat": "21.93115"
+    },
+    "Tecámac, MX":     {
+        "cityName": "Tecámac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.96895",
+        "lat": "19.71288"
+    },
+    "Linares, MX":     {
+        "cityName": "Linares, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.56768",
+        "lat": "24.85798"
+    },
+    "Buenavista, MX":     {
+        "cityName": "Buenavista, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.16944",
+        "lat": "19.60833"
+    },
+    "Jamay, MX":     {
+        "cityName": "Jamay, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.70754",
+        "lat": "20.29349"
+    },
+    "Crucecita, MX":     {
+        "cityName": "Crucecita, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.135",
+        "lat": "15.76889"
+    },
+    "La Isla, MX":     {
+        "cityName": "La Isla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.15",
+        "lat": "18.6"
+    },
+    "Chilapa de Alvarez, MX":     {
+        "cityName": "Chilapa de Alvarez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.17639",
+        "lat": "17.59459"
+    },
+    "Apatzingán, MX":     {
+        "cityName": "Apatzingán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.35704",
+        "lat": "19.08864"
+    },
+    "Don Antonio, MX":     {
+        "cityName": "Don Antonio, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.93472",
+        "lat": "19.87444"
+    },
+    "Monterrey, MX":     {
+        "cityName": "Monterrey, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.31847",
+        "lat": "25.67507"
+    },
+    "Centro Familiar la Soledad, MX":     {
+        "cityName": "Centro Familiar la Soledad, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.74972",
+        "lat": "21.135"
+    },
+    "Monclova, MX":     {
+        "cityName": "Monclova, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.42056",
+        "lat": "26.90687"
+    },
+    "Teoloyucan, MX":     {
+        "cityName": "Teoloyucan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.18113",
+        "lat": "19.74423"
+    },
+    "Toluca, MX":     {
+        "cityName": "Toluca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.65324",
+        "lat": "19.28786"
+    },
+    "San Mateo Otzacatipan, MX":     {
+        "cityName": "San Mateo Otzacatipan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.60345",
+        "lat": "19.33273"
+    },
+    "Mexico City, MX":     {
+        "cityName": "Mexico City, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.12766",
+        "lat": "19.42847"
+    },
+    "Villa Vicente Guerrero, MX":     {
+        "cityName": "Villa Vicente Guerrero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.16572",
+        "lat": "19.12123"
+    },
+    "Cihuatlán, MX":     {
+        "cityName": "Cihuatlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.56512",
+        "lat": "19.2366"
+    },
+    "Acapulco de Juárez, MX":     {
+        "cityName": "Acapulco de Juárez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.8901",
+        "lat": "16.86336"
+    },
+    "Tejupilco de Hidalgo, MX":     {
+        "cityName": "Tejupilco de Hidalgo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.15275",
+        "lat": "18.90475"
+    },
+    "Ciudad Obregón, MX":     {
+        "cityName": "Ciudad Obregón, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-109.94083",
+        "lat": "27.48642"
+    },
+    "Macuspana, MX":     {
+        "cityName": "Macuspana, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.59539",
+        "lat": "17.76052"
+    },
+    "Zacapú, MX":     {
+        "cityName": "Zacapú, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.79157",
+        "lat": "19.81396"
+    },
+    "Ometepec, MX":     {
+        "cityName": "Ometepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.40797",
+        "lat": "16.69008"
+    },
+    "Las Pintas de Arriba, MX":     {
+        "cityName": "Las Pintas de Arriba, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.32345",
+        "lat": "20.57376"
+    },
+    "Guadalupe Victoria, MX":     {
+        "cityName": "Guadalupe Victoria, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-115.10534",
+        "lat": "32.28924"
+    },
+    "Santiago Papasquiaro, MX":     {
+        "cityName": "Santiago Papasquiaro, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-105.41917",
+        "lat": "25.04389"
+    },
+    "Las Pintitas, MX":     {
+        "cityName": "Las Pintitas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.30222",
+        "lat": "20.56444"
+    },
+    "Ciudad Victoria, MX":     {
+        "cityName": "Ciudad Victoria, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.14599",
+        "lat": "23.74174"
+    },
+    "Tizimín, MX":     {
+        "cityName": "Tizimín, MX",
+        "timeZone": "America/Merida",
+        "lon": "-88.15101",
+        "lat": "21.14268"
+    },
+    "Tixtla de Guerrero, MX":     {
+        "cityName": "Tixtla de Guerrero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.39799",
+        "lat": "17.56732"
+    },
+    "Chapala, MX":     {
+        "cityName": "Chapala, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.19123",
+        "lat": "20.29616"
+    },
+    "Rincón de Romos, MX":     {
+        "cityName": "Rincón de Romos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.32216",
+        "lat": "22.22819"
+    },
+    "Ciudad Mante, MX":     {
+        "cityName": "Ciudad Mante, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-98.9739",
+        "lat": "22.74304"
+    },
+    "Ciudad Acuña, MX":     {
+        "cityName": "Ciudad Acuña, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-100.95217",
+        "lat": "29.32322"
+    },
+    "Ciudad Sahagun, MX":     {
+        "cityName": "Ciudad Sahagun, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.57471",
+        "lat": "19.77557"
+    },
+    "Romita, MX":     {
+        "cityName": "Romita, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.51683",
+        "lat": "20.87127"
+    },
+    "Mazatlán, MX":     {
+        "cityName": "Mazatlán, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-106.4062",
+        "lat": "23.2329"
+    },
+    "Zumpango del Río, MX":     {
+        "cityName": "Zumpango del Río, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.52725",
+        "lat": "17.65437"
+    },
+    "Izúcar de Matamoros, MX":     {
+        "cityName": "Izúcar de Matamoros, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.46152",
+        "lat": "18.60157"
+    },
+    "Silao, MX":     {
+        "cityName": "Silao, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.42703",
+        "lat": "20.94356"
+    },
+    "Arandas, MX":     {
+        "cityName": "Arandas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.34635",
+        "lat": "20.70519"
+    },
+    "Sahuayo de Morelos, MX":     {
+        "cityName": "Sahuayo de Morelos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.71575",
+        "lat": "20.05859"
+    },
+    "San Lorenzo Acopilco, MX":     {
+        "cityName": "San Lorenzo Acopilco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.32556",
+        "lat": "19.32889"
+    },
+    "Valle Hermoso, MX":     {
+        "cityName": "Valle Hermoso, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-97.81313",
+        "lat": "25.67207"
+    },
+    "Tlaquiltenango, MX":     {
+        "cityName": "Tlaquiltenango, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.1632",
+        "lat": "18.63429"
+    },
+    "Guadalupe, MX":     {
+        "cityName": "Guadalupe, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.51874",
+        "lat": "22.74753"
+    },
+    "Emiliano Zapata, MX":     {
+        "cityName": "Emiliano Zapata, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.97472",
+        "lat": "19.34361"
+    },
+    "Minatitlán, MX":     {
+        "cityName": "Minatitlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.5569",
+        "lat": "18.00011"
+    },
+    "Juan José Ríos, MX":     {
+        "cityName": "Juan José Ríos, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-108.8242",
+        "lat": "25.75781"
+    },
+    "Licenciado Benito Juárez (Campo Gobierno), MX":     {
+        "cityName": "Licenciado Benito Juárez (Campo Gobierno), MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-107.545",
+        "lat": "24.65667"
+    },
+    "Tezontepec de Aldama, MX":     {
+        "cityName": "Tezontepec de Aldama, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.27429",
+        "lat": "20.19073"
+    },
+    "Poza Rica de Hidalgo, MX":     {
+        "cityName": "Poza Rica de Hidalgo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.45946",
+        "lat": "20.53315"
+    },
+    "Temixco, MX":     {
+        "cityName": "Temixco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.22537",
+        "lat": "18.85254"
+    },
+    "Las Margaritas, MX":     {
+        "cityName": "Las Margaritas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-91.98107",
+        "lat": "16.31265"
+    },
+    "Perote, MX":     {
+        "cityName": "Perote, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.24235",
+        "lat": "19.56233"
+    },
+    "Comitán, MX":     {
+        "cityName": "Comitán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.13425",
+        "lat": "16.24471"
+    },
+    "Venceremos, MX":     {
+        "cityName": "Venceremos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.39806",
+        "lat": "20.55083"
+    },
+    "Teotihuacán de Arista, MX":     {
+        "cityName": "Teotihuacán de Arista, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.86083",
+        "lat": "19.68972"
+    },
+    "Mexicali, MX":     {
+        "cityName": "Mexicali, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-115.45446",
+        "lat": "32.62781"
+    },
+    "Zacatlán, MX":     {
+        "cityName": "Zacatlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.96125",
+        "lat": "19.9355"
+    },
+    "Parque Industrial Ciudad Mitras, MX":     {
+        "cityName": "Parque Industrial Ciudad Mitras, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.44778",
+        "lat": "25.78861"
+    },
+    "San Jorge Pueblo Nuevo, MX":     {
+        "cityName": "San Jorge Pueblo Nuevo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.62778",
+        "lat": "19.25417"
+    },
+    "Chilpancingo, MX":     {
+        "cityName": "Chilpancingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.50578",
+        "lat": "17.5506"
+    },
+    "Ciudad de Villa de Álvarez, MX":     {
+        "cityName": "Ciudad de Villa de Álvarez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.73778",
+        "lat": "19.26722"
+    },
+    "Tamazunchale, MX":     {
+        "cityName": "Tamazunchale, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.78935",
+        "lat": "21.25993"
+    },
+    "Ciudad Altamirano, MX":     {
+        "cityName": "Ciudad Altamirano, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.66965",
+        "lat": "18.3582"
+    },
+    "Meoqui, MX":     {
+        "cityName": "Meoqui, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-105.48046",
+        "lat": "28.27226"
+    },
+    "San José Guadalupe Otzacatipan, MX":     {
+        "cityName": "San José Guadalupe Otzacatipan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.59194",
+        "lat": "19.34472"
+    },
+    "Manuel Ojinaga, MX":     {
+        "cityName": "Manuel Ojinaga, MX",
+        "timeZone": "America/Ojinaga",
+        "lon": "-104.41639",
+        "lat": "29.56444"
+    },
+    "Escuinapa, MX":     {
+        "cityName": "Escuinapa, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-105.77772",
+        "lat": "22.83279"
+    },
+    "Agua Dulce, MX":     {
+        "cityName": "Agua Dulce, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.14527",
+        "lat": "18.13909"
+    },
+    "Altepexi, MX":     {
+        "cityName": "Altepexi, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.29966",
+        "lat": "18.37035"
+    },
+    "Puerto Peñasco, MX":     {
+        "cityName": "Puerto Peñasco, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-113.53799",
+        "lat": "31.31716"
+    },
+    "San Martín Azcatepec, MX":     {
+        "cityName": "San Martín Azcatepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.97278",
+        "lat": "19.68667"
+    },
+    "Cardenas, MX":     {
+        "cityName": "Cardenas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.64247",
+        "lat": "22.00144"
+    },
+    "Reynosa, MX":     {
+        "cityName": "Reynosa, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-98.28835",
+        "lat": "26.08061"
+    },
+    "Jalpa de Méndez, MX":     {
+        "cityName": "Jalpa de Méndez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.063",
+        "lat": "18.17633"
+    },
+    "San Miguel Xico Viejo, MX":     {
+        "cityName": "San Miguel Xico Viejo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.93588",
+        "lat": "19.27022"
+    },
+    "Ixtaczoquitlán, MX":     {
+        "cityName": "Ixtaczoquitlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.06229",
+        "lat": "18.85364"
+    },
+    "Huilango, MX":     {
+        "cityName": "Huilango, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.25639",
+        "lat": "19.68056"
+    },
+    "Ciudad Mendoza, MX":     {
+        "cityName": "Ciudad Mendoza, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.1787",
+        "lat": "18.80645"
+    },
+    "San Salvador El Seco, MX":     {
+        "cityName": "San Salvador El Seco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.64167",
+        "lat": "19.13325"
+    },
+    "Acámbaro, MX":     {
+        "cityName": "Acámbaro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.72249",
+        "lat": "20.03024"
+    },
+    "Santa María Totoltepec, MX":     {
+        "cityName": "Santa María Totoltepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.59279",
+        "lat": "19.30653"
+    },
+    "Santa Rosa Jauregui, MX":     {
+        "cityName": "Santa Rosa Jauregui, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.44843",
+        "lat": "20.74122"
+    },
+    "Nuevo Laredo, MX":     {
+        "cityName": "Nuevo Laredo, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-99.51639",
+        "lat": "27.47629"
+    },
+    "Álamo, MX":     {
+        "cityName": "Álamo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.67554",
+        "lat": "20.91154"
+    },
+    "Tuxtepec, MX":     {
+        "cityName": "Tuxtepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.12535",
+        "lat": "18.0883"
+    },
+    "Cuajimalpa, MX":     {
+        "cityName": "Cuajimalpa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.29388",
+        "lat": "19.35993"
+    },
+    "Xalapa de Enríquez, MX":     {
+        "cityName": "Xalapa de Enríquez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.91589",
+        "lat": "19.53124"
+    },
+    "Ciudad Anáhuac, MX":     {
+        "cityName": "Ciudad Anáhuac, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-100.13229",
+        "lat": "27.24457"
+    },
+    "Tequixquiac, MX":     {
+        "cityName": "Tequixquiac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.14472",
+        "lat": "19.90944"
+    },
+    "Tepoztlán, MX":     {
+        "cityName": "Tepoztlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.10051",
+        "lat": "18.98622"
+    },
+    "Ciudad Camargo, MX":     {
+        "cityName": "Ciudad Camargo, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-105.17136",
+        "lat": "27.67842"
+    },
+    "Tecámac de Felipe Villanueva, MX":     {
+        "cityName": "Tecámac de Felipe Villanueva, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.96833",
+        "lat": "19.71306"
+    },
+    "Ajalpan, MX":     {
+        "cityName": "Ajalpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.25867",
+        "lat": "18.37908"
+    },
+    "Nava, MX":     {
+        "cityName": "Nava, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.76565",
+        "lat": "28.42071"
+    },
+    "Santa María Chimalhuacán, MX":     {
+        "cityName": "Santa María Chimalhuacán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.95038",
+        "lat": "19.42155"
+    },
+    "Parras de la Fuente, MX":     {
+        "cityName": "Parras de la Fuente, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-102.17808",
+        "lat": "25.44185"
+    },
+    "León de los Aldama, MX":     {
+        "cityName": "León de los Aldama, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.67374",
+        "lat": "21.12908"
+    },
+    "Tuxtla, MX":     {
+        "cityName": "Tuxtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.11308",
+        "lat": "16.75973"
+    },
+    "Guacamayas, MX":     {
+        "cityName": "Guacamayas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.21225",
+        "lat": "18.01932"
+    },
+    "Heroica Alvarado, MX":     {
+        "cityName": "Heroica Alvarado, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.76181",
+        "lat": "18.77143"
+    },
+    "Santiago Teyahualco, MX":     {
+        "cityName": "Santiago Teyahualco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.12493",
+        "lat": "19.65985"
+    },
+    "Zacatepec, MX":     {
+        "cityName": "Zacatepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.18981",
+        "lat": "18.65409"
+    },
+    "Santiago de Querétaro, MX":     {
+        "cityName": "Santiago de Querétaro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.38806",
+        "lat": "20.58806"
+    },
+    "Yuriria, MX":     {
+        "cityName": "Yuriria, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.13212",
+        "lat": "20.21081"
+    },
+    "Huejotzingo, MX":     {
+        "cityName": "Huejotzingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.40824",
+        "lat": "19.15892"
+    },
+    "Los Reyes Acaquilpan, MX":     {
+        "cityName": "Los Reyes Acaquilpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.97707",
+        "lat": "19.36357"
+    },
+    "Cosoleacaque, MX":     {
+        "cityName": "Cosoleacaque, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.6359",
+        "lat": "17.99913"
+    },
+    "San Miguel de Allende, MX":     {
+        "cityName": "San Miguel de Allende, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.74389",
+        "lat": "20.91528"
+    },
+    "Ensenada, MX":     {
+        "cityName": "Ensenada, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.60071",
+        "lat": "31.87149"
+    },
+    "Heroica Ciudad de Tlaxiaco, MX":     {
+        "cityName": "Heroica Ciudad de Tlaxiaco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.67917",
+        "lat": "17.26944"
+    },
+    "Tehuacán, MX":     {
+        "cityName": "Tehuacán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.39735",
+        "lat": "18.46422"
+    },
+    "Matamoros, MX":     {
+        "cityName": "Matamoros, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-103.2285",
+        "lat": "25.52699"
+    },
+    "Ciudad Frontera, MX":     {
+        "cityName": "Ciudad Frontera, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.45212",
+        "lat": "26.92814"
+    },
+    "Colonia Santa Teresa, MX":     {
+        "cityName": "Colonia Santa Teresa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.23333",
+        "lat": "19.845"
+    },
+    "Miahuatlán de Porfirio Díaz, MX":     {
+        "cityName": "Miahuatlán de Porfirio Díaz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.59562",
+        "lat": "16.33276"
+    },
+    "Huixtla, MX":     {
+        "cityName": "Huixtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.46587",
+        "lat": "15.1402"
+    },
+    "Villahermosa, MX":     {
+        "cityName": "Villahermosa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.93028",
+        "lat": "17.98689"
+    },
+    "San Luis de la Paz, MX":     {
+        "cityName": "San Luis de la Paz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.51736",
+        "lat": "21.29771"
+    },
+    "Mérida, MX":     {
+        "cityName": "Mérida, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.61696",
+        "lat": "20.97537"
+    },
+    "Rodolfo Sánchez Taboada, MX":     {
+        "cityName": "Rodolfo Sánchez Taboada, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.57184",
+        "lat": "31.72099"
+    },
+    "Palau, MX":     {
+        "cityName": "Palau, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.42319",
+        "lat": "27.89232"
+    },
+    "Huamantla, MX":     {
+        "cityName": "Huamantla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.9252",
+        "lat": "19.31451"
+    },
+    "Tepotzotlán, MX":     {
+        "cityName": "Tepotzotlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.22391",
+        "lat": "19.72116"
+    },
+    "Calpulalpan, MX":     {
+        "cityName": "Calpulalpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.56972",
+        "lat": "19.58867"
+    },
+    "Tecate, MX":     {
+        "cityName": "Tecate, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.62509",
+        "lat": "32.56717"
+    },
+    "Yautepec, MX":     {
+        "cityName": "Yautepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.06715",
+        "lat": "18.88188"
+    },
+    "Heróica Zitácuaro, MX":     {
+        "cityName": "Heróica Zitácuaro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.35733",
+        "lat": "19.43612"
+    },
+    "Aguascalientes, MX":     {
+        "cityName": "Aguascalientes, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.28259",
+        "lat": "21.88234"
+    },
+    "Acayucan, MX":     {
+        "cityName": "Acayucan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.91386",
+        "lat": "17.94979"
+    },
+    "Jocotepec, MX":     {
+        "cityName": "Jocotepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.42897",
+        "lat": "20.28527"
+    },
+    "Hacienda Santa Fe, MX":     {
+        "cityName": "Hacienda Santa Fe, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.38056",
+        "lat": "20.51806"
+    },
+    "San Juan del Río, MX":     {
+        "cityName": "San Juan del Río, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.99577",
+        "lat": "20.38886"
+    },
+    "Cerro Azul, MX":     {
+        "cityName": "Cerro Azul, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.74088",
+        "lat": "21.192"
+    },
+    "Uruapan, MX":     {
+        "cityName": "Uruapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.05644",
+        "lat": "19.41116"
+    },
+    "Papalotla, MX":     {
+        "cityName": "Papalotla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.20389",
+        "lat": "19.16861"
+    },
+    "Santiago, MX":     {
+        "cityName": "Santiago, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.15205",
+        "lat": "25.42533"
+    },
+    "Jaral del Progreso, MX":     {
+        "cityName": "Jaral del Progreso, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.06249",
+        "lat": "20.37237"
+    },
+    "Tequisquiapan, MX":     {
+        "cityName": "Tequisquiapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.89167",
+        "lat": "20.5225"
+    },
+    "Hunucmá, MX":     {
+        "cityName": "Hunucmá, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.87551",
+        "lat": "21.01723"
+    },
+    "Huejutla de Reyes, MX":     {
+        "cityName": "Huejutla de Reyes, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.41944",
+        "lat": "21.14"
+    },
+    "Santa Catarina, MX":     {
+        "cityName": "Santa Catarina, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.45813",
+        "lat": "25.67325"
+    },
+    "Ciudad Lázaro Cárdenas, MX":     {
+        "cityName": "Ciudad Lázaro Cárdenas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.22124",
+        "lat": "17.97066"
+    },
+    "Fresnillo, MX":     {
+        "cityName": "Fresnillo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.87136",
+        "lat": "23.18126"
+    },
+    "Iztapalapa, MX":     {
+        "cityName": "Iztapalapa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.0671",
+        "lat": "19.35738"
+    },
+    "Ramos Arizpe, MX":     {
+        "cityName": "Ramos Arizpe, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.94742",
+        "lat": "25.53928"
+    },
+    "San Antonio Tecómitl, MX":     {
+        "cityName": "San Antonio Tecómitl, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.98806",
+        "lat": "19.21778"
+    },
+    "Polanco, MX":     {
+        "cityName": "Polanco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.2",
+        "lat": "19.41667"
+    },
+    "Felipe Carrillo Puerto, MX":     {
+        "cityName": "Felipe Carrillo Puerto, MX",
+        "timeZone": "America/Cancun",
+        "lon": "-88.04529",
+        "lat": "19.5775"
+    },
+    "Colonia Lindavista, MX":     {
+        "cityName": "Colonia Lindavista, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.12475",
+        "lat": "19.49156"
+    },
+    "Miramar, MX":     {
+        "cityName": "Miramar, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-97.8595",
+        "lat": "22.32085"
+    },
+    "San Antonio de la Cal, MX":     {
+        "cityName": "San Antonio de la Cal, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.70056",
+        "lat": "17.02833"
+    },
+    "Compostela, MX":     {
+        "cityName": "Compostela, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-104.9001",
+        "lat": "21.23777"
+    },
+    "Encarnación de Díaz, MX":     {
+        "cityName": "Encarnación de Díaz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.24013",
+        "lat": "21.52705"
+    },
+    "Oxkutzkab, MX":     {
+        "cityName": "Oxkutzkab, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.41809",
+        "lat": "20.30734"
+    },
+    "Chetumal, MX":     {
+        "cityName": "Chetumal, MX",
+        "timeZone": "America/Cancun",
+        "lon": "-88.30381",
+        "lat": "18.51413"
+    },
+    "Jesús María, MX":     {
+        "cityName": "Jesús María, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.34333",
+        "lat": "21.96111"
+    },
+    "Nueva Italia de Ruiz, MX":     {
+        "cityName": "Nueva Italia de Ruiz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.09318",
+        "lat": "19.02492"
+    },
+    "La Paz, MX":     {
+        "cityName": "La Paz, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-110.3005",
+        "lat": "24.14437"
+    },
+    "Cuautitlán Izcalli, MX":     {
+        "cityName": "Cuautitlán Izcalli, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.21598",
+        "lat": "19.64388"
+    },
+    "Mixquiahuala de Juarez, MX":     {
+        "cityName": "Mixquiahuala de Juarez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.21396",
+        "lat": "20.23031"
+    },
+    "Cunduacán, MX":     {
+        "cityName": "Cunduacán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.17302",
+        "lat": "18.06557"
+    },
+    "Armeria, MX":     {
+        "cityName": "Armeria, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.96417",
+        "lat": "18.9378"
+    },
+    "Tecax, MX":     {
+        "cityName": "Tecax, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.28522",
+        "lat": "20.2052"
+    },
+    "San Francisco del Rincón, MX":     {
+        "cityName": "San Francisco del Rincón, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.85515",
+        "lat": "21.01843"
+    },
+    "Temapache, MX":     {
+        "cityName": "Temapache, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.64207",
+        "lat": "21.06611"
+    },
+    "Ciudad de Huitzuco, MX":     {
+        "cityName": "Ciudad de Huitzuco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.33111",
+        "lat": "18.30111"
+    },
+    "Gomez Palacio, MX":     {
+        "cityName": "Gomez Palacio, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-103.49588",
+        "lat": "25.56985"
+    },
+    "Zumpango, MX":     {
+        "cityName": "Zumpango, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.09946",
+        "lat": "19.7967"
+    },
+    "Metepec, MX":     {
+        "cityName": "Metepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.60175",
+        "lat": "19.25934"
+    },
+    "San Miguel el Alto, MX":     {
+        "cityName": "San Miguel el Alto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.40414",
+        "lat": "21.03011"
+    },
+    "Paraiso, MX":     {
+        "cityName": "Paraiso, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.21406",
+        "lat": "18.40116"
+    },
+    "Ciudad de Huajuapan de León, MX":     {
+        "cityName": "Ciudad de Huajuapan de León, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.77956",
+        "lat": "17.80787"
+    },
+    "Chiapa de Corzo, MX":     {
+        "cityName": "Chiapa de Corzo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.01184",
+        "lat": "16.7077"
+    },
+    "Lerdo de Tejada, MX":     {
+        "cityName": "Lerdo de Tejada, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.51968",
+        "lat": "18.62936"
+    },
+    "Pátzcuaro, MX":     {
+        "cityName": "Pátzcuaro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.60887",
+        "lat": "19.51594"
+    },
+    "Terrazas del Valle, MX":     {
+        "cityName": "Terrazas del Valle, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-116.82667",
+        "lat": "32.4875"
+    },
+    "Zapotiltic, MX":     {
+        "cityName": "Zapotiltic, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.41752",
+        "lat": "19.62749"
+    },
+    "Apaseo el Alto, MX":     {
+        "cityName": "Apaseo el Alto, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.62081",
+        "lat": "20.45798"
+    },
+    "San Andres Tuxtla, MX":     {
+        "cityName": "San Andres Tuxtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.21327",
+        "lat": "18.4487"
+    },
+    "Cancún, MX":     {
+        "cityName": "Cancún, MX",
+        "timeZone": "America/Cancun",
+        "lon": "-86.84656",
+        "lat": "21.17429"
+    },
+    "Huatabampo, MX":     {
+        "cityName": "Huatabampo, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-109.6422",
+        "lat": "26.8261"
+    },
+    "Cuautepec de Hinojosa, MX":     {
+        "cityName": "Cuautepec de Hinojosa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.31015",
+        "lat": "20.03557"
+    },
+    "Coyoacán, MX":     {
+        "cityName": "Coyoacán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.16174",
+        "lat": "19.3467"
+    },
+    "Alborada Jaltenco, MX":     {
+        "cityName": "Alborada Jaltenco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.06889",
+        "lat": "19.66194"
+    },
+    "Cuauhtémoc, MX":     {
+        "cityName": "Cuauhtémoc, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-106.86319",
+        "lat": "28.40884"
+    },
+    "García, MX":     {
+        "cityName": "García, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.59874",
+        "lat": "25.81201"
+    },
+    "San Jerónimo Cuatro Vientos, MX":     {
+        "cityName": "San Jerónimo Cuatro Vientos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.84167",
+        "lat": "19.29306"
+    },
+    "Jiquílpan de Juárez, MX":     {
+        "cityName": "Jiquílpan de Juárez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.71969",
+        "lat": "19.99482"
+    },
+    "Córdoba, MX":     {
+        "cityName": "Córdoba, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.92559",
+        "lat": "18.8842"
+    },
+    "Villa Nanchital, MX":     {
+        "cityName": "Villa Nanchital, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.40756",
+        "lat": "18.07117"
+    },
+    "San Miguel de Cozumel, MX":     {
+        "cityName": "San Miguel de Cozumel, MX",
+        "timeZone": "America/Cancun",
+        "lon": "-86.94598",
+        "lat": "20.501"
+    },
+    "Ciudad Serdán, MX":     {
+        "cityName": "Ciudad Serdán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.44643",
+        "lat": "18.98856"
+    },
+    "Tangancícuaro de Arista, MX":     {
+        "cityName": "Tangancícuaro de Arista, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.20636",
+        "lat": "19.88733"
+    },
+    "San Salvador Atenco, MX":     {
+        "cityName": "San Salvador Atenco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.91867",
+        "lat": "19.5517"
+    },
+    "Puerto Vallarta, MX":     {
+        "cityName": "Puerto Vallarta, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-105.23018",
+        "lat": "20.617"
+    },
+    "Chiautempan, MX":     {
+        "cityName": "Chiautempan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.21773",
+        "lat": "19.30633"
+    },
+    "Puebla, MX":     {
+        "cityName": "Puebla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.20346",
+        "lat": "19.03793"
+    },
+    "Culiacán, MX":     {
+        "cityName": "Culiacán, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-107.38782",
+        "lat": "24.79032"
+    },
+    "Guamúchil, MX":     {
+        "cityName": "Guamúchil, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-108.07732",
+        "lat": "25.4587"
+    },
+    "San Nicolás de los Garza, MX":     {
+        "cityName": "San Nicolás de los Garza, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.30222",
+        "lat": "25.74167"
+    },
+    "Huixquilucan, MX":     {
+        "cityName": "Huixquilucan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.35016",
+        "lat": "19.35985"
+    },
+    "Teotihuacán, MX":     {
+        "cityName": "Teotihuacán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.8611",
+        "lat": "19.68862"
+    },
+    "Mitras Poniente, MX":     {
+        "cityName": "Mitras Poniente, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.42583",
+        "lat": "25.77583"
+    },
+    "Casa Blanca, MX":     {
+        "cityName": "Casa Blanca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.11889",
+        "lat": "19.04222"
+    },
+    "Escárcega, MX":     {
+        "cityName": "Escárcega, MX",
+        "timeZone": "America/Merida",
+        "lon": "-90.74544",
+        "lat": "18.60891"
+    },
+    "Campeche, MX":     {
+        "cityName": "Campeche, MX",
+        "timeZone": "America/Merida",
+        "lon": "-90.52554",
+        "lat": "19.84386"
+    },
+    "La Barca, MX":     {
+        "cityName": "La Barca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.54514",
+        "lat": "20.28784"
+    },
+    "La Piedad, MX":     {
+        "cityName": "La Piedad, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.0305",
+        "lat": "20.34239"
+    },
+    "San Buenaventura, MX":     {
+        "cityName": "San Buenaventura, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.86306",
+        "lat": "19.3025"
+    },
+    "Actopan, MX":     {
+        "cityName": "Actopan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.94377",
+        "lat": "20.26961"
+    },
+    "Tultitlán, MX":     {
+        "cityName": "Tultitlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.16787",
+        "lat": "19.64655"
+    },
+    "Ameca, MX":     {
+        "cityName": "Ameca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.04508",
+        "lat": "20.54629"
+    },
+    "San Bernardino Contla, MX":     {
+        "cityName": "San Bernardino Contla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.1664",
+        "lat": "19.32932"
+    },
+    "San Pedro Garza Garcia, MX":     {
+        "cityName": "San Pedro Garza Garcia, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-100.40268",
+        "lat": "25.65716"
+    },
+    "Tuxpan, MX":     {
+        "cityName": "Tuxpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.37587",
+        "lat": "19.55555"
+    },
+    "Ciudad Nezahualcoyotl, MX":     {
+        "cityName": "Ciudad Nezahualcoyotl, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.01483",
+        "lat": "19.40061"
+    },
+    "Cholula, MX":     {
+        "cityName": "Cholula, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.30352",
+        "lat": "19.06406"
+    },
+    "Melchor Múzquiz, MX":     {
+        "cityName": "Melchor Múzquiz, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.51615",
+        "lat": "27.87933"
+    },
+    "Abasolo, MX":     {
+        "cityName": "Abasolo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.53073",
+        "lat": "20.44997"
+    },
+    "Tlajomulco de Zúñiga, MX":     {
+        "cityName": "Tlajomulco de Zúñiga, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.44654",
+        "lat": "20.47421"
+    },
+    "Ixmiquilpan, MX":     {
+        "cityName": "Ixmiquilpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.21697",
+        "lat": "20.47841"
+    },
+    "Xonacatlán, MX":     {
+        "cityName": "Xonacatlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.52807",
+        "lat": "19.40513"
+    },
+    "Venustiano Carranza, MX":     {
+        "cityName": "Venustiano Carranza, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.09724",
+        "lat": "19.44286"
+    },
+    "Tala, MX":     {
+        "cityName": "Tala, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.70092",
+        "lat": "20.6536"
+    },
+    "Petatlán, MX":     {
+        "cityName": "Petatlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.26798",
+        "lat": "17.53768"
+    },
+    "Jalostotitlán, MX":     {
+        "cityName": "Jalostotitlán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.46386",
+        "lat": "21.16741"
+    },
+    "Lerma de Villada, MX":     {
+        "cityName": "Lerma de Villada, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.51163",
+        "lat": "19.28881"
+    },
+    "San Luis Río Colorado, MX":     {
+        "cityName": "San Luis Río Colorado, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-114.77186",
+        "lat": "32.45612"
+    },
+    "Anáhuac, MX":     {
+        "cityName": "Anáhuac, MX",
+        "timeZone": "America/Matamoros",
+        "lon": "-100.13222",
+        "lat": "27.24056"
+    },
+    "Benito Juarez, MX":     {
+        "cityName": "Benito Juarez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.15766",
+        "lat": "19.3984"
+    },
+    "Apaseo el Grande, MX":     {
+        "cityName": "Apaseo el Grande, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.68462",
+        "lat": "20.54495"
+    },
+    "La Orilla, MX":     {
+        "cityName": "La Orilla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.22694",
+        "lat": "17.99583"
+    },
+    "San Fernando, MX":     {
+        "cityName": "San Fernando, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-98.14828",
+        "lat": "24.84749"
+    },
+    "Heroica Guaymas, MX":     {
+        "cityName": "Heroica Guaymas, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.89755",
+        "lat": "27.91928"
+    },
+    "Tenosique de Pino Suárez, MX":     {
+        "cityName": "Tenosique de Pino Suárez, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-91.4236",
+        "lat": "17.4729"
+    },
+    "Sombrerete, MX":     {
+        "cityName": "Sombrerete, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.64244",
+        "lat": "23.63466"
+    },
+    "Guadalajara, MX":     {
+        "cityName": "Guadalajara, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.39182",
+        "lat": "20.66682"
+    },
+    "El Grullo, MX":     {
+        "cityName": "El Grullo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-104.21805",
+        "lat": "19.80603"
+    },
+    "Ciudad del Carmen, MX":     {
+        "cityName": "Ciudad del Carmen, MX",
+        "timeZone": "America/Merida",
+        "lon": "-91.82991",
+        "lat": "18.64592"
+    },
+    "Santo Domingo Tehuantepec, MX":     {
+        "cityName": "Santo Domingo Tehuantepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.24104",
+        "lat": "16.32463"
+    },
+    "Adolfo López Mateos, MX":     {
+        "cityName": "Adolfo López Mateos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.26356",
+        "lat": "19.58722"
+    },
+    "Tampico, MX":     {
+        "cityName": "Tampico, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-97.86861",
+        "lat": "22.25528"
+    },
+    "Zamora, MX":     {
+        "cityName": "Zamora, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.28387",
+        "lat": "19.9855"
+    },
+    "Acatzingo, MX":     {
+        "cityName": "Acatzingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.78363",
+        "lat": "18.98196"
+    },
+    "Naranjos, MX":     {
+        "cityName": "Naranjos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.68656",
+        "lat": "21.35087"
+    },
+    "Chicoloapan, MX":     {
+        "cityName": "Chicoloapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.90202",
+        "lat": "19.41687"
+    },
+    "Navojoa, MX":     {
+        "cityName": "Navojoa, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-109.44372",
+        "lat": "27.07028"
+    },
+    "Arriaga, MX":     {
+        "cityName": "Arriaga, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.90184",
+        "lat": "16.2375"
+    },
+    "Santiago Tíanguistenco, MX":     {
+        "cityName": "Santiago Tíanguistenco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.46644",
+        "lat": "19.18024"
+    },
+    "Playa del Carmen, MX":     {
+        "cityName": "Playa del Carmen, MX",
+        "timeZone": "America/Cancun",
+        "lon": "-87.07987",
+        "lat": "20.6274"
+    },
+    "Tamazula de Gordiano, MX":     {
+        "cityName": "Tamazula de Gordiano, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.2514",
+        "lat": "19.68006"
+    },
+    "Chihuahua, MX":     {
+        "cityName": "Chihuahua, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-106.08889",
+        "lat": "28.63528"
+    },
+    "Teziutlan, MX":     {
+        "cityName": "Teziutlan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.35992",
+        "lat": "19.8173"
+    },
+    "Acatlán de Osorio, MX":     {
+        "cityName": "Acatlán de Osorio, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.04864",
+        "lat": "18.2025"
+    },
+    "La Providencia Siglo XXI, MX":     {
+        "cityName": "La Providencia Siglo XXI, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.71722",
+        "lat": "20.06417"
+    },
+    "Tlaxcala, MX":     {
+        "cityName": "Tlaxcala, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.19982",
+        "lat": "19.31905"
+    },
+    "Tepeaca, MX":     {
+        "cityName": "Tepeaca, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.8998",
+        "lat": "18.96688"
+    },
+    "Magdalena de Kino, MX":     {
+        "cityName": "Magdalena de Kino, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.96203",
+        "lat": "30.62789"
+    },
+    "Matehuala, MX":     {
+        "cityName": "Matehuala, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.64334",
+        "lat": "23.64824"
+    },
+    "Carlos A. Carrillo, MX":     {
+        "cityName": "Carlos A. Carrillo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.75444",
+        "lat": "18.37477"
+    },
+    "Pijijiapan, MX":     {
+        "cityName": "Pijijiapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.20938",
+        "lat": "15.68618"
+    },
+    "Tenango de Arista, MX":     {
+        "cityName": "Tenango de Arista, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.5898",
+        "lat": "19.10446"
+    },
+    "Tlapacoyan, MX":     {
+        "cityName": "Tlapacoyan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-97.21141",
+        "lat": "19.96268"
+    },
+    "Miguel Alemán (La Doce), MX":     {
+        "cityName": "Miguel Alemán (La Doce), MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-111.4775",
+        "lat": "28.84028"
+    },
+    "Motul, MX":     {
+        "cityName": "Motul, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.28332",
+        "lat": "21.09571"
+    },
+    "Tepalcatepec, MX":     {
+        "cityName": "Tepalcatepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.8493",
+        "lat": "19.18666"
+    },
+    "Puruándiro, MX":     {
+        "cityName": "Puruándiro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.51579",
+        "lat": "20.08886"
+    },
+    "Ciudad Hidalgo, MX":     {
+        "cityName": "Ciudad Hidalgo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.55445",
+        "lat": "19.6927"
+    },
+    "San Luis Potosí, MX":     {
+        "cityName": "San Luis Potosí, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.97916",
+        "lat": "22.14982"
+    },
+    "Zacualtipán, MX":     {
+        "cityName": "Zacualtipán, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.65628",
+        "lat": "20.65002"
+    },
+    "Apizaco, MX":     {
+        "cityName": "Apizaco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.14358",
+        "lat": "19.41333"
+    },
+    "Nueva Rosita, MX":     {
+        "cityName": "Nueva Rosita, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-101.21812",
+        "lat": "27.94028"
+    },
+    "Banderilla, MX":     {
+        "cityName": "Banderilla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-96.93727",
+        "lat": "19.58893"
+    },
+    "Zacatelco, MX":     {
+        "cityName": "Zacatelco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.23972",
+        "lat": "19.21583"
+    },
+    "Guanajuato, MX":     {
+        "cityName": "Guanajuato, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-101.2591",
+        "lat": "21.01858"
+    },
+    "Ticul, MX":     {
+        "cityName": "Ticul, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.53541",
+        "lat": "20.39833"
+    },
+    "Gustavo A. Madero, MX":     {
+        "cityName": "Gustavo A. Madero, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.10978",
+        "lat": "19.49016"
+    },
+    "Ciudad Delicias, MX":     {
+        "cityName": "Ciudad Delicias, MX",
+        "timeZone": "America/Chihuahua",
+        "lon": "-105.47012",
+        "lat": "28.19013"
+    },
+    "Cintalapa de Figueroa, MX":     {
+        "cityName": "Cintalapa de Figueroa, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-93.71814",
+        "lat": "16.68393"
+    },
+    "Progreso, MX":     {
+        "cityName": "Progreso, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.66123",
+        "lat": "21.28306"
+    },
+    "Rosarito, MX":     {
+        "cityName": "Rosarito, MX",
+        "timeZone": "America/Tijuana",
+        "lon": "-117.04645",
+        "lat": "32.36044"
+    },
+    "Ciudad Juárez, MX":     {
+        "cityName": "Ciudad Juárez, MX",
+        "timeZone": "America/Ojinaga",
+        "lon": "-106.48333",
+        "lat": "31.73333"
+    },
+    "Chiautla, MX":     {
+        "cityName": "Chiautla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.88236",
+        "lat": "19.54895"
+    },
+    "Ciudad Miguel Alemán, MX":     {
+        "cityName": "Ciudad Miguel Alemán, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.02836",
+        "lat": "26.39952"
+    },
+    "Empalme, MX":     {
+        "cityName": "Empalme, MX",
+        "timeZone": "America/Hermosillo",
+        "lon": "-110.81411",
+        "lat": "27.96166"
+    },
+    "Tlaquepaque, MX":     {
+        "cityName": "Tlaquepaque, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.29327",
+        "lat": "20.64091"
+    },
+    "Leyva Solano, MX":     {
+        "cityName": "Leyva Solano, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-108.637",
+        "lat": "25.66163"
+    },
+    "Mapastepec, MX":     {
+        "cityName": "Mapastepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-92.90039",
+        "lat": "15.43358"
+    },
+    "Xochimilco, MX":     {
+        "cityName": "Xochimilco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.10513",
+        "lat": "19.25785"
+    },
+    "San Pablo de las Salinas, MX":     {
+        "cityName": "San Pablo de las Salinas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.09477",
+        "lat": "19.66658"
+    },
+    "Hidalgo, MX":     {
+        "cityName": "Hidalgo, MX",
+        "timeZone": "America/Monterrey",
+        "lon": "-99.61898",
+        "lat": "25.8579"
+    },
+    "El Pueblito, MX":     {
+        "cityName": "El Pueblito, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.44139",
+        "lat": "20.53972"
+    },
+    "Salina Cruz, MX":     {
+        "cityName": "Salina Cruz, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-95.20143",
+        "lat": "16.18405"
+    },
+    "Ixtlán del Río, MX":     {
+        "cityName": "Ixtlán del Río, MX",
+        "timeZone": "America/Mazatlan",
+        "lon": "-104.37116",
+        "lat": "21.03907"
+    },
+    "Tecoman, MX":     {
+        "cityName": "Tecoman, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-103.87786",
+        "lat": "18.91678"
+    },
+    "Ixtapan de la Sal, MX":     {
+        "cityName": "Ixtapan de la Sal, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.67671",
+        "lat": "18.84369"
+    },
+    "Texcoco, MX":     {
+        "cityName": "Texcoco, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.88293",
+        "lat": "19.51194"
+    },
+    "Coatzacoalcos, MX":     {
+        "cityName": "Coatzacoalcos, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-94.44242",
+        "lat": "18.13346"
+    },
+    "Fuentes del Valle, MX":     {
+        "cityName": "Fuentes del Valle, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.13861",
+        "lat": "19.6325"
+    },
+    "Yecapixtla, MX":     {
+        "cityName": "Yecapixtla, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.865",
+        "lat": "18.88333"
+    },
+    "Tlahuac, MX":     {
+        "cityName": "Tlahuac, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.00317",
+        "lat": "19.28348"
+    },
+    "Santiago Momoxpan, MX":     {
+        "cityName": "Santiago Momoxpan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.26694",
+        "lat": "19.07361"
+    },
+    "Colonia del Valle, MX":     {
+        "cityName": "Colonia del Valle, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.16204",
+        "lat": "19.38611"
+    },
+    "Malinaltepec, MX":     {
+        "cityName": "Malinaltepec, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.67091",
+        "lat": "17.24501"
+    },
+    "Zacatecas, MX":     {
+        "cityName": "Zacatecas, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.58141",
+        "lat": "22.76843"
+    },
+    "Tulancingo, MX":     {
+        "cityName": "Tulancingo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-98.36288",
+        "lat": "20.08355"
+    },
+    "Tepeji del Río de Ocampo, MX":     {
+        "cityName": "Tepeji del Río de Ocampo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.34379",
+        "lat": "19.90481"
+    },
+    "Tres de Mayo, MX":     {
+        "cityName": "Tres de Mayo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.20833",
+        "lat": "18.86861"
+    },
+    "Uman, MX":     {
+        "cityName": "Uman, MX",
+        "timeZone": "America/Merida",
+        "lon": "-89.74649",
+        "lat": "20.88213"
+    },
+    "Yurécuaro, MX":     {
+        "cityName": "Yurécuaro, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-102.28382",
+        "lat": "20.33606"
+    },
+    "Jesús del Monte, MX":     {
+        "cityName": "Jesús del Monte, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.29444",
+        "lat": "19.375"
+    },
+    "Teloloapan, MX":     {
+        "cityName": "Teloloapan, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.86776",
+        "lat": "18.3674"
+    },
+    "Magdalena Contreras, MX":     {
+        "cityName": "Magdalena Contreras, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-99.21118",
+        "lat": "19.33212"
+    },
+    "Maravatío de Ocampo, MX":     {
+        "cityName": "Maravatío de Ocampo, MX",
+        "timeZone": "America/Mexico_City",
+        "lon": "-100.44443",
+        "lat": "19.89113"
+    }
+}

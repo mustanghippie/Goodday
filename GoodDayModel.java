@@ -12,10 +12,13 @@ import java.util.Map;
  * Created by Nobu on 2017/04/28.
  */
 public class GoodDayModel {
-    
+    private String filePath;
     public GoodDayModel() {
     }
 
+    private void setFilePath(String countryCode){
+        this.filePath = "src/goodday/files/City_list_"+countryCode+".json";
+    }
     /**
      * Saves user's setting that is inputted from keyboard as a json file.
      *
@@ -28,8 +31,11 @@ public class GoodDayModel {
 
         Map<String, String> userSetting = new LinkedHashMap<>();
         String degree;
-        String lat,lon; // Latitude Longitude
+        String lat, lon; // Latitude Longitude
         String timeZone;
+        String countryCode = location.substring(location.length() - 2, location.length());
+
+        this.setFilePath(countryCode);
 
         // If location can't find, return false
         if (!this.searchCityName(location)) return false;
@@ -47,9 +53,10 @@ public class GoodDayModel {
         // make json type
         userSetting.put("cityName", location);
         userSetting.put("unit", degree);
-        userSetting.put("lat",lat);
+        userSetting.put("lat", lat);
         userSetting.put("lon", lon);
         userSetting.put("timeZone", timeZone);
+        userSetting.put("countryCode", countryCode);
 
         // Translates json object
         JSONObject jsonUserSetting = JSONObject.fromObject(userSetting);
@@ -75,14 +82,14 @@ public class GoodDayModel {
      * Finds time zone in City_list.json by using location(city name).
      * Make sure location exists in City_list.json before you use this method.
      *
-     * @Nobu
      * @param location
      * @return String time zone of the location
+     * @Nobu
      */
-    private String getTimeZone(String location){
+    private String getTimeZone(String location) {
 
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
-        return (String)jsonCityList.getJSONObject(location).get("timeZone");
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        return (String) jsonCityList.getJSONObject(location).get("timeZone");
     }
 
     /**
@@ -92,13 +99,13 @@ public class GoodDayModel {
      * @param location
      * @return String[] 0 => latitude, 1 => longitude
      */
-    private String[] getLatitudeAndLongitude(String location){
+    private String[] getLatitudeAndLongitude(String location) {
         String[] latAndLon = new String[2];
 
 
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
-        latAndLon[0] = (String)jsonCityList.getJSONObject(location).get("lat");
-        latAndLon[1] = (String)jsonCityList.getJSONObject(location).get("lon");
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        latAndLon[0] = (String) jsonCityList.getJSONObject(location).get("lat");
+        latAndLon[1] = (String) jsonCityList.getJSONObject(location).get("lon");
 
         return latAndLon;
     }
@@ -107,30 +114,27 @@ public class GoodDayModel {
      * Finds city name in City_list.json from location.
      * If a location can't find a city id in city_list.json, this returns FALSE.
      *
-     * @author Nobu
      * @param location
      * @return
+     * @author Nobu
      */
-    private boolean searchCityName(String location){
+    private boolean searchCityName(String location) {
         // search
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction("src/goodday/files/City_list.json"));
-        if((jsonCityList.get(location)) == null) return false;
+        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        if ((jsonCityList.get(location)) == null) return false;
         return true;
     }
 
     /**
-     * @deprecated
-     *
-     * This method will be deleted.
-     *
-     * Finds cityID in cityID_list.json from location.
-     * This method uses cityID_table(src/goodday/files/cityID_table.json).
-     * If a location can't find a city id in cityID_table.json, this return "".
-     *
      * @param location
      * @return cityID city name or "" when a location doesn't exist
      * @throws FileNotFoundException,IOException,net.sf.json.JSONException
      * @author Nobu
+     * @deprecated This method will be deleted.
+     * <p>
+     * Finds cityID in cityID_list.json from location.
+     * This method uses cityID_table(src/goodday/files/cityID_table.json).
+     * If a location can't find a city id in cityID_table.json, this return "".
      */
     private String searchCityID(String location) {
 
@@ -175,17 +179,17 @@ public class GoodDayModel {
      * @return userData ArrayList 0 => ID, 1 => city name, 2 => unit
      * @author Alex
      */
-    public Map<String,String> getUserData() {
+    public Map<String, String> getUserData() {
 
         //ArrayList<String> userData = new ArrayList<>();
-        Map<String,String> userData = new LinkedHashMap<>();
+        Map<String, String> userData = new LinkedHashMap<>();
         String unit;
         JSONObject jsonUserSetting = JSONObject.fromObject(this.fileReaderFunction("src/user_setting_file.json"));
 
         if (jsonUserSetting.getString("unit").equals("Celsius")) unit = "C°";
         else unit = "F°";
 
-        userData.put("cityName",jsonUserSetting.getString("cityName"));
+        userData.put("cityName", jsonUserSetting.getString("cityName"));
         userData.put("unit", unit);
         userData.put("lat", jsonUserSetting.getString("lat"));
         userData.put("lon", jsonUserSetting.getString("lon"));
@@ -359,14 +363,14 @@ public class GoodDayModel {
      * @param filePath
      * @return boolean delete successfully => true, fails to delete -> false
      */
-    protected boolean deleteFileFunction(String filePath){
+    protected boolean deleteFileFunction(String filePath) {
 
         File file = new File(filePath);
 
-        if(file.exists()){
+        if (file.exists()) {
             file.delete();
             return true;
-        }else{
+        } else {
             return false;
         }
     }
