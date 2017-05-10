@@ -1,0 +1,1328 @@
+{
+    "Miramichi, CA":     {
+        "cityName": "Miramichi, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-65.50186",
+        "lat": "47.02895"
+    },
+    "Amos, CA":     {
+        "cityName": "Amos, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-78.11624",
+        "lat": "48.56688"
+    },
+    "Varennes, CA":     {
+        "cityName": "Varennes, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.43246",
+        "lat": "45.68338"
+    },
+    "Abbotsford, CA":     {
+        "cityName": "Abbotsford, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.25257",
+        "lat": "49.05798"
+    },
+    "Calgary, CA":     {
+        "cityName": "Calgary, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-114.08529",
+        "lat": "51.05011"
+    },
+    "Waterloo, CA":     {
+        "cityName": "Waterloo, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.51639",
+        "lat": "43.4668"
+    },
+    "Halifax, CA":     {
+        "cityName": "Halifax, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.57239",
+        "lat": "44.64533"
+    },
+    "Kitchener, CA":     {
+        "cityName": "Kitchener, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.5112",
+        "lat": "43.42537"
+    },
+    "Deux-Montagnes, CA":     {
+        "cityName": "Deux-Montagnes, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.90168",
+        "lat": "45.53455"
+    },
+    "Glace Bay, CA":     {
+        "cityName": "Glace Bay, CA",
+        "timeZone": "America/Glace_Bay",
+        "lon": "-59.95698",
+        "lat": "46.19695"
+    },
+    "St. John's, CA":     {
+        "cityName": "St. John's, CA",
+        "timeZone": "America/St_Johns",
+        "lon": "-52.70931",
+        "lat": "47.56494"
+    },
+    "Chilliwack, CA":     {
+        "cityName": "Chilliwack, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-121.95257",
+        "lat": "49.16638"
+    },
+    "Etobicoke, CA":     {
+        "cityName": "Etobicoke, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.56711",
+        "lat": "43.65421"
+    },
+    "Red Deer, CA":     {
+        "cityName": "Red Deer, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.802",
+        "lat": "52.26682"
+    },
+    "Regina, CA":     {
+        "cityName": "Regina, CA",
+        "timeZone": "America/Regina",
+        "lon": "-104.6178",
+        "lat": "50.45008"
+    },
+    "Anmore, CA":     {
+        "cityName": "Anmore, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.85263",
+        "lat": "49.31637"
+    },
+    "Sarnia, CA":     {
+        "cityName": "Sarnia, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-82.40407",
+        "lat": "42.97866"
+    },
+    "Duncan, CA":     {
+        "cityName": "Duncan, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.70266",
+        "lat": "48.78293"
+    },
+    "Fredericton, CA":     {
+        "cityName": "Fredericton, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-66.66558",
+        "lat": "45.94541"
+    },
+    "Prince Edward, CA":     {
+        "cityName": "Prince Edward, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.24946",
+        "lat": "44.00012"
+    },
+    "Blainville, CA":     {
+        "cityName": "Blainville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.88249",
+        "lat": "45.66678"
+    },
+    "Corner Brook, CA":     {
+        "cityName": "Corner Brook, CA",
+        "timeZone": "America/St_Johns",
+        "lon": "-57.95202",
+        "lat": "48.95001"
+    },
+    "Fort Erie, CA":     {
+        "cityName": "Fort Erie, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-78.93286",
+        "lat": "42.90012"
+    },
+    "Kamloops, CA":     {
+        "cityName": "Kamloops, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-120.3192",
+        "lat": "50.66648"
+    },
+    "Orillia, CA":     {
+        "cityName": "Orillia, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.42068",
+        "lat": "44.60868"
+    },
+    "Windsor, CA":     {
+        "cityName": "Windsor, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-83.01654",
+        "lat": "42.30008"
+    },
+    "Yellowknife, CA":     {
+        "cityName": "Yellowknife, CA",
+        "timeZone": "America/Yellowknife",
+        "lon": "-114.37248",
+        "lat": "62.45411"
+    },
+    "East York, CA":     {
+        "cityName": "East York, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.32794",
+        "lat": "43.69053"
+    },
+    "Salmon Arm, CA":     {
+        "cityName": "Salmon Arm, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.30237",
+        "lat": "50.6998"
+    },
+    "Granby, CA":     {
+        "cityName": "Granby, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.73243",
+        "lat": "45.40008"
+    },
+    "Brampton, CA":     {
+        "cityName": "Brampton, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.76633",
+        "lat": "43.68341"
+    },
+    "Mississauga, CA":     {
+        "cityName": "Mississauga, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.6583",
+        "lat": "43.5789"
+    },
+    "Moncton, CA":     {
+        "cityName": "Moncton, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-64.7965",
+        "lat": "46.09454"
+    },
+    "Campbell River, CA":     {
+        "cityName": "Campbell River, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-125.24459",
+        "lat": "50.01634"
+    },
+    "Langford, CA":     {
+        "cityName": "Langford, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.50261",
+        "lat": "48.44963"
+    },
+    "Saint-Jean-sur-Richelieu, CA":     {
+        "cityName": "Saint-Jean-sur-Richelieu, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.26259",
+        "lat": "45.30713"
+    },
+    "Richmond, CA":     {
+        "cityName": "Richmond, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.13683",
+        "lat": "49.17003"
+    },
+    "Rivière-du-Loup, CA":     {
+        "cityName": "Rivière-du-Loup, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-69.54243",
+        "lat": "47.82699"
+    },
+    "Pointe-Claire, CA":     {
+        "cityName": "Pointe-Claire, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.81669",
+        "lat": "45.44868"
+    },
+    "Oshawa, CA":     {
+        "cityName": "Oshawa, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-78.84957",
+        "lat": "43.90012"
+    },
+    "Prince Albert, CA":     {
+        "cityName": "Prince Albert, CA",
+        "timeZone": "America/Regina",
+        "lon": "-105.76772",
+        "lat": "53.20008"
+    },
+    "L'Assomption, CA":     {
+        "cityName": "L'Assomption, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.4294",
+        "lat": "45.82318"
+    },
+    "Truro, CA":     {
+        "cityName": "Truro, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.26538",
+        "lat": "45.36685"
+    },
+    "Nanaimo, CA":     {
+        "cityName": "Nanaimo, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.94003",
+        "lat": "49.16638"
+    },
+    "Beloeil, CA":     {
+        "cityName": "Beloeil, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.20568",
+        "lat": "45.56839"
+    },
+    "Midland, CA":     {
+        "cityName": "Midland, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.88296",
+        "lat": "44.7501"
+    },
+    "Peterborough, CA":     {
+        "cityName": "Peterborough, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-78.31623",
+        "lat": "44.30012"
+    },
+    "Port Alberni, CA":     {
+        "cityName": "Port Alberni, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-124.8028",
+        "lat": "49.24133"
+    },
+    "West Vancouver, CA":     {
+        "cityName": "West Vancouver, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.16652",
+        "lat": "49.36672"
+    },
+    "Côte-Saint-Luc, CA":     {
+        "cityName": "Côte-Saint-Luc, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.66585",
+        "lat": "45.46536"
+    },
+    "Vernon, CA":     {
+        "cityName": "Vernon, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.27337",
+        "lat": "50.26729"
+    },
+    "Saint-Hyacinthe, CA":     {
+        "cityName": "Saint-Hyacinthe, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.95699",
+        "lat": "45.63076"
+    },
+    "Pickering, CA":     {
+        "cityName": "Pickering, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.13289",
+        "lat": "43.90012"
+    },
+    "Laval, CA":     {
+        "cityName": "Laval, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.692",
+        "lat": "45.56995"
+    },
+    "Rouyn-Noranda, CA":     {
+        "cityName": "Rouyn-Noranda, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.02311",
+        "lat": "48.23656"
+    },
+    "Montréal, CA":     {
+        "cityName": "Montréal, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.58781",
+        "lat": "45.50884"
+    },
+    "Jonquière, CA":     {
+        "cityName": "Jonquière, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.24884",
+        "lat": "48.41648"
+    },
+    "Saint-Laurent, CA":     {
+        "cityName": "Saint-Laurent, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.66585",
+        "lat": "45.50008"
+    },
+    "Keswick, CA":     {
+        "cityName": "Keswick, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.46632",
+        "lat": "44.25011"
+    },
+    "Kingston, CA":     {
+        "cityName": "Kingston, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-76.48098",
+        "lat": "44.22976"
+    },
+    "Saint-Basile-le-Grand, CA":     {
+        "cityName": "Saint-Basile-le-Grand, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.28246",
+        "lat": "45.53338"
+    },
+    "Sainte-Thérèse, CA":     {
+        "cityName": "Sainte-Thérèse, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.82757",
+        "lat": "45.63922"
+    },
+    "Trois-Rivières, CA":     {
+        "cityName": "Trois-Rivières, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.5477",
+        "lat": "46.34515"
+    },
+    "Joliette, CA":     {
+        "cityName": "Joliette, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.4236",
+        "lat": "46.0164"
+    },
+    "Victoriaville, CA":     {
+        "cityName": "Victoriaville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.96579",
+        "lat": "46.05007"
+    },
+    "Coquitlam, CA":     {
+        "cityName": "Coquitlam, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.75262",
+        "lat": "49.28297"
+    },
+    "Gatineau, CA":     {
+        "cityName": "Gatineau, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-75.70164",
+        "lat": "45.47723"
+    },
+    "Port Colborne, CA":     {
+        "cityName": "Port Colborne, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.23288",
+        "lat": "42.90012"
+    },
+    "Brandon, CA":     {
+        "cityName": "Brandon, CA",
+        "timeZone": "America/Winnipeg",
+        "lon": "-99.95306",
+        "lat": "49.84692"
+    },
+    "Burnaby, CA":     {
+        "cityName": "Burnaby, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.95263",
+        "lat": "49.26636"
+    },
+    "Markham, CA":     {
+        "cityName": "Markham, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.2663",
+        "lat": "43.86682"
+    },
+    "Timmins, CA":     {
+        "cityName": "Timmins, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-81.33312",
+        "lat": "48.46686"
+    },
+    "Saint-Constant, CA":     {
+        "cityName": "Saint-Constant, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.56588",
+        "lat": "45.36678"
+    },
+    "Cornwall, CA":     {
+        "cityName": "Cornwall, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.72815",
+        "lat": "45.01809"
+    },
+    "Beaconsfield, CA":     {
+        "cityName": "Beaconsfield, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.86586",
+        "lat": "45.43341"
+    },
+    "Thetford-Mines, CA":     {
+        "cityName": "Thetford-Mines, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.30539",
+        "lat": "46.09371"
+    },
+    "Ajax, CA":     {
+        "cityName": "Ajax, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.03288",
+        "lat": "43.85012"
+    },
+    "Mount Pearl, CA":     {
+        "cityName": "Mount Pearl, CA",
+        "timeZone": "America/St_Johns",
+        "lon": "-52.78135",
+        "lat": "47.51659"
+    },
+    "Thorold, CA":     {
+        "cityName": "Thorold, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.19958",
+        "lat": "43.11682"
+    },
+    "Repentigny, CA":     {
+        "cityName": "Repentigny, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.45008",
+        "lat": "45.74222"
+    },
+    "Greater Sudbury, CA":     {
+        "cityName": "Greater Sudbury, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.99001",
+        "lat": "46.49"
+    },
+    "Norfolk County, CA":     {
+        "cityName": "Norfolk County, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.38297",
+        "lat": "42.8334"
+    },
+    "Thunder Bay, CA":     {
+        "cityName": "Thunder Bay, CA",
+        "timeZone": "America/Thunder_Bay",
+        "lon": "-89.25018",
+        "lat": "48.38202"
+    },
+    "Whitehorse, CA":     {
+        "cityName": "Whitehorse, CA",
+        "timeZone": "America/Whitehorse",
+        "lon": "-135.05375",
+        "lat": "60.71611"
+    },
+    "Dieppe, CA":     {
+        "cityName": "Dieppe, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-64.68735",
+        "lat": "46.07844"
+    },
+    "Surrey, CA":     {
+        "cityName": "Surrey, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.82509",
+        "lat": "49.10635"
+    },
+    "Victoria, CA":     {
+        "cityName": "Victoria, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.3693",
+        "lat": "48.43294"
+    },
+    "Guelph, CA":     {
+        "cityName": "Guelph, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.25599",
+        "lat": "43.54594"
+    },
+    "Terrace, CA":     {
+        "cityName": "Terrace, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-128.60345",
+        "lat": "54.51634"
+    },
+    "London, CA":     {
+        "cityName": "London, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-81.23304",
+        "lat": "42.98339"
+    },
+    "Kelowna, CA":     {
+        "cityName": "Kelowna, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.48568",
+        "lat": "49.88307"
+    },
+    "Drummondville, CA":     {
+        "cityName": "Drummondville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.48241",
+        "lat": "45.88336"
+    },
+    "Moose Jaw, CA":     {
+        "cityName": "Moose Jaw, CA",
+        "timeZone": "America/Regina",
+        "lon": "-105.53445",
+        "lat": "50.40005"
+    },
+    "Pitt Meadows, CA":     {
+        "cityName": "Pitt Meadows, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.68965",
+        "lat": "49.22119"
+    },
+    "Alma, CA":     {
+        "cityName": "Alma, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.6491",
+        "lat": "48.55009"
+    },
+    "Fort McMurray, CA":     {
+        "cityName": "Fort McMurray, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-111.38103",
+        "lat": "56.72676"
+    },
+    "New Glasgow, CA":     {
+        "cityName": "New Glasgow, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-62.64863",
+        "lat": "45.58344"
+    },
+    "Clarence-Rockland, CA":     {
+        "cityName": "Clarence-Rockland, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-75.29101",
+        "lat": "45.5501"
+    },
+    "Courtenay, CA":     {
+        "cityName": "Courtenay, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-124.9936",
+        "lat": "49.68657"
+    },
+    "Airdrie, CA":     {
+        "cityName": "Airdrie, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-114.03528",
+        "lat": "51.30011"
+    },
+    "Grande Prairie, CA":     {
+        "cityName": "Grande Prairie, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-118.80271",
+        "lat": "55.16667"
+    },
+    "Charlottetown, CA":     {
+        "cityName": "Charlottetown, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.13414",
+        "lat": "46.23899"
+    },
+    "Walnut Grove, CA":     {
+        "cityName": "Walnut Grove, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.64042",
+        "lat": "49.16473"
+    },
+    "Winnipeg, CA":     {
+        "cityName": "Winnipeg, CA",
+        "timeZone": "America/Winnipeg",
+        "lon": "-97.14704",
+        "lat": "49.8844"
+    },
+    "Mascouche, CA":     {
+        "cityName": "Mascouche, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.59956",
+        "lat": "45.74965"
+    },
+    "Conception Bay South, CA":     {
+        "cityName": "Conception Bay South, CA",
+        "timeZone": "America/St_Johns",
+        "lon": "-52.99806",
+        "lat": "47.49989"
+    },
+    "Saint-Georges, CA":     {
+        "cityName": "Saint-Georges, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-70.66526",
+        "lat": "46.11353"
+    },
+    "Sherbrooke, CA":     {
+        "cityName": "Sherbrooke, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.89908",
+        "lat": "45.40008"
+    },
+    "North Battleford, CA":     {
+        "cityName": "North Battleford, CA",
+        "timeZone": "America/Regina",
+        "lon": "-108.2967",
+        "lat": "52.77972"
+    },
+    "Delta, CA":     {
+        "cityName": "Delta, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.9068",
+        "lat": "49.14399"
+    },
+    "Ancaster, CA":     {
+        "cityName": "Ancaster, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.98716",
+        "lat": "43.21806"
+    },
+    "Lloydminster, CA":     {
+        "cityName": "Lloydminster, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-110.00157",
+        "lat": "53.28346"
+    },
+    "Scarborough, CA":     {
+        "cityName": "Scarborough, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.25666",
+        "lat": "43.77223"
+    },
+    "Candiac, CA":     {
+        "cityName": "Candiac, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.51587",
+        "lat": "45.38338"
+    },
+    "Quinte West, CA":     {
+        "cityName": "Quinte West, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.56618",
+        "lat": "44.18342"
+    },
+    "Prince George, CA":     {
+        "cityName": "Prince George, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.75301",
+        "lat": "53.9166"
+    },
+    "Québec, CA":     {
+        "cityName": "Québec, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.21454",
+        "lat": "46.81228"
+    },
+    "Brockville, CA":     {
+        "cityName": "Brockville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-75.68705",
+        "lat": "44.59132"
+    },
+    "Hamilton, CA":     {
+        "cityName": "Hamilton, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.84963",
+        "lat": "43.25011"
+    },
+    "Orangeville, CA":     {
+        "cityName": "Orangeville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.09967",
+        "lat": "43.9168"
+    },
+    "Belleville, CA":     {
+        "cityName": "Belleville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.38277",
+        "lat": "44.16682"
+    },
+    "Edmundston, CA":     {
+        "cityName": "Edmundston, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-68.32512",
+        "lat": "47.3737"
+    },
+    "Shawinigan, CA":     {
+        "cityName": "Shawinigan, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.74913",
+        "lat": "46.56675"
+    },
+    "Yorkton, CA":     {
+        "cityName": "Yorkton, CA",
+        "timeZone": "America/Regina",
+        "lon": "-102.46766",
+        "lat": "51.2167"
+    },
+    "Okanagan, CA":     {
+        "cityName": "Okanagan, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.34997",
+        "lat": "50.36386"
+    },
+    "New Westminster, CA":     {
+        "cityName": "New Westminster, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.91092",
+        "lat": "49.20678"
+    },
+    "Vaughan, CA":     {
+        "cityName": "Vaughan, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.49827",
+        "lat": "43.8361"
+    },
+    "Rayside-Balfour, CA":     {
+        "cityName": "Rayside-Balfour, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-81.20763",
+        "lat": "46.60873"
+    },
+    "Spruce Grove, CA":     {
+        "cityName": "Spruce Grove, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.91874",
+        "lat": "53.53344"
+    },
+    "Port Moody, CA":     {
+        "cityName": "Port Moody, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.85263",
+        "lat": "49.28297"
+    },
+    "Ottawa, CA":     {
+        "cityName": "Ottawa, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-75.69812",
+        "lat": "45.41117"
+    },
+    "Lower Sackville, CA":     {
+        "cityName": "Lower Sackville, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.67865",
+        "lat": "44.77599"
+    },
+    "Lutes Mountain, CA":     {
+        "cityName": "Lutes Mountain, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-64.90504",
+        "lat": "46.13544"
+    },
+    "Huntsville, CA":     {
+        "cityName": "Huntsville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.21632",
+        "lat": "45.33341"
+    },
+    "Magog, CA":     {
+        "cityName": "Magog, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.14909",
+        "lat": "45.26678"
+    },
+    "Val-d'Or, CA":     {
+        "cityName": "Val-d'Or, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.79737",
+        "lat": "48.0974"
+    },
+    "North Bay, CA":     {
+        "cityName": "North Bay, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.46633",
+        "lat": "46.3168"
+    },
+    "Sydney, CA":     {
+        "cityName": "Sydney, CA",
+        "timeZone": "America/Glace_Bay",
+        "lon": "-60.1831",
+        "lat": "46.1351"
+    },
+    "Cole Harbour, CA":     {
+        "cityName": "Cole Harbour, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.47506",
+        "lat": "44.67244"
+    },
+    "Longueuil, CA":     {
+        "cityName": "Longueuil, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.51806",
+        "lat": "45.53121"
+    },
+    "Baie-Comeau, CA":     {
+        "cityName": "Baie-Comeau, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-68.14894",
+        "lat": "49.21679"
+    },
+    "North York, CA":     {
+        "cityName": "North York, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.4163",
+        "lat": "43.76681"
+    },
+    "Boucherville, CA":     {
+        "cityName": "Boucherville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.43605",
+        "lat": "45.59104"
+    },
+    "Greater Napanee, CA":     {
+        "cityName": "Greater Napanee, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-76.94944",
+        "lat": "44.25012"
+    },
+    "Sainte-Julie, CA":     {
+        "cityName": "Sainte-Julie, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.33246",
+        "lat": "45.58338"
+    },
+    "Dollard-Des Ormeaux, CA":     {
+        "cityName": "Dollard-Des Ormeaux, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.82419",
+        "lat": "45.49452"
+    },
+    "Stratford, CA":     {
+        "cityName": "Stratford, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.94972",
+        "lat": "43.36679"
+    },
+    "Brantford, CA":     {
+        "cityName": "Brantford, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.26636",
+        "lat": "43.1334"
+    },
+    "Fort St. John, CA":     {
+        "cityName": "Fort St. John, CA",
+        "timeZone": "America/Dawson_Creek",
+        "lon": "-120.85292",
+        "lat": "56.24988"
+    },
+    "Châteauguay, CA":     {
+        "cityName": "Châteauguay, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.74919",
+        "lat": "45.38338"
+    },
+    "Cobourg, CA":     {
+        "cityName": "Cobourg, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-78.16515",
+        "lat": "43.95977"
+    },
+    "Leduc, CA":     {
+        "cityName": "Leduc, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.55201",
+        "lat": "53.26682"
+    },
+    "Lethbridge, CA":     {
+        "cityName": "Lethbridge, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-112.81856",
+        "lat": "49.69999"
+    },
+    "Woodstock, CA":     {
+        "cityName": "Woodstock, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.7497",
+        "lat": "43.13339"
+    },
+    "Saint-Jérôme, CA":     {
+        "cityName": "Saint-Jérôme, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.00365",
+        "lat": "45.78036"
+    },
+    "Saint-Lazare, CA":     {
+        "cityName": "Saint-Lazare, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.13256",
+        "lat": "45.40008"
+    },
+    "Sept-Îles, CA":     {
+        "cityName": "Sept-Îles, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-66.38208",
+        "lat": "50.20011"
+    },
+    "Sherwood Park, CA":     {
+        "cityName": "Sherwood Park, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.3187",
+        "lat": "53.51684"
+    },
+    "Cranbrook, CA":     {
+        "cityName": "Cranbrook, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-115.76879",
+        "lat": "49.49991"
+    },
+    "Newmarket, CA":     {
+        "cityName": "Newmarket, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.46631",
+        "lat": "44.05011"
+    },
+    "Cochrane, CA":     {
+        "cityName": "Cochrane, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-114.46871",
+        "lat": "51.18341"
+    },
+    "Maple Ridge, CA":     {
+        "cityName": "Maple Ridge, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.60193",
+        "lat": "49.21939"
+    },
+    "St. Thomas, CA":     {
+        "cityName": "St. Thomas, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-81.18038",
+        "lat": "42.77361"
+    },
+    "Collingwood, CA":     {
+        "cityName": "Collingwood, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.21638",
+        "lat": "44.4834"
+    },
+    "Welland, CA":     {
+        "cityName": "Welland, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.24958",
+        "lat": "42.98342"
+    },
+    "Dorval, CA":     {
+        "cityName": "Dorval, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.75335",
+        "lat": "45.4473"
+    },
+    "Milton, CA":     {
+        "cityName": "Milton, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.88294",
+        "lat": "43.51681"
+    },
+    "Sainte-Catherine, CA":     {
+        "cityName": "Sainte-Catherine, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-72.56632",
+        "lat": "46.31836"
+    },
+    "White Rock, CA":     {
+        "cityName": "White Rock, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.8026",
+        "lat": "49.01636"
+    },
+    "Petawawa, CA":     {
+        "cityName": "Petawawa, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.28007",
+        "lat": "45.89452"
+    },
+    "Saint-Eustache, CA":     {
+        "cityName": "Saint-Eustache, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.90554",
+        "lat": "45.565"
+    },
+    "Cambridge, CA":     {
+        "cityName": "Cambridge, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.31269",
+        "lat": "43.3601"
+    },
+    "Penticton, CA":     {
+        "cityName": "Penticton, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.58584",
+        "lat": "49.48062"
+    },
+    "Rock Forest, CA":     {
+        "cityName": "Rock Forest, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.99676",
+        "lat": "45.35699"
+    },
+    "Burlington, CA":     {
+        "cityName": "Burlington, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.83713",
+        "lat": "43.38621"
+    },
+    "Boisbriand, CA":     {
+        "cityName": "Boisbriand, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.83249",
+        "lat": "45.61678"
+    },
+    "Brant, CA":     {
+        "cityName": "Brant, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.34967",
+        "lat": "43.1334"
+    },
+    "Chambly, CA":     {
+        "cityName": "Chambly, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.28246",
+        "lat": "45.45008"
+    },
+    "Pembroke, CA":     {
+        "cityName": "Pembroke, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-77.11616",
+        "lat": "45.81681"
+    },
+    "Camrose, CA":     {
+        "cityName": "Camrose, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-112.83525",
+        "lat": "53.01684"
+    },
+    "Saint-Léonard, CA":     {
+        "cityName": "Saint-Léonard, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.59501",
+        "lat": "45.58773"
+    },
+    "Brossard, CA":     {
+        "cityName": "Brossard, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.46583",
+        "lat": "45.45008"
+    },
+    "Sorel-Tracy, CA":     {
+        "cityName": "Sorel-Tracy, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.11585",
+        "lat": "46.03336"
+    },
+    "Oak Bay, CA":     {
+        "cityName": "Oak Bay, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.3026",
+        "lat": "48.44964"
+    },
+    "Dartmouth, CA":     {
+        "cityName": "Dartmouth, CA",
+        "timeZone": "America/Halifax",
+        "lon": "-63.57719",
+        "lat": "44.67134"
+    },
+    "Sault Ste. Marie, CA":     {
+        "cityName": "Sault Ste. Marie, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-84.33325",
+        "lat": "46.51677"
+    },
+    "West End, CA":     {
+        "cityName": "West End, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.13333",
+        "lat": "49.28333"
+    },
+    "Mirabel, CA":     {
+        "cityName": "Mirabel, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.08251",
+        "lat": "45.65008"
+    },
+    "Oakville, CA":     {
+        "cityName": "Oakville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.68292",
+        "lat": "43.45011"
+    },
+    "Owen Sound, CA":     {
+        "cityName": "Owen Sound, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-80.94349",
+        "lat": "44.56717"
+    },
+    "Toronto, CA":     {
+        "cityName": "Toronto, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.4163",
+        "lat": "43.70011"
+    },
+    "Westmount, CA":     {
+        "cityName": "Westmount, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.59918",
+        "lat": "45.48341"
+    },
+    "Willowdale, CA":     {
+        "cityName": "Willowdale, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.39909",
+        "lat": "43.76672"
+    },
+    "La Prairie, CA":     {
+        "cityName": "La Prairie, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.49917",
+        "lat": "45.41678"
+    },
+    "West Kelowna, CA":     {
+        "cityName": "West Kelowna, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-119.58333",
+        "lat": "49.8625"
+    },
+    "North Vancouver, CA":     {
+        "cityName": "North Vancouver, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.06934",
+        "lat": "49.31636"
+    },
+    "St. Albert, CA":     {
+        "cityName": "St. Albert, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.63533",
+        "lat": "53.63344"
+    },
+    "Medicine Hat, CA":     {
+        "cityName": "Medicine Hat, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-110.67661",
+        "lat": "50.03928"
+    },
+    "Saskatoon, CA":     {
+        "cityName": "Saskatoon, CA",
+        "timeZone": "America/Regina",
+        "lon": "-106.66892",
+        "lat": "52.13238"
+    },
+    "North Cowichan, CA":     {
+        "cityName": "North Cowichan, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.68596",
+        "lat": "48.84133"
+    },
+    "Lévis, CA":     {
+        "cityName": "Lévis, CA",
+        "timeZone": "America/Blanc-Sablon",
+        "lon": "-71.17793",
+        "lat": "46.80326"
+    },
+    "Ladner, CA":     {
+        "cityName": "Ladner, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.08241",
+        "lat": "49.08938"
+    },
+    "Saint-Augustin-de-Desmaures, CA":     {
+        "cityName": "Saint-Augustin-de-Desmaures, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.45131",
+        "lat": "46.74064"
+    },
+    "Edmonton, CA":     {
+        "cityName": "Edmonton, CA",
+        "timeZone": "America/Edmonton",
+        "lon": "-113.46871",
+        "lat": "53.55014"
+    },
+    "Saguenay, CA":     {
+        "cityName": "Saguenay, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.06573",
+        "lat": "48.41675"
+    },
+    "Langley, CA":     {
+        "cityName": "Langley, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-122.58589",
+        "lat": "49.08297"
+    },
+    "Saint-Bruno-de-Montarville, CA":     {
+        "cityName": "Saint-Bruno-de-Montarville, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.34916",
+        "lat": "45.53341"
+    },
+    "Kirkland, CA":     {
+        "cityName": "Kirkland, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.86586",
+        "lat": "45.45008"
+    },
+    "Vaudreuil-Dorion, CA":     {
+        "cityName": "Vaudreuil-Dorion, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.03251",
+        "lat": "45.40008"
+    },
+    "St. Catharines, CA":     {
+        "cityName": "St. Catharines, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.24267",
+        "lat": "43.17126"
+    },
+    "Mont-Royal, CA":     {
+        "cityName": "Mont-Royal, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.64918",
+        "lat": "45.51675"
+    },
+    "L'Ancienne-Lorette, CA":     {
+        "cityName": "L'Ancienne-Lorette, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-71.35191",
+        "lat": "46.79392"
+    },
+    "Richmond Hill, CA":     {
+        "cityName": "Richmond Hill, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.43725",
+        "lat": "43.87111"
+    },
+    "Vancouver, CA":     {
+        "cityName": "Vancouver, CA",
+        "timeZone": "America/Vancouver",
+        "lon": "-123.11934",
+        "lat": "49.24966"
+    },
+    "Terrebonne, CA":     {
+        "cityName": "Terrebonne, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.64732",
+        "lat": "45.70004"
+    },
+    "Rimouski, CA":     {
+        "cityName": "Rimouski, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-68.52396",
+        "lat": "48.44879"
+    },
+    "Mont-Saint-Hilaire, CA":     {
+        "cityName": "Mont-Saint-Hilaire, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-73.1868",
+        "lat": "45.56515"
+    },
+    "Niagara Falls, CA":     {
+        "cityName": "Niagara Falls, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.06627",
+        "lat": "43.10012"
+    },
+    "Saint John, CA":     {
+        "cityName": "Saint John, CA",
+        "timeZone": "America/Moncton",
+        "lon": "-66.06766",
+        "lat": "45.27271"
+    },
+    "Barrie, CA":     {
+        "cityName": "Barrie, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-79.66634",
+        "lat": "44.40011"
+    },
+    "Salaberry-de-Valleyfield, CA":     {
+        "cityName": "Salaberry-de-Valleyfield, CA",
+        "timeZone": "America/Toronto",
+        "lon": "-74.13253",
+        "lat": "45.25008"
+    }
+}
