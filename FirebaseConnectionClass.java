@@ -84,25 +84,25 @@ public class FirebaseConnectionClass {
         ChildEventListener childEventListener = new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                //System.out.println("Added");
+                //System.out.println("[Debug] Added");
                 updateContentsJson(dataSnapshot, dataSnapshot.getKey());
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                //System.out.println("Changed");
+                //System.out.println("[Debug] Changed");
                 updateContentsJson(dataSnapshot, dataSnapshot.getKey());
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-                //System.out.println("Removed");
+                //System.out.println("[Debug] Removed");
                 updateContentsJson(dataSnapshot, dataSnapshot.getKey());
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                //System.out.println("Moved");
+                //System.out.println("[Debug] Moved");
                 updateContentsJson(dataSnapshot, dataSnapshot.getKey());
             }
 
