@@ -73,19 +73,29 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         // Contents name for getting file name
         ArrayList<String> contentsArrayList = new ArrayList<>();
 
+        // Resets btnSelected.css
+        btnNow.getStylesheets().remove("goodday/css/btnSelected.css");
+        btn3hour.getStylesheets().remove("goodday/css/btnSelected.css");
+        btn6hour.getStylesheets().remove("goodday/css/btnSelected.css");
+        btn9hour.getStylesheets().remove("goodday/css/btnSelected.css");
+
         String timeIndex = "";
 
         switch (btnTime){
             case ("btnNow"):
+                btnNow.getStylesheets().add("goodday/css/btnSelected.css");
                 timeIndex = "now";
                 break;
             case ("btn3hour"):
+                btn3hour.getStylesheets().add("goodday/css/btnSelected.css");
                 timeIndex = "in3";
                 break;
             case ("btn6hour"):
+                btn6hour.getStylesheets().add("goodday/css/btnSelected.css");
                 timeIndex = "in6";
                 break;
             case ("btn9hour"):
+                btn9hour.getStylesheets().add("goodday/css/btnSelected.css");
                 timeIndex = "in9";
                 break;
             default:
@@ -132,6 +142,7 @@ public class WeatherInformationPageController extends AnchorPane implements Init
         btn3hour.setText(weatherInformation.get("in3").get("time"));
         btn6hour.setText(weatherInformation.get("in6").get("time"));
         btn9hour.setText(weatherInformation.get("in9").get("time"));
+
     }
 
     /**
@@ -160,13 +171,20 @@ public class WeatherInformationPageController extends AnchorPane implements Init
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        // user data 0 => ID, 1 => city name, 2 => unit
+        // user data
         Map<String,String> userData = gdm.getUserData();
 
         // Sets a location
         labelLocation.setText(userData.get("cityName"));
         // Sets unit
         labelUnit.setText(userData.get("unit"));
+
+        // Sets default css
+        btnNow.getStylesheets().add("goodday/css/btn.css");
+        btn3hour.getStylesheets().add("goodday/css/btn.css");
+        btn6hour.getStylesheets().add("goodday/css/btn.css");
+        btn9hour.getStylesheets().add("goodday/css/btn.css");
+
         // Initialize default information(now)
         changeLayoutByHour("btnNow");
 

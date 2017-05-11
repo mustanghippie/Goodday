@@ -12,13 +12,16 @@ import java.util.Map;
  * Created by Nobu on 2017/04/28.
  */
 public class GoodDayModel {
-    private String filePath;
+    private JSONObject jsonCityList;
+
     public GoodDayModel() {
     }
 
-    private void setFilePath(String countryCode){
-        this.filePath = "src/goodday/files/City_list_"+countryCode+".json";
+    private void setCityNameList(String countryCode) {
+        String filePath = "src/goodday/files/City_list_" + countryCode + ".json";
+        this.jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
     }
+
     /**
      * Saves user's setting that is inputted from keyboard as a json file.
      *
@@ -35,7 +38,8 @@ public class GoodDayModel {
         String timeZone;
         String countryCode = location.substring(location.length() - 2, location.length());
 
-        this.setFilePath(countryCode);
+        // Sets each country's city name file
+        this.setCityNameList(countryCode);
 
         // If location can't find, return false
         if (!this.searchCityName(location)) return false;
@@ -88,7 +92,7 @@ public class GoodDayModel {
      */
     private String getTimeZone(String location) {
 
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        //JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
         return (String) jsonCityList.getJSONObject(location).get("timeZone");
     }
 
@@ -103,7 +107,7 @@ public class GoodDayModel {
         String[] latAndLon = new String[2];
 
 
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        //JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
         latAndLon[0] = (String) jsonCityList.getJSONObject(location).get("lat");
         latAndLon[1] = (String) jsonCityList.getJSONObject(location).get("lon");
 
@@ -120,7 +124,7 @@ public class GoodDayModel {
      */
     private boolean searchCityName(String location) {
         // search
-        JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
+        //JSONObject jsonCityList = JSONObject.fromObject(this.fileReaderFunction(filePath));
         if ((jsonCityList.get(location)) == null) return false;
         return true;
     }
