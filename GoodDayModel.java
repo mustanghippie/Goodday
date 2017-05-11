@@ -38,6 +38,12 @@ public class GoodDayModel {
         String timeZone;
         String countryCode = location.substring(location.length() - 2, location.length());
 
+        // Validate country code
+        if (!countryCode.equals("JP") && !countryCode.equals("US") && !countryCode.equals("PL") && !countryCode.equals("BR") && !countryCode.equals("MX")
+                        && !countryCode.equals("NG") && !countryCode.equals("KR") && !countryCode.equals("CA")) {
+            return false;
+        }
+
         // Sets each country's city name file
         this.setCityNameList(countryCode);
 

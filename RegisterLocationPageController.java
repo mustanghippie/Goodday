@@ -77,8 +77,6 @@ public class RegisterLocationPageController extends AnchorPane implements Initia
             if(celsiusRadioButton.isSelected() == false &&
                     fahrenheitRadioButton.isSelected() == false) throw new NotSetPropertyException("Please choose unit.");
 
-
-
             Main.getInstance().sendWeatherInformationPage();
         } catch (NotSetPropertyException e){
             errorLabelRegisterPage.setText(e.getMessage());
