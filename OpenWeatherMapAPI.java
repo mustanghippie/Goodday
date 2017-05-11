@@ -193,10 +193,10 @@ public class OpenWeatherMapAPI {
 
         switch (weather) {
             case "Thunderstorm":
-                simpleWeather = "Rainy";
+                simpleWeather = "Thunderstorm";
                 break;
             case "Drizzle":
-                simpleWeather = "Rainy";
+                simpleWeather = "Drizzle";
                 break;
             case "Rain":
                 simpleWeather = "Rainy";
